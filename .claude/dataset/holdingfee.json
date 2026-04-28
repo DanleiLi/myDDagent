@@ -1,0 +1,391 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "description": "Holding-level fee data extracted from Fee Analysis Excel",
+    "source": "output/Fee Analysis - Aurora - 20260427.xlsx",
+    "extracted_date": "2026-04-27",
+    "last_updated": "2026-04-28",
+    "run_note_2026-04-28": "Business case approval document (Minerds Bell Business Case Approval.docx.pdf) reviewed. No holding-level fee data present in that document. holdingfee.json unchanged."
+  },
+  "holdings": [
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "AAP0103",
+      "allocation_percent": 0.11,
+      "investment_objective": "Exploit market inefficiencies and produce consistent outperformance by investing in ASX large cap equities, primarily from S&P/ASX 300 index",
+      "fees": {
+        "management_fees_and_costs": 0.0055,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.002
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "VAN0002",
+      "allocation_percent": 0.1,
+      "investment_objective": "Track returns of ASX index by holding most securities in the index",
+      "fees": {
+        "management_fees_and_costs": 0.0007,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0.0005,
+        "sell_spread": 0.0005,
+        "rebate": 0
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "VAN0003",
+      "allocation_percent": 0.1,
+      "investment_objective": "Track MSCI World ex-Australia Index return in Australian dollars with net dividends reinvested",
+      "fees": {
+        "management_fees_and_costs": 0.0018,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0.0005,
+        "sell_spread": 0.0005,
+        "rebate": 0
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "TGP0034",
+      "allocation_percent": 0.09,
+      "investment_objective": "Not found in public sources",
+      "fees": {
+        "management_fees_and_costs": 0.00974,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.0015
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "MAQ0464",
+      "allocation_percent": 0.08,
+      "investment_objective": "Achieve long-term total return exceeding MSCI All Country World ex Australia Index, excluding tobacco and controversial weapons",
+      "fees": {
+        "management_fees_and_costs": 0.0128,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.0053
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "ETL0060",
+      "allocation_percent": 0.07,
+      "investment_objective": "Achieve long-term returns higher than S&P/ASX 300 Accumulation Index using Allan Gray investment philosophy",
+      "fees": {
+        "management_fees_and_costs": 0.0077,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0
+      },
+      "flag": "Conditional performance fee: 20.5% if outperforms benchmark"
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "FID0010",
+      "allocation_percent": 0.07,
+      "investment_objective": "Not found in public sources",
+      "fees": {
+        "management_fees_and_costs": 0.0115,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0.008,
+        "sell_spread": 0.008,
+        "rebate": 0.002
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "WHT1465",
+      "allocation_percent": 0.06,
+      "investment_objective": "Provide long-term capital growth and income with low volatility of returns through equities, fixed income, and alternative strategies",
+      "fees": {
+        "management_fees_and_costs": 0.0088,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0.0003,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.001
+      },
+      "flag": "Conditional performance fee: 15.0% if outperforms benchmark"
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "ETL0463",
+      "allocation_percent": 0.06,
+      "investment_objective": "Orbis Global Equity Fund/Australia (specific objective not found in public sources)",
+      "fees": {
+        "management_fees_and_costs": 0.0107,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.002
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "MGE0005",
+      "allocation_percent": 0.05,
+      "investment_objective": "Outperform MSCI World Net Total Return Index (AUD) net of fees over 3+ years by investing in high-quality global companies with sustainable competitive advantages",
+      "fees": {
+        "management_fees_and_costs": 0.0075,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.001
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "BFL0020",
+      "allocation_percent": 0.05,
+      "investment_objective": "Invest in listed global real estate securities generating income primarily from leases, rent and real estate-related income",
+      "fees": {
+        "management_fees_and_costs": 0.0087,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0.0005,
+        "buy_spread": 0.002,
+        "sell_spread": 0.002,
+        "rebate": 0.0012
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "BTA0313",
+      "allocation_percent": 0.04,
+      "investment_objective": "Provide current income exempt from federal income tax by investing in long-term municipal bonds (>10 years maturity)",
+      "fees": {
+        "management_fees_and_costs": 0.009,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.0015
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "WHT3093",
+      "allocation_percent": 0.04,
+      "investment_objective": "Provide long-term capital growth and income with low volatility of returns through equities, fixed income, and alternative strategies",
+      "fees": {
+        "management_fees_and_costs": 0.0085,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.002
+      },
+      "flag": "Conditional performance fee: 20.0% if outperforms benchmark"
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "GSF0874",
+      "allocation_percent": 0.03,
+      "investment_objective": "Not found in public sources",
+      "fees": {
+        "management_fees_and_costs": 0.011,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0
+      },
+      "flag": "Conditional performance fee: 15.0% if outperforms benchmark"
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "VAN0004",
+      "allocation_percent": 0.03,
+      "investment_objective": "Track S&P/ASX 300 A-REIT Index to provide exposure to Australian property securities with long-term capital growth and income",
+      "fees": {
+        "management_fees_and_costs": 0.0023,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0.0005,
+        "sell_spread": 0.0005,
+        "rebate": 0
+      }
+    },
+    {
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "unit_id": "CASHACCT",
+      "allocation_percent": 0.02,
+      "investment_objective": "Cash/liquidity account for portfolio liquidity management",
+      "fees": {
+        "management_fees_and_costs": 0,
+        "cash_investment_fee": 0.014,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.0015
+      }
+    },
+    {
+      "portfolio_name": "Aurora Defensive Managed Portfolio",
+      "unit_id": "BTA8657",
+      "allocation_percent": 0.11,
+      "investment_objective": "Provide current income exempt from federal income tax by investing in long-term municipal bonds (>10 years maturity)",
+      "fees": {
+        "management_fees_and_costs": 0.0035,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0.0011,
+        "buy_spread": 0.003,
+        "sell_spread": 0.003,
+        "rebate": 0.0015
+      }
+    },
+    {
+      "portfolio_name": "Aurora Defensive Managed Portfolio",
+      "unit_id": "FRT0027",
+      "allocation_percent": 0.13,
+      "investment_objective": "Floating rate income fund seeking high current income with capital preservation through diversified floating rate debt securities",
+      "fees": {
+        "management_fees_and_costs": 0.005,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.001
+      }
+    },
+    {
+      "portfolio_name": "Aurora Defensive Managed Portfolio",
+      "unit_id": "UBS0003",
+      "allocation_percent": 0.11,
+      "investment_objective": "Build optimal portfolio with attractive income and risk characteristics through top-down research and bottom-up security analysis",
+      "fees": {
+        "management_fees_and_costs": 0.006,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.0015
+      }
+    },
+    {
+      "portfolio_name": "Aurora Defensive Managed Portfolio",
+      "unit_id": "SCH0028",
+      "allocation_percent": 0.13,
+      "investment_objective": "Outperform Bloomberg AusBond Composite 0+Yr Index with stable absolute returns using Core-Plus fixed income approach",
+      "fees": {
+        "management_fees_and_costs": 0.0045,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.0017
+      }
+    },
+    {
+      "portfolio_name": "Aurora Defensive Managed Portfolio",
+      "unit_id": "ETL0016",
+      "allocation_percent": 0.2,
+      "investment_objective": "Not found in public sources",
+      "fees": {
+        "management_fees_and_costs": 0.0056,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.0005
+      }
+    },
+    {
+      "portfolio_name": "Aurora Defensive Managed Portfolio",
+      "unit_id": "MAQ3897",
+      "allocation_percent": 0.07,
+      "investment_objective": "Not found in public sources",
+      "fees": {
+        "management_fees_and_costs": 0.00614,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0.0082,
+        "sell_spread": 0.0082,
+        "rebate": 0
+      }
+    },
+    {
+      "portfolio_name": "Aurora Defensive Managed Portfolio",
+      "unit_id": "CSA0038",
+      "allocation_percent": 0.11,
+      "investment_objective": "Achieve positive absolute returns with low correlation to stocks/bonds using trend-following and macro trading approaches across asset classes",
+      "fees": {
+        "management_fees_and_costs": 0.0077,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0.0005,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.0025
+      }
+    },
+    {
+      "portfolio_name": "Aurora Defensive Managed Portfolio",
+      "unit_id": "WPC1583",
+      "allocation_percent": 0.12,
+      "investment_objective": "Provide long-term capital growth and income with low volatility of returns through real estate and infrastructure investments",
+      "fees": {
+        "management_fees_and_costs": 0.0075,
+        "cash_investment_fee": 0,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.0015
+      }
+    },
+    {
+      "portfolio_name": "Aurora Defensive Managed Portfolio",
+      "unit_id": "CASHACCT",
+      "allocation_percent": 0.02,
+      "investment_objective": "Cash/liquidity account for portfolio liquidity management",
+      "fees": {
+        "management_fees_and_costs": 0,
+        "cash_investment_fee": 0.014,
+        "performance_fees": 0,
+        "gross_transaction_costs": 0,
+        "buy_spread": 0,
+        "sell_spread": 0,
+        "rebate": 0.0015
+      }
+    }
+  ]
+}

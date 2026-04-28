@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "last_updated": "2026-04-28",
+    "run_note_2026-04-28": "Business case approval document (Minerds Bell Business Case Approval.docx.pdf) reviewed. Manager named as 'Salita' — consistent with existing record for Salita Portfolio Services Pty Ltd. No new IM identity, contact, or disclosure fields present in the business case document. IM.json unchanged."
+  },
+  "investment_managers": [
+    {
+      "identity": {
+        "legal_name": "Salita Portfolio Services Pty Ltd",
+        "abn": "39 609 946 616",
+        "afsl": "Personal Financial Services Ltd (Salita operates as CAR 1241713)",
+        "website": "https://salitaportfolioservices.com.au/"
+      },
+      "contact": {
+        "street_address": "Level 6 88 Phillip Street Sydney NSW 2000",
+        "postal_address": "Level 6 88 Phillip Street Sydney NSW 2001",
+        "telephone": "407494569",
+        "email_general": "jcarnevale@entireti.com.au",
+        "email_invoices": "jcarnevale@entireti.com.au"
+      },
+      "corporate_structure": {
+        "afsl_holder": "Personal Financial Services Ltd",
+        "corporate_authorised_representatives": [
+          {
+            "name": "Salita Portfolio Services Pty Ltd",
+            "car_number": "1241713",
+            "role": "Investment manager and portfolio construction"
+          }
+        ],
+        "other_relevant_entities": [
+          {
+            "name": "Entireti Limited",
+            "relationship": "Parent company; provides resources and external consultants to support portfolio management"
+          }
+        ]
+      },
+      "disclosure": {
+        "about": "Salita Portfolio Services (\"Salita\") is a wholly owned subsidiary of Entireti Limited and a corporate authorised representative of Personal Financial Services. Established in 2016, Salita provides professional investment research, analysis, and management services for a suite of managed portfolios. The Salita investment team oversees daily operations, drawing on the resources of the Entireti Group and external consultants to ensure a prudent, informed, and professional approach to implementing Salita's investment philosophy across diverse portfolios tailored to specific risk and return objectives.",
+        "investment_philosophy_and_process": "Salita Portfolio Services focuses on growing and preserving capital while minimising permanent loss. We avoid short-term tactical shifts, instead reviewing the Strategic Asset Allocation regularly to support high-conviction medium-term views. We maintain low turnover and blend active and passive strategies, using active management where conviction is strong. Fees are assessed carefully, balancing cost with value. Diversification across styles reduces volatility and enhances consistency, ensuring portfolios perform across varied market conditions while supporting sustainable, long-term wealth creation."
+      },
+      "strategy": {
+        "capacity": null,
+        "fum": {
+          "value": null,
+          "as_at": null
+        }
+      },
+      "investment_team": {
+        "portfolio_manager": {
+          "name": "Aman Ramrakha",
+          "position": "Chief Investment Officer",
+          "years_with_firm": "<1",
+          "total_experience_years": 30,
+          "bio": "Aman brings over 30 years' experience in financial services, spanning technical, consulting, and advisory roles. Before joining Entireti in 2025, he was Executive Director of Research at Rainmaker Information. His career includes senior positions at Morningstar, where he oversaw Manager Research and provided investment consulting services, and at Commonwealth Bank, where he led investment and insurance research for over $60B of funds under advice. Aman has also held roles at BT Financial Group, Colonial First State, KPMG and Commonwealth Private. He holds a Bachelor of Commerce, a Graduate Diploma in Applied Finance and Investments, a Diploma of Financial Planning, and is a Certified Investment Management Consultant."
+        },
+        "team_members": [
+          {
+            "name": "John Carnevale",
+            "position": "Executive GM – Investment Services",
+            "years_with_firm": 6,
+            "total_experience_years": 35,
+            "role_contribution": "Oversight of Research & Investment Team"
+          },
+          {
+            "name": "Tim Schroeders",
+            "position": "Senior Portfolio Manager",
+            "years_with_firm": 6,
+            "total_experience_years": 30,
+            "role_contribution": "Overall responsibility for portfolios"
+          },
+          {
+            "name": "Sean Webster",
+            "position": "Head of Research & Senior Portfolio Manager",
+            "years_with_firm": 7,
+            "total_experience_years": 29,
+            "role_contribution": "Provides portfolio management support"
+          },
+          {
+            "name": "Calvin Yap",
+            "position": "Senior Investment Research Analyst",
+            "years_with_firm": 3,
+            "total_experience_years": 4,
+            "role_contribution": "Provides support to portfolio managers"
+          },
+          {
+            "name": "Julia Tao",
+            "position": "Senior Investment Research Analyst",
+            "years_with_firm": 6,
+            "total_experience_years": 18,
+            "role_contribution": "Provides support to portfolio managers"
+          },
+          {
+            "name": "Frank Mach",
+            "position": "Investment Research Analyst",
+            "years_with_firm": 5,
+            "total_experience_years": 15,
+            "role_contribution": "Provides support to portfolio managers"
+          },
+          {
+            "name": "Cindy Zhao",
+            "position": "Manager, Investment Governance",
+            "years_with_firm": 5,
+            "total_experience_years": 15,
+            "role_contribution": "Governance oversight for portfolios"
+          },
+          {
+            "name": "Ekta Badola",
+            "position": "Investment Research Analyst",
+            "years_with_firm": 2,
+            "total_experience_years": 5,
+            "role_contribution": "Provides support to portfolio managers"
+          }
+        ],
+        "recent_additions": [
+          {
+            "name": "Aman Ramrakha",
+            "position": "Chief Investment Officer",
+            "date_joined": "2025-01-29",
+            "total_experience_years": 30,
+            "previous_employment": "Rainmaker, Morningstar, CBA"
+          }
+        ],
+        "recent_departures": [
+          {
+            "name": "Ian Holliday",
+            "position": "Head of Research Services",
+            "date_joined": "2018-11-01",
+            "date_departed": null,
+            "reason": "missing"
+          }
+        ]
+      },
+      "banking": {
+        "bank_name": "Westpac Banking Corporation",
+        "account_name": "Salita Portfolio Services Pty Ltd",
+        "bsb": "033 009",
+        "account_number": "642545"
+      },
+      "corporate_actions": {
+        "interest_in_ipos": false,
+        "interest_in_placements": false,
+        "interest_in_entitlements": false,
+        "interest_in_rights_issues": false,
+        "interest_in_spps": false,
+        "interest_in_bonus_options": false,
+        "interest_in_agm_voting": false
+      }
+    }
+  ]
+}

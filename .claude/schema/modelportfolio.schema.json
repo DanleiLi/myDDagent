@@ -1,0 +1,421 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "North Managed Portfolio Dataset",
+  "description": "Database schema for AMP North managed portfolio onboarding documentation",
+  "type": "object",
+  "required": ["metadata", "portfolios"],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["last_updated", "total_portfolios", "version"],
+      "additionalProperties": false,
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "format": "date",
+          "description": "ISO 8601 date of last dataset update"
+        },
+        "total_portfolios": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Count of unique portfolio records"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$",
+          "description": "Schema version (e.g., 1.0)"
+        }
+      }
+    },
+
+    "portfolios": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [ "modelname", "onboarding", "profile", "benchmark", "asset_allocation", "investment_manager", "documents", "flags", "dd_outcome"],
+        "additionalProperties": false,
+        "properties": {
+          "modelid": {
+            "type": "string",
+            "pattern": "^MP\\d{3,}$",
+            "description": "Unique portfolio ID (e.g., MP001, MP002)"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["under_review", "approved", "live", "rejected", "suspended"],
+            "description": "Portfolio onboarding status"
+          },
+          "onboarding": {
+            "type": "object",
+            "required": ["submitted_at", "submitted_by", "stage"],
+            "additionalProperties": false,
+            "properties": {
+              "submitted_at": {
+                "type": "string",
+                "format": "date",
+                "description": "Submission date (ISO 8601)"
+              },
+              "submitted_by": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 255,
+                "description": "Name of submitting entity or person"
+              },
+              "target_live_date": {
+                "type": ["string", "null"],
+                "format": "date",
+                "description": "Target go-live date (ISO 8601) or null if not set"
+              },
+              "stage": {
+                "type": "string",
+                "enum": ["intake", "document_review", "due_diligence", "compliance_review", "approval", "onboarding", "live"],
+                "description": "Current onboarding stage"
+              },
+              "Business case summary":{
+                "type":"string",
+                "description": "Summary of business case"
+              }  
+            }
+          },
+          "profile": {
+            "type": "object",
+            "required": ["modelname", "series_name", "menu","income_instruction", "srm_label", "investment_objective"],
+            "additionalProperties": false,
+            "properties": {
+              "modelname": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 255,
+                "description": "Full portfolio name"
+              },
+              
+              "series_name": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 50,
+                "description": "One or few words used for referencing to each onboarding project"
+              },
+              "menu":{
+                "type":"string",
+                "enum": ["Buy","Built","Badge","Private Market Offer","Hidden Buy","Federated"],
+                "description": "The pricing menu and exclusiveness the portfolios is associated with."
+              },
+              "inception_date": {
+                "type": ["string", "null"],
+                "format": "date",
+                "description": "Portfolio inception date (ISO 8601) or null if unknown"
+              },
+              "income_instruction": {
+                "type": "string",
+                "enum": ["Paid to platform cash", "Reinvested"],
+                "description": "Income distribution instruction"
+              },
+              "srm_label": {
+                "type": "string",
+                "enum": ["1/Very Low", "2/Low", "3/Low to Medium", "4/Medium", "5/Medium to High", "6/High", "7/Very High"],
+                "description": "Standard Risk Measure label"
+              },
+             
+              "investment_objective": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 1000,
+                "description": "Portfolio investment objective, starts with 'Aims to'"
+              }
+            }
+          },
+          "benchmark": {
+            "type": "object",
+            "required": ["primary","alignment_checked"],
+            "additionalProperties": false,
+            "properties": {
+              "primary": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 255,
+                "description": "Full name of primary benchmark index/strategy, no abbreviation."
+              },
+             
+              "alignment_checked": {
+                "type": "boolean",
+                "description": "Whether benchmark alignment has been verified"
+              },
+              "alignment_note": {
+                "type": ["string", "null"],
+                "maxLength": 1000,
+                "description": "Notes on growth/defensive split alignment with benchmark"
+              }
+            }
+          },
+          "asset_allocation": {
+            "type": "object",
+            "required": ["growth_pct", "defensive_pct", "classes"],
+            "additionalProperties": false,
+            "properties": {
+              "growth_pct": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Percentage allocation to growth assets"
+              },
+              "defensive_pct": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Percentage allocation to defensive assets"
+              },
+              "classes": {
+                "type": "array",
+                "minItems": 1,
+                "description": "Asset class allocations",
+                "items": {
+                  "type": "object",
+                  "required": ["name", "saa_weight"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "description": "Asset class name"
+                    },
+                    "saa_weight": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 100,
+                      "description": "Strategic Asset Allocation weight (%)"
+                    }
+                  }
+                }
+              }
+            },
+            "allOf": [
+              {
+                "description": "Growth and defensive percentages must sum to 100",
+                "not": {
+                  "properties": {
+                    "growth_pct": { "enum": [null] },
+                    "defensive_pct": { "enum": [null] }
+                  }
+                }
+              }
+            ]
+          },
+          "underlying_holdings": {
+            "type": "array",
+            "description": "Underlying fund holdings in the portfolio",
+            "items": {
+              "$ref": "#/definitions/holding"
+            }
+          },
+          "investment_manager": {
+            "type": "object",
+            "required": ["name", "abn"],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 255,
+                "description": "Investment manager legal entity name"
+              },              
+              "abn": {
+                "type": "string",
+                "pattern": "^\\d{11}$|^\\d{2}\\s\\d{3}\\s\\d{3}\\s\\d{3}$",
+                "description": "ABN (Australian Business Number) with or without spaces"
+              }
+            }
+          },
+          "documents": {
+            "type": "object",
+            "required": ["pds", "fsc_policy", "liquidity_test", "back_test", "performance_history"],
+            "additionalProperties": false,
+            "properties": {
+              
+              "fsc_policy": {
+                "$ref": "#/definitions/document"
+              },
+              "liquidity_test": {
+                "$ref": "#/definitions/document"
+              },
+              "back_test": {
+                "$ref": "#/definitions/document"
+              },
+              "performance_history": {
+                "$ref": "#/definitions/document"
+              }
+            }
+          },
+          "flags": {
+            "type": "array",
+            "description": "Data quality and compliance flags",
+            "items": {
+              "type": "object",
+              "required": ["severity", "dimension", "note"],
+              "additionalProperties": false,
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["MISSING", "BREACH", "LOW_CONFIDENCE", "WARNING", "INFO"],
+                  "description": "Flag type"
+                },
+                "severity": {
+                  "type": "string",
+                  "enum": ["green", "amber", "red", "LOW", "MEDIUM", "HIGH", "CRITICAL"],
+                  "description": "Flag severity level"
+                },
+                "dimension": {
+                  "type": "string",
+                  "enum": ["documentation", "governance", "performance", "profile", "investment_manager", "onboarding", "compliance"],
+                  "description": "Flag category"
+                },
+                "field": {
+                  "type": ["string", "null"],
+                  "maxLength": 100,
+                  "description": "Specific field affected (if applicable)"
+                },
+                "note": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 1000,
+                  "description": "Detailed flag description"
+                }
+              }
+            }
+          },
+          "dd_outcome": {
+            "type": "object",
+            "required": ["rating", "approved_by", "approved_at", "board_paper_ref", "notes"],
+            "additionalProperties": false,
+            "properties": {
+              "rating": {
+                "type": ["string", "null"],
+                "enum": [null, "pass", "pass_with_conditions", "conditional", "refer_back", "reject"],
+                "description": "Due diligence outcome rating"
+              },
+              "approved_by": {
+                "type": ["string", "null"],
+                "maxLength": 100,
+                "description": "Name of approving authority"
+              },
+              "approved_at": {
+                "type": ["string", "null"],
+                "format": "date-time",
+                "description": "Approval timestamp (ISO 8601)"
+              },
+              "board_paper_ref": {
+                "type": ["string", "null"],
+                "maxLength": 100,
+                "description": "Board paper reference number"
+              },
+              "notes": {
+                "type": ["string", "null"],
+                "maxLength": 2000,
+                "description": "Final DD decision notes"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "document": {
+      "type": "object",
+      "required": ["received", "filename"],
+      "additionalProperties": false,
+      "properties": {
+        "received": {
+          "type": "boolean",
+          "description": "Whether document has been received"
+        },
+        "filename": {
+          "type": ["string", "null"],
+          "maxLength": 500,
+          "description": "Filename if received, null otherwise"
+        }
+      }
+    },
+    "holding": {
+      "type": "object",
+      "required": ["unit_id", "unit_name", "allocation_pct", "asset_class", "sub_category", "internal_scoring_number", "internal_scoring_label", "benchmark", "investment_objective", "investment_style", "risk_label", "target_excess_return_pct", "target_tracking_error_pct"],
+      "additionalProperties": false,
+      "properties": {
+        "unit_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50,
+          "description": "Fund identifier (APIR code, ASX code, or ticker symbol)"
+        },
+        "unit_name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 255,
+          "description": "Full name of the fund/ETF"
+        },
+        "allocation_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Allocation percentage in the portfolio"
+        },
+        "asset_class": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Primary asset class classification"
+        },
+        "sub_category": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Sub-category or strategy type within the asset class"
+        },
+        "internal_scoring_number": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Internal scoring number (0-100)"
+        },
+        "internal_scoring_label": {
+          "type": "string",
+          "enum": ["red", "amber", "green"],
+          "description": "Internal scoring label indicating assessment status"
+        },
+        "benchmark": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 255,
+          "description": "Benchmark index or comparison benchmark"
+        },
+        "investment_objective": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500,
+          "description": "Investment objective of the fund"
+        },
+        "investment_style": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Investment style (e.g., Passive Index, Active Growth, Active Income)"
+        },
+        "risk_label": {
+          "type": "string",
+          "enum": ["1/Very Low", "2/Low", "3/Low to Medium", "4/Medium", "5/Medium to High", "6/High", "7/Very High"],
+          "description": "Standard Risk Measure label for the fund"
+        },
+        "target_excess_return_pct": {
+          "type": "number",
+          "description": "Target excess return over benchmark (%) - negative for index trackers"
+        },
+        "target_tracking_error_pct": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Target tracking error (%) relative to benchmark"
+        }
+      }
+    }
+  }
+}

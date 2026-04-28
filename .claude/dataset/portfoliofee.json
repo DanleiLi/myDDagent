@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "description": "Portfolio fee data extracted from Fee Analysis Excel",
+    "source": "output/Fee Analysis - Aurora - 20260427.xlsx",
+    "extracted_date": "2026-04-27",
+    "last_updated": "2026-04-28",
+    "re_fee_note": "RE Fee 0.10% (exclusive of GST) confirmed in Minerds Bell Business Case Approval document signed by Dipin Arora, Head of Investment Menus & SMA, AMP North. This fee applies to both NTH0620 and NTH0619. Current portfoliofee schema does not include a dedicated re_fee field; add when schema is extended."
+  },
+  "portfolios": [
+    {
+      "modelid": "NTH0620",
+      "portfolio_name": "Aurora Growth Managed Portfolio",
+      "fees": {
+        "investment_management_fee": 0.001600,
+        "estimated_underlying_management_fees_and_costs": 0.007179,
+        "estimated_managed_portfolio_cash_investment_fee": 0.00028,
+        "performance_fee": 0,
+        "estimated_underlying_performance_fee": 0,
+        "estimated_gross_transaction_costs": 4.3e-05,
+        "estimated_underlying_buy_spread": 0.000775,
+        "estimated_underlying_sell_spread": 0.000775
+      },
+      "flags": [],
+      "flag": "4 holdings have conditional performance fees if they outperform benchmark (Allan Gray 20.5%, Firetrail 20%, Plato 15%, Munro 15%)"
+    },
+    {
+      "modelid": "NTH0619",
+      "portfolio_name": "Aurora Defensive Managed Portfolio",
+      "fees": {
+        "investment_management_fee": 0.001600,
+        "estimated_underlying_management_fees_and_costs": 0.005577,
+        "estimated_managed_portfolio_cash_investment_fee": 0.00028,
+        "performance_fee": 0,
+        "estimated_underlying_performance_fee": 0,
+        "estimated_gross_transaction_costs": 0.000176,
+        "estimated_underlying_buy_spread": 0.000904,
+        "estimated_underlying_sell_spread": 0.000904
+      },
+      "flags": []
+    }
+  ]
+}

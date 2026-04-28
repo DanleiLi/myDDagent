@@ -1,0 +1,754 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-AU
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: anza day anza day
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Danza%2Bday%26sca_esv%3D6e750cefa275ba0c%26source%3Dhp%26ei%3DUYbsaY3fGJHm1e8P7N694QQ%26iflsig%3DAFdpzrgAAAAAaeyUYY7kTj0IkUJ-W7LRwovHLGLPb74-%26ved%3D0ahUKEwjNy56k1YiUAxURc_UHHWxvL0wQ4dUDCBo%26uact%3D5%26oq%3Danza%2Bday%26gs_lp%3DEgdnd3Mtd2l6IghhbnphIGRheUggUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz%26sei%3DV4bsafKAMe_k1e8PsYGl0Ak&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&udm=50&source=hp&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLsHwpSX8VU1h5wlQRdyYz8mgmyd_eZo_tiZsdW2U82hFwzhufIgkfFw_z53B_nU6w6vKYVKUtlvhqKdPkV0j4mUI8_zTVaD8Xww78VpnB8chEtWlj-6vmTuq7pLHyEE4DVQeroeJPKwT5sE6_G7ip5x_2xobQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q2J8OegQIExAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=6e750cefa275ba0c&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLsHwpSX8VU1h5wlQRdyYz8mgmyd_eZo_tiZsdW2U82hFwzhufIgkfFw_z53B_nU6w6vKYVKUtlvhqKdPkV0j4mUI8_zTVaD8Xww78VpnB8chEtWlj-6vmTuq7pLHyEE4DVQeroeJPKwT5sE6_G7ip5x_2xobQ&q=anzac+day&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QtKgLegQIFRAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "News" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=6e750cefa275ba0c&q=anzac+day&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLsHwpSX8VU1h5wlQRdyYz8mgmyd_eZo_tiZsdW2U82hFwzhufIgkfFw_z53B_nU6w6vKYVKUtlvhqKdPkV0j4mUI8_zTVaD8Xww78VpnB8chEtWlj-6vmTuq7pLHyEE4DVQeroeJPKwT5sE6_G7ip5x_2xobQ&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q0pQJegQIFhAB
+              - generic [ref=e95]: News
+          - listitem [ref=e96]:
+            - link "Videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=6e750cefa275ba0c&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLsHwpSX8VU1h5wlQRdyYz8mgmyd_eZo_tiZsdW2U82hFwzhufIgkfFw_z53B_nU6w6vKYVKUtlvhqKdPkV0j4mUI8_zTVaD8Xww78VpnB8chEtWlj-6vmTuq7pLHyEE4DVQeroeJPKwT5sE6_G7ip5x_2xobQ&q=anzac+day&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QtKgLegQIFxAB
+              - generic [ref=e99]: Videos
+          - listitem [ref=e100]:
+            - link "Short videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=6e750cefa275ba0c&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLsHwpSX8VU1h5wlQRdyYz8mgmyd_eZo_tiZsdW2U82hFwzhufIgkfFw_z53B_nU6w6vKYVKUtlvhqKdPkV0j4mUI8_zTVaD8Xww78VpnB8chEtWlj-6vmTuq7pLHyEE4DVQeroeJPKwT5sE6_G7ip5x_2xobQ&q=anzac+day&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Qs6gLegQIHBAB
+              - generic [ref=e103]: Short videos
+          - listitem [ref=e104]:
+            - link "Shopping" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=6e750cefa275ba0c&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3ppPEReeCOS7s1VbbZz2TLsHwpSX8VU1h5wlQRdyYz8mgmyd_eZo_tiZsdW2U82hFwzhufIgkfFw_z53B_nU6w6vKYVKUtlvhqKdPkV0j4mUI8_zTVaD8Xww78VpnB8chEtWlj-6vmTuq7pLHyEE4DVQeroeJPKwT5sE6_G7ip5x_2xobQ&q=anzac+day&ved=1t:220175&ictx=111
+              - generic [ref=e107]: Shopping
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - heading "These are results for anzac day Search instead for anza day" [level=2] [ref=e135]:
+          - text: These are results for
+          - button "anzac day" [ref=e136] [cursor=pointer]:
+            - generic [ref=e137]: anzac
+            - text: day
+          - generic [ref=e138]:
+            - text: Search instead for
+            - button "anza day" [ref=e139] [cursor=pointer]
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e158]:
+              - heading "Anzac Day / Date" [level=2] [ref=e160]:
+                - generic [ref=e161]: Anzac Day
+                - generic [ref=e162]: /
+                - generic [ref=e163]: Date
+              - heading "Sat, 25 Apr 2026 New South Wales" [level=2] [ref=e167]:
+                - generic [ref=e168]: Sat, 25 Apr 2026
+                - generic [ref=e170]: New South Wales
+              - generic [ref=e171]:
+                - heading "People also search for" [level=3] [ref=e172]
+                - generic [ref=e177]:
+                  - generic [ref=e179]:
+                    - link "King's Official Birthday" [ref=e181] [cursor=pointer]:
+                      - /url: /search?sca_esv=6e750cefa275ba0c&q=King%27s+Official+Birthday&stick=H4sIAAAAAAAAAONgFuLQz9U3SC7PMVDiBLGMjbLjS7T4nPNzc_PzgjNTUssTK4sXsUp4Z-alqxcr-KelZSZnJuYoOGUWlWSkJFYCABeywQVCAAAA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QxA16BAgrEAU
+                      - img [ref=e184]
+                      - generic [ref=e186]: King's Official Birthday
+                    - link "Labour Day" [ref=e188] [cursor=pointer]:
+                      - /url: /search?sca_esv=6e750cefa275ba0c&q=Labour+Day&stick=H4sIAAAAAAAAAONgFuLQz9U3SC7PMVACs0ziLdO1-Jzzc3Pz84IzU1LLEyuLF7Fy-SQm5ZcWKbgkVgIASNRQXDMAAAA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QxA16BAgrEAg
+                      - img [ref=e191]
+                      - generic [ref=e193]: Labour Day
+                    - link "Matariki" [ref=e195] [cursor=pointer]:
+                      - /url: /search?sca_esv=6e750cefa275ba0c&q=Matariki&stick=H4sIAAAAAAAAAONgFuLQz9U3SC7PMVACs_IqzEq0-Jzzc3Pz84IzU1LLEyuLF7Fy-CaWJBZlZmcCAMaS5nExAAAA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QxA16BAgrEAs
+                      - img [ref=e198]
+                      - generic [ref=e200]: Matariki
+                    - link "Christmas Day" [ref=e202] [cursor=pointer]:
+                      - /url: /search?sca_esv=6e750cefa275ba0c&q=Christmas&stick=H4sIAAAAAAAAAONgFuLQz9U3SC7PMVACswzLCo21-Jzzc3Pz84IzU1LLEyuLF7FyOmcUZRaX5CYWAwB9rRXGMgAAAA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QxA16BAgrEA4
+                      - img [ref=e205]
+                      - generic [ref=e207]: Christmas Day
+                    - link "Boxing Day" [ref=e209] [cursor=pointer]:
+                      - /url: /search?sca_esv=6e750cefa275ba0c&q=Boxing+Day&stick=H4sIAAAAAAAAAONgFuLQz9U3SC7PMVACswwzUtK1-Jzzc3Pz84IzU1LLEyuLF7FyOeVXZOalK7gkVgIARAeGFDMAAAA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QxA16BAgrEBE
+                      - img [ref=e212]
+                      - generic [ref=e214]: Boxing Day
+                    - link "Mother's Day" [ref=e216] [cursor=pointer]:
+                      - /url: /search?sca_esv=6e750cefa275ba0c&q=Mother%27s+Day&stick=H4sIAAAAAAAAAONgFuLQz9U3SC7PMVCCsLKySrT4nPNzc_PzgjNTUssTK4sXsfL45pdkpBapFyu4JFYCAHDRlQA1AAAA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QxA16BAgrEBQ
+                      - img [ref=e219]
+                      - generic [ref=e221]: Mother's Day
+                    - link "Easter Monday" [ref=e223] [cursor=pointer]:
+                      - /url: /search?sca_esv=6e750cefa275ba0c&q=Easter+Monday&stick=H4sIAAAAAAAAAONgFuLQz9U3SC7PMVDiBLGMDOPzLLX4nPNzc_PzgjNTUssTK4sXsfK6JhaXpBYp-ObnpSRWAgBiLBswNwAAAA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QxA16BAgrEBc
+                      - img [ref=e226]
+                      - generic [ref=e228]: Easter Monday
+                  - button [ref=e229] [cursor=pointer]:
+                    - img [ref=e232]
+            - generic [ref=e244]:
+              - button [ref=e248] [cursor=pointer]
+              - button [ref=e254] [cursor=pointer]
+          - button "Feedback" [ref=e263] [cursor=pointer]:
+            - generic [ref=e265]: Feedback
+      - main [ref=e266]:
+        - generic [ref=e270]:
+          - generic [ref=e273]:
+            - heading "Web results" [level=2] [ref=e274]
+            - generic [ref=e275]:
+              - generic [ref=e278]:
+                - link "Anzac Day Wikipedia https://en.wikipedia.org › wiki › Anzac_Day" [ref=e280] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Anzac_Day
+                  - heading "Anzac Day" [level=3] [ref=e281]
+                  - generic [ref=e286]:
+                    - generic [ref=e288]: Wikipedia
+                    - generic [ref=e290]: https://en.wikipedia.org › wiki › Anzac_Day
+                - button "About this result" [ref=e291] [cursor=pointer]:
+                  - img [ref=e294]
+              - generic [ref=e297]:
+                - generic [ref=e298]:
+                  - emphasis [ref=e299]: Observed on 25 April each year
+                  - text: ", Anzac Day was originally devised to honour the members of the Australian and New Zealand Army Corps (ANZAC) who served in the ..."
+                - link "Read more" [ref=e300] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Anzac_Day#:~:text=%5B4%5D%20%5B5%5D%20Observed%20on%2025,the%20First%20World%20War%20(1914%E2%80%931918).
+          - generic [ref=e302]:
+            - generic [ref=e310]:
+              - heading "Anzac Day" [level=2] [ref=e313]
+              - generic [ref=e314]:
+                - generic [ref=e316]: Holiday
+                - button "More options for Anzac Day" [ref=e322] [cursor=pointer]:
+                  - img "More options for Anzac Day" [ref=e323]:
+                    - img [ref=e325]
+            - complementary "Featured results" [ref=e331]:
+              - generic [ref=e340]:
+                - generic [ref=e341]: Anzac Day is a national day of remembrance in Australia, New Zealand and Tonga that broadly commemorates all Australians and New Zealanders "who served and died in all wars, conflicts, and peacekeeping operations" and "the contribution and suffering of all those who have served".
+                - generic [ref=e342]:
+                  - link "Wikipedia" [ref=e345] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Anzac_Day
+                    - generic [ref=e347]: Wikipedia
+                  - button "More Description" [ref=e348] [cursor=pointer]:
+                    - generic [ref=e349]: More
+                    - generic [ref=e350]: Description
+                    - img [ref=e352]
+            - generic [ref=e356]:
+              - heading "People also ask" [level=2] [ref=e358]
+              - generic [ref=e359]:
+                - button "What is Anzac Day celebrated for?" [ref=e365] [cursor=pointer]:
+                  - generic [ref=e367]: What is Anzac Day celebrated for?
+                  - img [ref=e370]
+                - button "Will Anzac Day have a public holiday?" [ref=e379] [cursor=pointer]:
+                  - generic [ref=e381]: Will Anzac Day have a public holiday?
+                  - img [ref=e384]
+                - button "Why is Anzac Day on 25 April?" [ref=e393] [cursor=pointer]:
+                  - generic [ref=e395]: Why is Anzac Day on 25 April?
+                  - img [ref=e398]
+                - button "Who booed at dawn service?" [ref=e407] [cursor=pointer]:
+                  - generic [ref=e409]: Who booed at dawn service?
+                  - img [ref=e412]
+          - generic [ref=e416]:
+            - generic [ref=e428]:
+              - generic [ref=e432]:
+                - generic [ref=e433]: Date
+                - generic [ref=e435]: Saturday 25 April 2026
+              - generic [ref=e439]:
+                - generic [ref=e440]: Event Length
+                - generic [ref=e442]:
+                  - text: "1"
+                  - link "Day" [ref=e443] [cursor=pointer]:
+                    - /url: /search?sca_esv=6e750cefa275ba0c&q=Day&si=AL3DRZHmwLjWhgnaPB3UTu10R6S5qNLXiQiKMeezfKyB1FMsRkPcMVaulVA0ksqiNFQVJ-MgL0V3Qocgqy0FKFUL5NdzHJLrAJ4Xy-sW51ugfv9SnEJKrkC6GFoTvREndWrwkm_6faI6-aj6EKe3vWfaWuZYwju1rKsDOKZ-0WFK9_9eSqnrb3OpjqXK_QeJfqk7d_Vb85SB&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QmxN6BAgdEAI
+              - generic [ref=e447]:
+                - generic [ref=e448]: Also called
+                - generic [ref=e450]: "Māori: Rā o Ngā Hōia"
+              - generic [ref=e454]:
+                - generic [ref=e455]: Significance
+                - generic [ref=e457]:
+                  - text: National day of remembrance and first
+                  - link "landing of the Anzacs" [ref=e458] [cursor=pointer]:
+                    - /url: /search?sca_esv=6e750cefa275ba0c&q=landing+of+the+Anzacs&stick=H4sIAAAAAAAAAONgVuLUz9U3MMrJLspYxCqak5iXkpmXrpCfplCSkargmFeVmFwMAEWW4IklAAAA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QmxN6BAgeEAI
+                  - text: at
+                  - link "Gallipoli" [ref=e459] [cursor=pointer]:
+                    - /url: /search?sca_esv=6e750cefa275ba0c&q=Gallipoli&stick=H4sIAAAAAAAAAONgVuLQz9U3ME6uKlvEyumemJOTWZCfkwkA0lpsSBgAAAA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QmxN6BAgeEAM
+            - generic [ref=e462]:
+              - heading "People also search for" [level=3] [ref=e464]
+              - generic [ref=e469]:
+                - list [ref=e470]:
+                  - listitem [ref=e472]:
+                    - generic [ref=e473]:
+                      - link "King's Official Birthday":
+                        - /url: /search?sca_esv=6e750cefa275ba0c&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmje0pN5-lncCAu6tL8_NYr8Gy2O3cg_m3Ehp7hWJFXvRaHvpOg3K6v2kDmneN6C_7hIzMKFACPhbykuqsn6SY5jlbe34ZB0ZCO4hng4vKG5kTkr3lRLOxqbZWbGwJmJiuV-kCZh4tW32SB2CvrXQX0KRcYRBkXIjM470gu5ZOj4TinRK3g%3D%3D&q=King%27s+Official+Birthday&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Qs9oBKAB6BAgQEAY
+                      - heading [level=3] [ref=e478]:
+                        - generic [ref=e479]: King's Official Birthday
+                  - listitem [ref=e481]:
+                    - generic [ref=e482]:
+                      - link "Labour Day":
+                        - /url: /search?sca_esv=6e750cefa275ba0c&si=AL3DRZHmwLjWhgnaPB3UTu10R6S5qNLXiQiKMeezfKyB1FMsRo8Z6netfvpc2oEBXEgj9KS2BfzsQpHac_mNEIt3TTf4Lf8EGK5JlBEG5onGoW78j0KTqT7y_oAjXmR0RTrkzcXc9hdLIUeCEr3a9NOjlLmnk6S03PQkv6xdq7DDaaJ6ngfCig7Gu3leGWJ6imtBwUc27TBD&q=Labour+Day&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Qs9oBKAB6BAgQEAo
+                      - heading [level=3] [ref=e487]:
+                        - generic [ref=e488]: Labour Day
+                  - listitem [ref=e490]:
+                    - generic [ref=e491]:
+                      - link "Matariki":
+                        - /url: /search?sca_esv=6e750cefa275ba0c&si=AL3DRZHmwLjWhgnaPB3UTu10R6S5qNLXiQiKMeezfKyB1FMsRoTl72SQ2w7eptuSqK8WG4br40EX1h3ndpme_HnlWLcoaOTBLomCEPAUd3XLhSKU93fKOwRw91eSiSJ2pfGrd_k6KfAsxTV8gC4yK86PHRfMhl-sZ4V06MsKIAUrs3GDC5Mdtgfj4GhOKkJiUUzsW9k1d0vO&q=Matariki&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Qs9oBKAB6BAgQEA4
+                      - heading [level=3] [ref=e496]:
+                        - generic [ref=e497]: Matariki
+                  - listitem [ref=e499]:
+                    - generic [ref=e500]:
+                      - link "Christmas Day":
+                        - /url: /search?sca_esv=6e750cefa275ba0c&si=AL3DRZHmwLjWhgnaPB3UTu10R6S5qNLXiQiKMeezfKyB1FMsRpxMTa7cLm-ppzF4qkVD_Pp5glUuaaWNMFJuENrghlBquarU23U1BYKyK8BSf7Yjn-Y8YctL4tFsStpBn3hKyDsP23oZdaCknIab09fnlLn3zDrnZjM43sN2ykPBBlk0wp-p7yHJ18wdxt78xb95pBM20NYK&q=Christmas&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Qs9oBKAB6BAgQEBI
+                      - heading [level=3] [ref=e505]:
+                        - generic [ref=e506]: Christmas Day
+                - link "See more" [ref=e508] [cursor=pointer]:
+                  - /url: /search?sca_esv=6e750cefa275ba0c&q=Anzac+Day&stick=H4sIAAAAAAAAAONgFuLQz9U3SC7PMVCCs7QEgzNTUssTK4v9UitKgktSC4p_MYoFpOYX5KQqJOYU5ysUpyYWJWcopOUXLWLldMyrSkxWcEmsvMUmybBU-Tb_s9CMhbEVx54oz3r3fFpTn9WKVNM8AOHSPylqAAAA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QzO0BKAR6BAgQEBQ
+                  - generic [ref=e509]:
+                    - generic [ref=e510]: See more
+                    - img [ref=e512]
+            - generic [ref=e515]:
+              - generic [ref=e517]:
+                - heading "Top stories" [level=2] [ref=e519]:
+                  - generic [ref=e521]: Top stories
+                - link "Sign in to customise" [ref=e523] [cursor=pointer]:
+                  - /url: https://accounts.google.com/ServiceLogin?ec=oo-seaport-srp-sp-11135&continue=https://www.google.com/search?q%3Danza%2Bday%26sca_esv%3D6e750cefa275ba0c%26source%3Dhp%26ei%3DUYbsaY3fGJHm1e8P7N694QQ%26iflsig%3DAFdpzrgAAAAAaeyUYY7kTj0IkUJ-W7LRwovHLGLPb74-%26ved%3D0ahUKEwjNy56k1YiUAxURc_UHHWxvL0wQ4dUDCBo%26uact%3D5%26oq%3Danza%2Bday%26gs_lp%3DEgdnd3Mtd2l6IghhbnphIGRheUggUABYAHAAeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgCgAgCYAwCSBwCgBwCyBwC4BwDCBwDIBwCACAE%26sclient%3Dgws-wiz%26sei%3DV4bsafKAMe_k1e8PsYGl0Ak%26ptid%3D11135%26ptt%3D8%26fpts%3D1777108568682
+                  - generic [ref=e525]:
+                    - img [ref=e527]
+                    - text: Sign in to customise
+              - generic [ref=e531]:
+                - link "News.com.au About this result Footy fans take huge stand during Welcome 3 hours ago" [ref=e534] [cursor=pointer]:
+                  - /url: https://www.news.com.au/sport/afl/incredible-scenes-at-collingwood-and-essendon-clash-after-anzac-dawn-services-marred/news-story/94519021ed21568859679c5b51c12209
+                  - generic [ref=e539]:
+                    - generic [ref=e541]:
+                      - generic [ref=e544]: News.com.au
+                      - button "About this result" [ref=e547]:
+                        - img [ref=e548]
+                    - heading "Footy fans take huge stand during Welcome" [level=3] [ref=e550]
+                    - generic [ref=e551]: 3 hours ago
+                - generic [ref=e553]:
+                  - link "Herald Sun About this result Day-Wicks and Daicos keeping Dons in it 3 hours ago" [ref=e556] [cursor=pointer]:
+                    - /url: https://www.heraldsun.com.au/sport/afl/live-updates-and-scores-from-the-anzac-day-clash-between-collingwood-vs-essendon/live-coverage/377cca0e117414ee8ecce73fca55754c
+                    - generic [ref=e561]:
+                      - generic [ref=e563]:
+                        - generic [ref=e566]: Herald Sun
+                        - button "About this result" [ref=e569]:
+                          - img [ref=e570]
+                      - heading "Day-Wicks and Daicos keeping Dons in it" [level=3] [ref=e572]
+                      - generic [ref=e573]: 3 hours ago
+                  - 'link "The Canberra Times About this result ''Men against boys'': Bombers suffer Anzac Day debacle 42 minutes ago" [ref=e577] [cursor=pointer]':
+                    - /url: https://www.canberratimes.com.au/story/9233120/men-against-boys-bombers-suffer-anzac-day-debacle/
+                    - generic [ref=e582]:
+                      - generic [ref=e584]:
+                        - generic [ref=e587]: The Canberra Times
+                        - button "About this result" [ref=e590]:
+                          - img [ref=e591]
+                      - 'heading "''Men against boys'': Bombers suffer Anzac Day debacle" [level=3] [ref=e593]'
+                      - generic [ref=e594]: 42 minutes ago
+              - generic [ref=e595]:
+                - heading "Australians gather for Anzac Day services and marches" [level=2] [ref=e599]:
+                  - link "Australians gather for Anzac Day services and marches" [ref=e600] [cursor=pointer]:
+                    - /url: https://www.google.com/search?q=anzac+day&sca_esv=6e750cefa275ba0c&tbm=nws&story=GjcSNUF1c3RyYWxpYW5zIGdhdGhlciBmb3IgQW56YWMgRGF5IHNlcnZpY2VzIGFuZCBtYXJjaGVzMjEKJ4HCuN64j437xAHJtsTHhM_a54ABkdqoxd6ggLownMbYxejJ0M7NARCN_s_rEBgFcgIQAQ&fcs=ABHuY3TD7xoaPPSA6u14_GZAFGp4-nn7hw&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0QjcEJegQIfRAD
+                    - generic [ref=e601]:
+                      - generic [ref=e602]: Australians gather for Anzac Day services and marches
+                      - img [ref=e604]
+                - generic [ref=e607]:
+                  - link "Australian Broadcasting Corporation About this result Australians mark Anzac Day in solemn memorials as heckling condemned — as it happened 5 hours ago" [ref=e610] [cursor=pointer]:
+                    - /url: https://www.abc.net.au/news/2026-04-25/anzac-day-2026-marches-services-live-updates/106597328
+                    - generic [ref=e615]:
+                      - generic [ref=e617]:
+                        - generic [ref=e619]: Australian Broadcasting Corporation
+                        - button "About this result" [ref=e622]:
+                          - img [ref=e623]
+                      - heading "Australians mark Anzac Day in solemn memorials as heckling condemned — as it happened" [level=4] [ref=e625]
+                      - generic [ref=e626]: 5 hours ago
+                  - 'link "The Singleton Argus About this result Anzac Day 2026: Photos 28 minutes ago" [ref=e630] [cursor=pointer]':
+                    - /url: https://www.singletonargus.com.au/story/9233117/singleton-community-burdekin-park-capacity-for-anzac-day-2026/
+                    - generic [ref=e635]:
+                      - generic [ref=e637]:
+                        - generic [ref=e640]: The Singleton Argus
+                        - button "About this result" [ref=e643]:
+                          - img [ref=e644]
+                      - 'heading "Anzac Day 2026: Photos" [level=4] [ref=e646]'
+                      - generic [ref=e647]: 28 minutes ago
+              - generic [ref=e648]:
+                - heading "Also in the news" [level=2] [ref=e652]:
+                  - generic [ref=e654]: Also in the news
+                - generic [ref=e656]:
+                  - 'link "Australian Broadcasting Corporation About this result Live: Woeful Dragons humiliated on Anzac Day as Roosters score 11 tries 34 minutes ago" [ref=e659] [cursor=pointer]':
+                    - /url: https://www.abc.net.au/news/2026-04-25/anzac-day-nrl-dragons-roosters-warriors-dolphins-storm-rabbitohs/106591510
+                    - generic [ref=e664]:
+                      - generic [ref=e666]:
+                        - generic [ref=e668]: Australian Broadcasting Corporation
+                        - button "About this result" [ref=e671]:
+                          - img [ref=e672]
+                      - 'heading "Live: Woeful Dragons humiliated on Anzac Day as Roosters score 11 tries" [level=4] [ref=e674]'
+                      - generic [ref=e675]:
+                        - generic [ref=e676]: LIVE
+                        - text: 34 minutes ago
+                  - link "NBN News About this result Commemorating ANZAC Day across the Hunter 7 minutes ago" [ref=e680] [cursor=pointer]:
+                    - /url: https://www.nbnnews.com.au/2026/04/25/commemorating-anzac-day-across-the-hunter/
+                    - generic [ref=e685]:
+                      - generic [ref=e687]:
+                        - generic [ref=e690]: NBN News
+                        - button "About this result" [ref=e693]:
+                          - img [ref=e694]
+                      - heading "Commemorating ANZAC Day across the Hunter" [level=4] [ref=e696]
+                      - generic [ref=e697]: 7 minutes ago
+              - link "More news" [ref=e699] [cursor=pointer]:
+                - /url: /search?sca_esv=6e750cefa275ba0c&q=anzac+day&tbm=nws&source=univ&tbo=u&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Qt8YBKAJ6BAhxEAU
+                - separator [ref=e700]
+                - generic [ref=e701]:
+                  - generic [ref=e702]: More news
+                  - img [ref=e704]
+          - generic [ref=e709]:
+            - generic [ref=e711]:
+              - heading "Videos" [level=2] [ref=e712]
+              - button "About this result" [ref=e713] [cursor=pointer]:
+                - img [ref=e716]
+            - generic [ref=e719]:
+              - generic [ref=e725]:
+                - generic [ref=e726]:
+                  - 'link "Anzac Day 2026: Australians pause to mark Anzac Day | 9 ... YouTube 9 News Australia 11 hours ago" [ref=e728] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=N79sulbYNd4
+                    - 'heading "Anzac Day 2026: Australians pause to mark Anzac Day | 9 ... YouTube 9 News Australia 11 hours ago" [level=3] [ref=e729]':
+                      - generic [ref=e732]: "Anzac Day 2026: Australians pause to mark Anzac Day | 9 ..."
+                      - generic [ref=e734]:
+                        - generic [ref=e735]:
+                          - text: YouTube
+                          - generic [ref=e736]: · 9 News Australia
+                        - generic [ref=e737]: 11 hours ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · 9 News Australia
+                      - button "About this result" [ref=e738] [cursor=pointer]:
+                        - img [ref=e741]
+                - 'button "Anzac Day 2026: Australians pause to mark Anzac Day | 9 ... by 9 News Australia on YouTube. Play on Google. 9:03" [ref=e743] [cursor=pointer]':
+                  - generic [ref=e744]:
+                    - img [ref=e747]
+                    - generic [ref=e750]:
+                      - generic [ref=e752]: 9:03
+                      - img [ref=e755]
+              - generic [ref=e761]:
+                - generic [ref=e762]:
+                  - link "Australians unite for Anzac Day commemorations | 7NEWS YouTube 7NEWS Australia 6 hours ago" [ref=e764] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=pI3NUjP_mzo
+                    - heading "Australians unite for Anzac Day commemorations | 7NEWS YouTube 7NEWS Australia 6 hours ago" [level=3] [ref=e765]:
+                      - generic [ref=e768]: Australians unite for Anzac Day commemorations | 7NEWS
+                      - generic [ref=e770]:
+                        - generic [ref=e771]:
+                          - text: YouTube
+                          - generic [ref=e772]: · 7NEWS Australia
+                        - generic [ref=e773]: 6 hours ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · 7NEWS Australia
+                      - button "About this result" [ref=e774] [cursor=pointer]:
+                        - img [ref=e777]
+                - link "Australians unite for Anzac Day commemorations | 7NEWS by 7NEWS Australia on YouTube. Play on YouTube. 4:38" [ref=e779] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=pI3NUjP_mzo
+                  - generic [ref=e780]:
+                    - img [ref=e783]
+                    - generic [ref=e788]: 4:38
+              - generic [ref=e794]:
+                - generic [ref=e795]:
+                  - link "Australians gather for Anzac Day dawn services as Welcome ... YouTube ABC News (Australia) 11 hours ago" [ref=e797] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=BO1ECCEQ-_g
+                    - heading "Australians gather for Anzac Day dawn services as Welcome ... YouTube ABC News (Australia) 11 hours ago" [level=3] [ref=e798]:
+                      - generic [ref=e801]: Australians gather for Anzac Day dawn services as Welcome ...
+                      - generic [ref=e803]:
+                        - generic [ref=e804]:
+                          - text: YouTube
+                          - generic [ref=e805]: · ABC News (Australia)
+                        - generic [ref=e806]: 11 hours ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · ABC News (Australia)
+                      - button "About this result" [ref=e807] [cursor=pointer]:
+                        - img [ref=e810]
+                - button "Australians gather for Anzac Day dawn services as Welcome ... by ABC News (Australia) on YouTube. Play on Google. 2:40" [ref=e812] [cursor=pointer]:
+                  - generic [ref=e813]:
+                    - img [ref=e816]
+                    - generic [ref=e819]:
+                      - generic [ref=e821]: 2:40
+                      - img [ref=e824]
+            - link "View all videos" [ref=e828] [cursor=pointer]:
+              - /url: /search?sca_esv=6e750cefa275ba0c&udm=7&q=anzac+day&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8ccDKAJ6BAhqEAQ
+              - separator [ref=e829]
+              - generic [ref=e830]:
+                - generic [ref=e831]: View all
+                - img [ref=e833]
+          - generic [ref=e837]:
+            - heading "Web results" [level=2] [ref=e838]
+            - generic [ref=e839]:
+              - generic [ref=e842]:
+                - link "Anzac Day Australian War Memorial https://www.awm.gov.au › commemoration › anzac-day" [ref=e844] [cursor=pointer]:
+                  - /url: https://www.awm.gov.au/commemoration/anzac-day
+                  - heading "Anzac Day" [level=3] [ref=e845]
+                  - generic [ref=e850]:
+                    - generic [ref=e852]: Australian War Memorial
+                    - generic [ref=e854]: https://www.awm.gov.au › commemoration › anzac-day
+                - button "About this result" [ref=e855] [cursor=pointer]:
+                  - img [ref=e858]
+              - generic [ref=e861]:
+                - generic [ref=e862]:
+                  - emphasis [ref=e863]: 2026 Anzac Day program
+                  - text: . Find out about Anzac Day at the Memorial, including the Dawn Service. View details. a girl gazing at projected image of a war veteran ...
+                - link "Read more" [ref=e864] [cursor=pointer]:
+                  - /url: https://www.awm.gov.au/commemoration/anzac-day#:~:text=2026%20Anzac%20Day%20program,View%20details
+          - generic [ref=e868]:
+            - generic [ref=e871]:
+              - link "Anzac Day Australian Army https://www.army.gov.au › history-research › traditions" [ref=e873] [cursor=pointer]:
+                - /url: https://www.army.gov.au/about-us/history-research/traditions/anzac-day
+                - heading "Anzac Day" [level=3] [ref=e874]
+                - generic [ref=e879]:
+                  - generic [ref=e881]: Australian Army
+                  - generic [ref=e883]: https://www.army.gov.au › history-research › traditions
+              - button "About this result" [ref=e884] [cursor=pointer]:
+                - img [ref=e887]
+            - generic [ref=e890]:
+              - generic [ref=e891]:
+                - text: ANZAC stands for Australian and New Zealand Army Corps.
+                - emphasis [ref=e892]: Anzac Day falls on the 25th of April each year
+                - text: . The 25th of April was officially named Anzac Day in ...
+              - link "Read more" [ref=e893] [cursor=pointer]:
+                - /url: https://www.army.gov.au/about-us/history-research/traditions/anzac-day#:~:text=ANZAC%20stands%20for%20Australian%20and,named%20Anzac%20Day%20in%201916.
+          - generic [ref=e897]:
+            - generic [ref=e900]:
+              - link "Anzac Day - Background and History Australian Embassy Vienna https://austria.embassy.gov.au › vien › AnzacDay_backg..." [ref=e902] [cursor=pointer]:
+                - /url: https://austria.embassy.gov.au/vien/AnzacDay_background.html
+                - heading "Anzac Day - Background and History" [level=3] [ref=e903]
+                - generic [ref=e908]:
+                  - generic [ref=e910]: Australian Embassy Vienna
+                  - generic [ref=e912]: https://austria.embassy.gov.au › vien › AnzacDay_backg...
+              - button "About this result" [ref=e913] [cursor=pointer]:
+                - img [ref=e916]
+            - generic [ref=e919]:
+              - generic [ref=e920]:
+                - emphasis [ref=e921]: Anzac Day
+                - text: is a commemoration of the anniversary of the landing of Australian and New Zealand troops at Gallipoli, Turkey on 25 April in 1915.
+              - link "Read more" [ref=e922] [cursor=pointer]:
+                - /url: https://austria.embassy.gov.au/vien/AnzacDay_background.html#:~:text=ANZAC%20stands%20for%20Australian%20and,on%2025%20April%20in%201915
+          - generic [ref=e926]:
+            - heading "Short videos" [level=2] [ref=e928]
+            - generic [ref=e930]:
+              - list [ref=e932]:
+                - listitem [ref=e933]:
+                  - generic [ref=e936]:
+                    - generic [ref=e938]:
+                      - link "Anzac Day is a time to remember, reflect, and honour those ... by Defence Australia on Instagram. Play on Instagram. 1:49" [ref=e940] [cursor=pointer]:
+                        - /url: https://www.instagram.com/reel/DXgqdtDgvcd/
+                        - generic [ref=e945]:
+                          - img [ref=e946]
+                          - generic [ref=e948]: 1:49
+                      - link "Anzac Day is a time to remember, reflect, and honour those ... Instagram · Defence Australia" [ref=e950] [cursor=pointer]:
+                        - /url: https://www.instagram.com/reel/DXgqdtDgvcd/
+                        - generic [ref=e951]:
+                          - heading "Anzac Day is a time to remember, reflect, and honour those ..." [level=3] [ref=e953]:
+                            - generic [ref=e954]: Anzac Day is a time to remember, reflect, and honour those ...
+                          - generic [ref=e959]: Instagram · Defence Australia
+                    - button "About this result" [ref=e963] [cursor=pointer]:
+                      - img [ref=e966]
+                - listitem [ref=e968]:
+                  - generic [ref=e972]:
+                    - generic [ref=e974]:
+                      - button "History of Anzac Day is more complex than you think by SBS On Demand on YouTube. Play on Google. 1:49" [ref=e976] [cursor=pointer]:
+                        - generic [ref=e980]:
+                          - generic [ref=e981]:
+                            - img [ref=e982]
+                            - generic [ref=e984]: 1:49
+                          - img [ref=e987]
+                      - link "History of Anzac Day is more complex than you think YouTube · SBS On Demand" [ref=e990] [cursor=pointer]:
+                        - /url: https://www.youtube.com/shorts/W4UJd8RPsq0
+                        - generic [ref=e991]:
+                          - heading "History of Anzac Day is more complex than you think" [level=3] [ref=e993]:
+                            - generic [ref=e994]: History of Anzac Day is more complex than you think
+                          - generic [ref=e999]: YouTube · SBS On Demand
+                    - button "About this result" [ref=e1003] [cursor=pointer]:
+                      - img [ref=e1006]
+                - listitem [ref=e1008]:
+                  - generic [ref=e1011]:
+                    - generic [ref=e1013]:
+                      - link "ANZAC Day is Australia's most sacred day. Lest we forget. by Senator James Paterson on Instagram. Play on Instagram. 1:28" [ref=e1015] [cursor=pointer]:
+                        - /url: https://www.instagram.com/reel/DXf25l0if1K/
+                        - generic [ref=e1020]:
+                          - img [ref=e1021]
+                          - generic [ref=e1023]: 1:28
+                      - link "ANZAC Day is Australia's most sacred day. Lest we forget. Instagram · Senator James Paterson" [ref=e1025] [cursor=pointer]:
+                        - /url: https://www.instagram.com/reel/DXf25l0if1K/
+                        - generic [ref=e1026]:
+                          - heading "ANZAC Day is Australia's most sacred day. Lest we forget." [level=3] [ref=e1028]:
+                            - generic [ref=e1029]: ANZAC Day is Australia's most sacred day. Lest we forget.
+                          - generic [ref=e1034]: Instagram · Senator James Paterson
+                    - button "About this result" [ref=e1038] [cursor=pointer]:
+                      - img [ref=e1041]
+                - listitem [ref=e1043]:
+                  - generic [ref=e1046]:
+                    - generic [ref=e1048]:
+                      - link "ANZAC Day 2026 @cronullarsl | Simon Kennedy – Member ... by Simon Kennedy – Member for Cook on Facebook. Play on Facebook. 0:08" [ref=e1050] [cursor=pointer]:
+                        - /url: https://www.facebook.com/simonkennedycook/videos/anzac-day-2026-cronullarsl/928604159802699/
+                        - generic [ref=e1055]:
+                          - img [ref=e1056]
+                          - generic [ref=e1058]: 0:08
+                      - link "ANZAC Day 2026 @cronullarsl | Simon Kennedy – Member ... Facebook · Simon Kennedy – Member for Cook" [ref=e1060] [cursor=pointer]:
+                        - /url: https://www.facebook.com/simonkennedycook/videos/anzac-day-2026-cronullarsl/928604159802699/
+                        - generic [ref=e1061]:
+                          - heading "ANZAC Day 2026 @cronullarsl | Simon Kennedy – Member ..." [level=3] [ref=e1063]:
+                            - generic [ref=e1064]: ANZAC Day 2026 @cronullarsl | Simon Kennedy – Member ...
+                          - generic [ref=e1069]: Facebook · Simon Kennedy – Member for Cook
+                    - button "About this result" [ref=e1073] [cursor=pointer]:
+                      - img [ref=e1076]
+                - listitem [ref=e1078]
+                - listitem [ref=e1081]
+                - listitem [ref=e1084]
+                - listitem [ref=e1087]
+                - listitem [ref=e1090]
+                - listitem [ref=e1093]
+              - button [ref=e1096] [cursor=pointer]:
+                - img [ref=e1099]
+            - link "More short videos" [ref=e1102] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&udm=39&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q3egMegQIVBAS
+              - separator [ref=e1103]
+              - generic [ref=e1104]:
+                - generic [ref=e1105]: More short videos
+                - img [ref=e1107]
+          - generic [ref=e1112]:
+            - generic [ref=e1114]:
+              - heading "Local news" [level=2] [ref=e1115]:
+                - generic [ref=e1117]: Local news
+              - generic [ref=e1118]: near New South Wales
+            - generic [ref=e1120]:
+              - generic [ref=e1121]:
+                - 'link "Bega District News About this result A moving Anzac Day gallery: See the Far South Coast''s poignant tribute 2 hours ago" [ref=e1124] [cursor=pointer]':
+                  - /url: https://www.begadistrictnews.com.au/story/9233075/nsw-far-south-coast-anzac-day-unites-communities-in-remembrance/
+                  - generic [ref=e1129]:
+                    - generic [ref=e1131]:
+                      - generic [ref=e1134]: Bega District News
+                      - button "About this result" [ref=e1137]:
+                        - img [ref=e1138]
+                    - 'heading "A moving Anzac Day gallery: See the Far South Coast''s poignant tribute" [level=3] [ref=e1140]'
+                    - generic [ref=e1141]: 2 hours ago
+                - 'link "Secret Sydney About this result Anzac Day 2026: What’s Open And Closed In NSW This Public Holiday Weekend 2 days ago" [ref=e1146] [cursor=pointer]':
+                  - /url: https://secretsydney.com/anzac-day-nsw-trading-hours/
+                  - generic [ref=e1151]:
+                    - generic [ref=e1153]:
+                      - generic [ref=e1156]: Secret Sydney
+                      - button "About this result" [ref=e1159]:
+                        - img [ref=e1160]
+                    - 'heading "Anzac Day 2026: What’s Open And Closed In NSW This Public Holiday Weekend" [level=3] [ref=e1162]'
+                    - generic [ref=e1163]: 2 days ago
+              - generic [ref=e1165]:
+                - link "7NEWS About this result NSW Premier Chris Minns responds to Australians reportedly fuming over Anzac Day public holiday 2 days ago" [ref=e1168] [cursor=pointer]:
+                  - /url: https://7news.com.au/news/nsw-premier-chris-minns-responds-to-australians-reportedly-fuming-over-anzac-day-public-holiday-c-22179811
+                  - generic [ref=e1173]:
+                    - generic [ref=e1175]:
+                      - generic [ref=e1178]: 7NEWS
+                      - button "About this result" [ref=e1181]:
+                        - img [ref=e1182]
+                    - heading "NSW Premier Chris Minns responds to Australians reportedly fuming over Anzac Day public holiday" [level=3] [ref=e1184]
+                    - generic [ref=e1185]: 2 days ago
+                - 'link "Bega District News About this result ''Felt inspired to have a go'': The people behind the coast''s Anzac wreaths 1 day ago" [ref=e1189] [cursor=pointer]':
+                  - /url: https://www.begadistrictnews.com.au/story/9232681/lyn-burns-anzac-day-wreaths-crafted-with-new-volunteer-spirit/
+                  - generic [ref=e1194]:
+                    - generic [ref=e1196]:
+                      - generic [ref=e1199]: Bega District News
+                      - button "About this result" [ref=e1202]:
+                        - img [ref=e1203]
+                    - 'heading "''Felt inspired to have a go'': The people behind the coast''s Anzac wreaths" [level=3] [ref=e1205]'
+                    - generic [ref=e1206]: 1 day ago
+          - generic [ref=e1210]:
+            - heading "Web results" [level=2] [ref=e1211]
+            - generic [ref=e1212]:
+              - generic [ref=e1215]:
+                - link "Australians turn out for Anzac Day services ... News.com.au https://www.news.com.au › ... › Innovation › Military" [ref=e1217] [cursor=pointer]:
+                  - /url: https://www.news.com.au/technology/innovation/military/australians-turn-out-for-anzac-day-services-commemorating-the-wwi-gallipoli-landings-in-1915/news-story/1d66040e34f159716af03327c2fe1423
+                  - heading "Australians turn out for Anzac Day services ..." [level=3] [ref=e1218]
+                  - generic [ref=e1223]:
+                    - generic [ref=e1225]: News.com.au
+                    - generic [ref=e1227]: https://www.news.com.au › ... › Innovation › Military
+                - button "About this result" [ref=e1228] [cursor=pointer]:
+                  - img [ref=e1231]
+              - generic [ref=e1234]:
+                - generic [ref=e1235]:
+                  - generic [ref=e1236]: 1 hour ago
+                  - text: —
+                - generic [ref=e1237]:
+                  - emphasis [ref=e1238]: Australians turn out for Anzac Day services
+                  - text: commemorating the WWI Gallipoli landings in 1915. The Dawn Service in several cities have been ...
+                - link "Read more" [ref=e1239] [cursor=pointer]:
+                  - /url: https://www.news.com.au/technology/innovation/military/australians-turn-out-for-anzac-day-services-commemorating-the-wwi-gallipoli-landings-in-1915/news-story/1d66040e34f159716af03327c2fe1423#:~:text=Australians%20turn%20out%20for%20Anzac,delivered%20by%20an%20Indigenous%20veteran.
+          - generic [ref=e1243]:
+            - generic [ref=e1246]:
+              - link "What Anzac Day means to those who have served Australia Australian Broadcasting Corporation https://www.abc.net.au › news › nt-anzac-day-big-pictu..." [ref=e1248] [cursor=pointer]:
+                - /url: https://www.abc.net.au/news/2026-04-25/nt-anzac-day-big-picture-australians/106603252
+                - heading "What Anzac Day means to those who have served Australia" [level=3] [ref=e1249]
+                - generic [ref=e1254]:
+                  - generic [ref=e1256]: Australian Broadcasting Corporation
+                  - generic [ref=e1258]: https://www.abc.net.au › news › nt-anzac-day-big-pictu...
+              - button "About this result" [ref=e1259] [cursor=pointer]:
+                - img [ref=e1262]
+            - generic [ref=e1265]:
+              - generic [ref=e1266]:
+                - generic [ref=e1267]: 6 hours ago
+                - text: —
+              - generic [ref=e1268]:
+                - text: For Australians,
+                - emphasis [ref=e1269]: April 25 is a day of national remembrance
+                - text: ", where millions around the country reflect not only on the Anzacs who landed at ..."
+              - link "Read more" [ref=e1270] [cursor=pointer]:
+                - /url: https://www.abc.net.au/news/2026-04-25/nt-anzac-day-big-picture-australians/106603252#:~:text=For%20Australians%2C%20April%2025%20is,have%20served%20Australia%20since%20then.
+        - generic [ref=e1272]:
+          - generic [ref=e1277]:
+            - heading "People also search for" [level=2] [ref=e1279]
+            - generic [ref=e1281]:
+              - generic [ref=e1282]:
+                - link "Anzac Day public holiday" [ref=e1286] [cursor=pointer]:
+                  - /url: /search?sca_esv=6e750cefa275ba0c&q=Anzac+Day+public+holiday&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q1QJ6BAhiEAE
+                  - generic [ref=e1287]:
+                    - generic [ref=e1292]: Anzac Day public holiday
+                    - img [ref=e1296]
+                - link "Booing anzac day" [ref=e1301] [cursor=pointer]:
+                  - /url: /search?sca_esv=6e750cefa275ba0c&q=Booing+anzac+day&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q1QJ6BAh6EAE
+                  - generic [ref=e1302]:
+                    - generic [ref=e1305]:
+                      - generic [ref=e1307]: Booing anzac day
+                      - img [ref=e1310]
+                    - img [ref=e1315]
+                - link "Anzac Day WA" [ref=e1320] [cursor=pointer]:
+                  - /url: /search?sca_esv=6e750cefa275ba0c&q=Anzac+Day+WA&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q1QJ6BAh4EAE
+                  - generic [ref=e1321]:
+                    - generic [ref=e1326]: Anzac Day WA
+                    - img [ref=e1330]
+                - link "Anzac Day service" [ref=e1335] [cursor=pointer]:
+                  - /url: /search?sca_esv=6e750cefa275ba0c&q=Anzac+Day+service&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q1QJ6BAh0EAE
+                  - generic [ref=e1336]:
+                    - generic [ref=e1341]: Anzac Day service
+                    - img [ref=e1345]
+              - generic [ref=e1347]:
+                - link "Anzac Day March" [ref=e1351] [cursor=pointer]:
+                  - /url: /search?sca_esv=6e750cefa275ba0c&q=Anzac+Day+March&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q1QJ6BAhyEAE
+                  - generic [ref=e1352]:
+                    - generic [ref=e1357]: Anzac Day March
+                    - img [ref=e1361]
+                - link "Anzac Day Sydney" [ref=e1366] [cursor=pointer]:
+                  - /url: /search?sca_esv=6e750cefa275ba0c&q=Anzac+Day+Sydney&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q1QJ6BAhvEAE
+                  - generic [ref=e1367]:
+                    - generic [ref=e1372]: Anzac Day Sydney
+                    - img [ref=e1376]
+                - link "Anzac Day Melbourne" [ref=e1381] [cursor=pointer]:
+                  - /url: /search?sca_esv=6e750cefa275ba0c&q=Anzac+Day+Melbourne&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q1QJ6BAhpEAE
+                  - generic [ref=e1382]:
+                    - generic [ref=e1387]: Anzac Day Melbourne
+                    - img [ref=e1391]
+                - link "Anzac Day poem" [ref=e1396] [cursor=pointer]:
+                  - /url: /search?sca_esv=6e750cefa275ba0c&q=Anzac+Day+poem&sa=X&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q1QJ6BAhkEAE
+                  - generic [ref=e1397]:
+                    - generic [ref=e1402]: Anzac Day poem
+                    - img [ref=e1406]
+          - navigation [ref=e1408]:
+            - heading "Page navigation" [level=1] [ref=e1409]
+            - text: "1"
+            - link "Page 2" [ref=e1412] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&ei=WIbsacipD-Sm1e8Ph62j6Qk&start=10&sa=N&sstk=Af77f_dStYWBV5W_qF4VJsWxKomRzJDlAGkAQyfR8eXZlTNsRvmZAz2d9nhybFka0DE8Dq9Jd5fyMOFEgrbJP4Je7qRG1jeJFZAdcA&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8tMDegUIgAEQBA
+              - text: "2"
+            - link "Page 3" [ref=e1414] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&ei=WIbsacipD-Sm1e8Ph62j6Qk&start=20&sa=N&sstk=Af77f_dStYWBV5W_qF4VJsWxKomRzJDlAGkAQyfR8eXZlTNsRvmZAz2d9nhybFka0DE8Dq9Jd5fyMOFEgrbJP4Je7qRG1jeJFZAdcA&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8tMDegUIgAEQBg
+              - text: "3"
+            - link "Page 4" [ref=e1416] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&ei=WIbsacipD-Sm1e8Ph62j6Qk&start=30&sa=N&sstk=Af77f_dStYWBV5W_qF4VJsWxKomRzJDlAGkAQyfR8eXZlTNsRvmZAz2d9nhybFka0DE8Dq9Jd5fyMOFEgrbJP4Je7qRG1jeJFZAdcA&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8tMDegUIgAEQCA
+              - text: "4"
+            - link "Page 5" [ref=e1418] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&ei=WIbsacipD-Sm1e8Ph62j6Qk&start=40&sa=N&sstk=Af77f_dStYWBV5W_qF4VJsWxKomRzJDlAGkAQyfR8eXZlTNsRvmZAz2d9nhybFka0DE8Dq9Jd5fyMOFEgrbJP4Je7qRG1jeJFZAdcA&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8tMDegUIgAEQCg
+              - text: "5"
+            - link "Page 6" [ref=e1420] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&ei=WIbsacipD-Sm1e8Ph62j6Qk&start=50&sa=N&sstk=Af77f_dStYWBV5W_qF4VJsWxKomRzJDlAGkAQyfR8eXZlTNsRvmZAz2d9nhybFka0DE8Dq9Jd5fyMOFEgrbJP4Je7qRG1jeJFZAdcA&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8tMDegUIgAEQDA
+              - text: "6"
+            - link "Page 7" [ref=e1422] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&ei=WIbsacipD-Sm1e8Ph62j6Qk&start=60&sa=N&sstk=Af77f_dStYWBV5W_qF4VJsWxKomRzJDlAGkAQyfR8eXZlTNsRvmZAz2d9nhybFka0DE8Dq9Jd5fyMOFEgrbJP4Je7qRG1jeJFZAdcA&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8tMDegUIgAEQDg
+              - text: "7"
+            - link "Page 8" [ref=e1424] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&ei=WIbsacipD-Sm1e8Ph62j6Qk&start=70&sa=N&sstk=Af77f_dStYWBV5W_qF4VJsWxKomRzJDlAGkAQyfR8eXZlTNsRvmZAz2d9nhybFka0DE8Dq9Jd5fyMOFEgrbJP4Je7qRG1jeJFZAdcA&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8tMDegUIgAEQEA
+              - text: "8"
+            - link "Page 9" [ref=e1426] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&ei=WIbsacipD-Sm1e8Ph62j6Qk&start=80&sa=N&sstk=Af77f_dStYWBV5W_qF4VJsWxKomRzJDlAGkAQyfR8eXZlTNsRvmZAz2d9nhybFka0DE8Dq9Jd5fyMOFEgrbJP4Je7qRG1jeJFZAdcA&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8tMDegUIgAEQEg
+              - text: "9"
+            - link "Page 10" [ref=e1428] [cursor=pointer]:
+              - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&ei=WIbsacipD-Sm1e8Ph62j6Qk&start=90&sa=N&sstk=Af77f_dStYWBV5W_qF4VJsWxKomRzJDlAGkAQyfR8eXZlTNsRvmZAz2d9nhybFka0DE8Dq9Jd5fyMOFEgrbJP4Je7qRG1jeJFZAdcA&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8tMDegUIgAEQFA
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1430]:
+              - link "Next" [ref=e1431] [cursor=pointer]:
+                - /url: /search?q=anzac+day&sca_esv=6e750cefa275ba0c&ei=WIbsacipD-Sm1e8Ph62j6Qk&start=10&sa=N&sstk=Af77f_dStYWBV5W_qF4VJsWxKomRzJDlAGkAQyfR8eXZlTNsRvmZAz2d9nhybFka0DE8Dq9Jd5fyMOFEgrbJP4Je7qRG1jeJFZAdcA&ved=2ahUKEwjItcCn1YiUAxVkU_UHHYfWKJ0Q8NMDegUIgAEQFg
+                - generic [ref=e1433]: Next
+        - navigation
+      - complementary "Complementary results" [ref=e1434]:
+        - heading "Complementary results" [level=2] [ref=e1435]
+    - contentinfo [ref=e1437]:
+      - heading "Footer links" [level=1] [ref=e1438]
+      - generic [ref=e1442]:
+        - generic [ref=e1444]:
+          - text: Australia
+          - generic [ref=e1446]:
+            - button "2065, Sydney NSW - From your IP address" [ref=e1448] [cursor=pointer]:
+              - generic [ref=e1449]: 2065, Sydney NSW
+              - generic [ref=e1451]:
+                - text: "-"
+                - generic [ref=e1452]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e1454] [cursor=pointer]: Update location
+        - generic [ref=e1457]:
+          - link "Help" [ref=e1458] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-AU&fg=1
+          - link "Send feedback" [ref=e1459] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1460] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-AU&fg=1
+          - link "Terms" [ref=e1461] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-AU&fg=1

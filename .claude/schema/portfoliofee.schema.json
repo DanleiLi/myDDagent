@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "description": "Portfolio fee schema for North platform. This is a template only \u2014 never write data to this file.",
+    "last_updated": "YYYY-MM-DD",
+    "maintained_by": "North Platform"
+  },
+  "portfolios": [
+    {
+      "modelid": {
+        "type": "string",
+        "description": "Unique portfolio identifier \u2014 must match modelid in modelportfolio.json",
+        "required": true
+      },
+      "portfolio_name": {
+        "type": "string",
+        "description": "Portfolio display name \u2014 must match modelname in modelportfolio.json",
+        "required": true
+      },
+      "fees": {
+        "investment_management_fee": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Fee charged by the investment manager for managing the portfolio",
+          "required": true
+        },
+        "estimated_underlying_management_fees_and_costs": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Estimated fees and costs of the underlying funds or securities held in the portfolio",
+          "required": true
+        },
+        "estimated_managed_portfolio_cash_investment_fee": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Estimated fee applied to the cash component of the managed portfolio",
+          "required": false
+        },
+        "performance_fee": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Performance fee charged by the investment manager. Null if no performance fee applies.",
+          "required": false
+        },
+        "estimated_underlying_performance_fee": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Estimated performance fees charged within underlying funds held by the portfolio. Null if none.",
+          "required": false
+        },
+        "estimated_gross_transaction_costs": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Estimated costs incurred when buying and selling assets within the portfolio",
+          "required": false
+        },
+        "estimated_buy_spread": {
+          "type": "number | null",
+          "unit": "%",
+          "description": "Estimated cost applied when purchasing units in the portfolio",
+          "required": false
+        },
+        "estimated_sell_spread": {
+          "type": "number | null",
+          "unit": "%",
+          "description": "Estimated cost applied when redeeming units in the portfolio",
+          "required": false
+        }
+      },
+      "flags": {
+        "type": "array",
+        "description": "Populated by doc-ingestion agent \u2014 do not edit manually",
+        "items": {
+          "type": "string",
+          "severity": "string",
+          "field": "string",
+          "note": "string"
+        }
+      }
+    }
+  ]
+}

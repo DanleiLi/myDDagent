@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "description": "Unit holding fee schema for North platform. This is a template only — never write data to this file.",
+    "last_updated": "YYYY-MM-DD",
+    "maintained_by": "North Platform"
+  },
+
+  "holdings": [
+    {
+      "unit_id": {
+        "type": "string",
+        "description": "Unique identifier for the holding — ASX code, APIR code, ISIN, or equivalent. Must be verified against Morningstar or fund registry.",
+        "required": true
+      },
+      "unit_name": {
+        "type": "string",
+        "description": "Full name of the holding exactly as disclosed in the PDS.",
+        "required": true
+      },
+      "type": {
+        "type": "enum",
+        "values": ["ETF", "Managed Fund", "Stock", "LIT", "LIC", "Embedded Portfolio", "Other"],
+        "description": "Asset vehicle type.",
+        "required": true
+      },
+      "fees": {
+        "management_fees_and_costs": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Total management fees and costs as disclosed in the holding's PDS.",
+          "required": true
+        },
+        "performance_fee": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Performance fee as disclosed in the holding's PDS. Null if none applies.",
+          "required": false
+        },
+        "gross_transaction_costs": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Estimated gross transaction costs as disclosed in the holding's PDS.",
+          "required": false
+        },
+        "buy_spread": {
+          "type": "number | null",
+          "unit": "%",
+          "description": "Buy spread applied when purchasing units, as disclosed in the holding's PDS.",
+          "required": false
+        },
+        "sell_spread": {
+          "type": "number | null",
+          "unit": "%",
+          "description": "Sell spread applied when redeeming units, as disclosed in the holding's PDS.",
+          "required": false
+        },
+
+        "Rebate": {
+          "type": "number | null",
+          "unit": "%",
+          "description": "Discount of management fees and costs for funds",
+          "required": false
+        }
+      },
+      "pds_link": {
+        "type": "string | null",
+        "description": "Direct URL to the holding's current PDS document.",
+        "required": false
+      },
+      "flags": {
+        "type": "array",
+        "description": "Populated by doc-ingestion agent — do not edit manually.",
+        "items": {
+          "type": "string",
+          "severity": "string",
+          "field": "string",
+          "note": "string"
+        }
+      }
+    }
+  ]
+}

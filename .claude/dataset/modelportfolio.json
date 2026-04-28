@@ -1,0 +1,901 @@
+{
+  "metadata": {
+    "last_updated": "2026-04-28",
+    "total_portfolios": 2,
+    "version": "1.0",
+    "fee_analysis_status": "completed",
+    "dd_paper_status": "draft"
+  },
+  "portfolios": [
+    {
+      "modelid": "NTH0620",
+      "status": "under_review",
+      "modelname": "Aurora Growth Managed Portfolio",
+      "menu": "Built",
+      "onboarding": {
+        "submitted_at": "2025-11-30",
+        "submitted_by": "Salita Portfolio Services Pty Ltd",
+        "target_live_date": "2026-09-30",
+        "stage": "approval",
+        "dd_paper_file": "output/Draft Due Diligent Paper - Aurora - 20260427.docx",
+        "dd_paper_generated_at": "2026-04-27",
+        "Business case summary": "Minerds Bell is a South Australia based financial advisory firm with over 50 years of history, led by Andrew Harris (Principal) alongside directors Natalie Bordun and Daran Thompson. The firm employs five financial advisers, one practice manager, two paraplanners, and five administrative staff. North is the preferred investment platform. The current operational model averages 15 investments per client, creating implementation risk and administrative burden. The proposal is to form an investment sales partnership to build two Built portfolios (0% growth / 100% growth) to improve efficiency. Expected inflows are $35 million with an overall committed FUA to SMA of $300 million over two years. Dollar committed: $100m existing + $30m new. Profitable in 12 months: Yes. Manager: Salita. SMA Product Offer: Build. RE Fee (exclusive of GST): 0.10%. Scorecard Rating: 65% Pass. Approved by Dipin Arora, Head of Investment Menus & SMA, AMP North."
+      },
+      "profile": {
+        "modelname": "Aurora Growth Managed Portfolio",
+        "series_name": "Aurora",
+        "inception_date": "2026-09-30",
+        "income_instruction": "Reinvested",
+        "srm_label": "6/High",
+        "investment_objective": "Aims to achieve a return in excess of CPI + 3.75% p.a. and outperform the Benchmark over a rolling 10 year period, net of indirect fees."
+      },
+      "benchmark": {
+        "primary": "Morningstar AUS Aggressive Target Allocation NR AUD",
+        "alignment_checked": false,
+        "alignment_note": "Growth 98% / Defensive 2% per SAA. Benchmark alignment to be verified against Morningstar AUS Agg Tgt Alloc NR AUD growth/defensive split."
+      },
+      "asset_allocation": {
+        "growth_pct": 98,
+        "defensive_pct": 2,
+        "classes": [
+          { "name": "Australian Equities", "saa_weight": 36 },
+          { "name": "International Equities", "saa_weight": 45 },
+          { "name": "Domestic Property and Infrastructure", "saa_weight": 3 },
+          { "name": "International Property and Infrastructure", "saa_weight": 14 },
+          { "name": "Alternatives", "saa_weight": 0 },
+          { "name": "Australian Fixed Interest", "saa_weight": 0 },
+          { "name": "International Fixed Interest", "saa_weight": 0 },
+          { "name": "Cash", "saa_weight": 2 }
+        ]
+      },
+      "underlying_holdings": [
+        {
+          "unit_id": "CASHACCT",
+          "unit_name": "Cash Account",
+          "allocation_pct": 2,
+          "asset_class": "Cash",
+          "sub_category": "Cash",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": null,
+          "investment_objective": null,
+          "investment_style": null,
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "BTA0313",
+          "unit_name": "Pendal MidCap Fund",
+          "allocation_pct": 4,
+          "asset_class": "Australian Equity",
+          "sub_category": "Mid Cap",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "S&P/ASX Mid Small TR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Mid cap",
+          "risk_label": null,
+          "target_excess_return_pct": 4.0,
+          "target_tracking_error_pct": 5.5
+        },
+        {
+          "unit_id": "AAP0103",
+          "unit_name": "Ausbil Australian Active Equity Fund",
+          "allocation_pct": 11,
+          "asset_class": "Australian Equity",
+          "sub_category": "Large Cap",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "S&P/ASX 300 TR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Core/Style Neutral",
+          "risk_label": null,
+          "target_excess_return_pct": 3.0,
+          "target_tracking_error_pct": 5.0
+        },
+        {
+          "unit_id": "ETL0060",
+          "unit_name": "Allan Gray Australian Equity Fund",
+          "allocation_pct": 7,
+          "asset_class": "Australian Equity",
+          "sub_category": "Large Cap",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "S&P/ASX 300 TR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Value",
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "WHT3093",
+          "unit_name": "Firetrail Australian Small Companies Fund (Class A)",
+          "allocation_pct": 4,
+          "asset_class": "Australian Equity",
+          "sub_category": "Small Cap",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "S&P/ASX Small Ordinaries TR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Small cap",
+          "risk_label": null,
+          "target_excess_return_pct": 7.0,
+          "target_tracking_error_pct": 8.0
+        },
+        {
+          "unit_id": "VAN0002",
+          "unit_name": "Vanguard Australian Shares Index Fund (W)",
+          "allocation_pct": 10,
+          "asset_class": "Australian Equity",
+          "sub_category": "Index",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "S&P/ASX 300 TR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Index",
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "WHT1465",
+          "unit_name": "Plato Global Alpha Fund",
+          "allocation_pct": 6,
+          "asset_class": "International Equity",
+          "sub_category": "Large Cap",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "MSCI World NR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Long/short",
+          "risk_label": null,
+          "target_excess_return_pct": 4.5,
+          "target_tracking_error_pct": 4.0
+        },
+        {
+          "unit_id": "MAQ0464",
+          "unit_name": "Arrowstreet Global Eqity Fund",
+          "allocation_pct": 8,
+          "asset_class": "International Equity",
+          "sub_category": "Large Cap",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "MSCI AC World ex Australia NR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Quantitative",
+          "risk_label": null,
+          "target_excess_return_pct": 3.0,
+          "target_tracking_error_pct": 5.0
+        },
+        {
+          "unit_id": "GSF0874",
+          "unit_name": "Munro Global Growth Small & Mid Cap Fund - Class A",
+          "allocation_pct": 3,
+          "asset_class": "International Equity",
+          "sub_category": "SMID",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "MSCI AC World SMID NR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Global mid cap",
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "MGE0005",
+          "unit_name": "Magellan Global Opportunities Fund No. 2",
+          "allocation_pct": 5,
+          "asset_class": "International Equity",
+          "sub_category": "Large Cap",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "MSCI World NR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Global growth",
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "ETL0463",
+          "unit_name": "Orbis Global Equity Fund",
+          "allocation_pct": 6,
+          "asset_class": "International Equity",
+          "sub_category": "Large Cap",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "MSCI AC World NR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Global value",
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "FID0010",
+          "unit_name": "Fidelity Asia Fund",
+          "allocation_pct": 7,
+          "asset_class": "International Equity",
+          "sub_category": "Regional",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "MSCI AC Asia ex Japan NR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Global emerging markets",
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": 5.5
+        },
+        {
+          "unit_id": "VAN0003",
+          "unit_name": "Vanguard International Shares Index Fund",
+          "allocation_pct": 10,
+          "asset_class": "International Equity",
+          "sub_category": "Index",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "MSCI World ex Australia NR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Index",
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "VAN0004",
+          "unit_name": "Vanguard Australian Property Securities Index Fund (W)",
+          "allocation_pct": 3,
+          "asset_class": "Domestic Property",
+          "sub_category": "AREIT Index",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "S&P/ASX 300 A-REIT TR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Index",
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "BFL0020",
+          "unit_name": "Quay Global Real Estate Fund (Unhedged) Active ETF",
+          "allocation_pct": 5,
+          "asset_class": "International Property",
+          "sub_category": "GREIT",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "FTSE EPRA/NAREIT Developed NR Index AUD",
+          "investment_objective": null,
+          "investment_style": "GREIT",
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "TGP0034",
+          "unit_name": "Clearbridge RARE Infrastructure Value Fund - Unhedged",
+          "allocation_pct": 9,
+          "asset_class": "International Equity",
+          "sub_category": "International Infrastructure",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "FTSE Global Core Infrastructure 50/50 NR Index AUD",
+          "investment_objective": null,
+          "investment_style": "Infrastructure",
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        }
+      ],
+      "investment_manager": {
+        "name": "Salita Portfolio Services Pty Ltd",
+        "afsl": "CAR 1241713 under Personal Financial Services Ltd",
+        "abn": "39 609 946 616",
+        "afs_verified": false
+      },
+      "documents": {
+        "pds": {
+          "received": false,
+          "filename": null
+        },
+        "fsc_policy": {
+          "received": false,
+          "filename": null
+        },
+        "liquidity_test": {
+          "received": true,
+          "filename": "Minerds Bell MyNorth IM Questionnaire 30112025__SHEET_Page Six - Liquidity Testing.csv"
+        },
+        "back_test": {
+          "received": false,
+          "filename": null
+        },
+        "performance_history": {
+          "received": false,
+          "filename": null
+        }
+      },
+      "fee_analysis": {
+        "status": "completed",
+        "generated_at": "2026-04-27",
+        "analysis_type": "growth",
+        "im_fee_bps": 0.075,
+        "re_fee_bps": 0.08,
+        "total_holdings": 16,
+        "fee_analysis_file": "output/Fee Analysis - Aurora - 20260427.xlsx",
+        "average_fund_mgmt_fee_pct": 0.789,
+        "summary": "Fee analysis completed for 16 underlying holdings. IM fee: 0.075%, RE fee: 0.08%. Average fund management fee: 0.789%."
+      },
+      "flags": [
+        {
+          "type": "BREACH",
+          "severity": "HIGH",
+          "dimension": "compliance",
+          "field": "investment_manager.fee",
+          "note": "Proposed fee paid by NMMT to the investment manager is 0.00075 (75bps), which exceeds the 50bps threshold. Applies to both Aurora Growth and Aurora Defensive portfolios."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "documentation",
+          "field": "documents.back_test",
+          "note": "No back-test provided. Both Aurora Growth and Aurora Defensive are brand new portfolios with no equivalent existing strategy or track record."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "documentation",
+          "field": "documents.performance_history",
+          "note": "No performance history provided. Both portfolios are brand new with no prior track record on any platform."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "documentation",
+          "field": "documents.pds",
+          "note": "PDS not received. No PDS document provided in submission checklist."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "documentation",
+          "field": "documents.fsc_policy",
+          "note": "FSC Document listed as 'Not available' in Part 3 attachment checklist."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "governance",
+          "field": "investment_manager.afsl",
+          "note": "Investment manager holds no direct AFSL. Operates as Corporate Authorised Representative (CAR 1241713) under Personal Financial Services Ltd. Copy of AFSL listed as 'Not available' in attachment checklist."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "profile",
+          "field": "profile.inception_date",
+          "note": "Portfolio inception date is null. Aurora Growth is a brand new portfolio with no prior history."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "profile",
+          "field": "benchmark.alignment_checked",
+          "note": "Benchmark alignment against growth/defensive split has not been verified. Awaiting confirmation."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "profile",
+          "field": "underlying_holdings[*].risk_label",
+          "note": "risk_label is null for all 16 holdings in MP001. Neither the Portfolio Holdings CSV nor the Underlying Funds CSV contains SRM/risk label data per fund. Cannot derive without additional source."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "profile",
+          "field": "underlying_holdings[*].investment_objective",
+          "note": "investment_objective is null for all 16 holdings in MP001. The Underlying Funds CSV (Page Eight) does not contain an investment objective column. No source data available."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[CASHACCT].benchmark",
+          "note": "Cash Account holding has no benchmark, investment_style, target_excess_return_pct, or target_tracking_error_pct. Cash Account is not listed in the Underlying Funds CSV."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[ETL0060].target_excess_return_pct",
+          "note": "Allan Gray Australian Equity Fund has no target excess return recorded in the Underlying Funds CSV. Field left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[ETL0060].target_tracking_error_pct",
+          "note": "Allan Gray Australian Equity Fund has no tracking error recorded in the Underlying Funds CSV. Field left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[GSF0874].target_excess_return_pct",
+          "note": "Munro Global Growth Small & Mid Cap Fund has no target excess return in the Underlying Funds CSV. Field left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[MGE0005].target_excess_return_pct",
+          "note": "Magellan Global Opportunities Fund No. 2 has no target excess return or tracking error in the Underlying Funds CSV. Fields left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[ETL0463].target_excess_return_pct",
+          "note": "Orbis Global Equity Fund has no target excess return or tracking error in the Underlying Funds CSV. Fields left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[FID0010].target_excess_return_pct",
+          "note": "Fidelity Asia Fund has no target excess return in the Underlying Funds CSV. Field left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[VAN0002].target_excess_return_pct",
+          "note": "Vanguard Australian Shares Index Fund (W) has no target excess return or tracking error in the Underlying Funds CSV (index fund). Fields left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[VAN0003].target_excess_return_pct",
+          "note": "Vanguard International Shares Index Fund has no target excess return or tracking error in the Underlying Funds CSV (index fund). Fields left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[VAN0004].target_excess_return_pct",
+          "note": "Vanguard Australian Property Securities Index Fund (W) has no target excess return or tracking error in the Underlying Funds CSV (index fund). Fields left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[BFL0020].target_excess_return_pct",
+          "note": "Quay Global Real Estate Fund has no target excess return or tracking error in the Underlying Funds CSV. Fields left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[TGP0034].target_excess_return_pct",
+          "note": "Clearbridge RARE Infrastructure Value Fund has no target excess return or tracking error in the Underlying Funds CSV. Fields left as null."
+        },
+        {
+          "type": "WARNING",
+          "severity": "amber",
+          "dimension": "onboarding",
+          "field": "dd_outcome.approved_at",
+          "note": "Business case approval document (Minerds Bell Business Case Approval.docx.pdf) does not contain an explicit approval date or timestamp. Approval date left as null; confirm date with Dipin Arora / AMP North records."
+        },
+        {
+          "type": "WARNING",
+          "severity": "amber",
+          "dimension": "compliance",
+          "field": "dd_outcome.notes",
+          "note": "BC-SCORE-CONFLICT: Business case summary page (page 1) states Scorecard Rating 65% Pass; Appendix scorecard tally (page 2) shows Final Score 60%. Both values appear in the same document. Using 65% as the stated overall rating per the approval summary page. Appendix tally discrepancy should be confirmed with AMP North.",
+          "status": "open",
+          "first_seen": "2026-04-28",
+          "last_checked": "2026-04-28"
+        },
+        {
+          "type": "INFO",
+          "severity": "green",
+          "dimension": "onboarding",
+          "field": "onboarding.stage",
+          "note": "Stage advanced from 'intake' to 'approval' based on signed business case approval document. Signed by Dipin Arora, Head of Investment Menus & SMA, AMP North.",
+          "status": "resolved",
+          "first_seen": "2026-04-28",
+          "resolved_at": "2026-04-28"
+        },
+        {
+          "type": "INFO",
+          "severity": "green",
+          "dimension": "compliance",
+          "field": "investment_manager.re_fee",
+          "note": "RE Fee stated in business case approval document as 0.10% (exclusive of GST). This applies to both Aurora Growth (NTH0620) and Aurora Defensive (NTH0619). portfoliofee.json does not currently carry a dedicated RE fee field; update portfoliofee.json when schema supports it.",
+          "status": "open",
+          "first_seen": "2026-04-28",
+          "last_checked": "2026-04-28"
+        }
+      ],
+      "dd_outcome": {
+        "rating": "pass",
+        "approved_by": "Dipin Arora, Head of Investment Menus & SMA, AMP North",
+        "approved_at": null,
+        "board_paper_ref": null,
+        "notes": "Business case approved via Managed Portfolio Business Case Approval document. Scorecard rating 65% (Pass). Appendix scorecard tally shows 60% — see FLAG BC-SCORE-CONFLICT. Board scoring: 75 (green). RE Fee 0.10% (exclusive of GST). Committed FUA: $100m existing + $30m new. Target: $300m SMA FUA over 2 years. Practice: Minerds Bell, SA. Manager: Salita."
+      }
+    },
+    {
+      "modelid": "NTH0619",
+      "status": "under_review",
+      "modelname": "Aurora Defensive Managed Portfolio",
+      "menu": "Built",
+      "onboarding": {
+        "submitted_at": "2025-11-30",
+        "submitted_by": "Salita Portfolio Services Pty Ltd",
+        "target_live_date": "2026-09-30",
+        "stage": "approval",
+        "Business case summary": "Minerds Bell is a South Australia based financial advisory firm with over 50 years of history, led by Andrew Harris (Principal) alongside directors Natalie Bordun and Daran Thompson. The firm employs five financial advisers, one practice manager, two paraplanners, and five administrative staff. North is the preferred investment platform. The current operational model averages 15 investments per client, creating implementation risk and administrative burden. The proposal is to form an investment sales partnership to build two Built portfolios (0% growth / 100% growth) to improve efficiency. Expected inflows are $35 million with an overall committed FUA to SMA of $300 million over two years. Dollar committed: $100m existing + $30m new. Profitable in 12 months: Yes. Manager: Salita. SMA Product Offer: Build. RE Fee (exclusive of GST): 0.10%. Scorecard Rating: 65% Pass. Approved by Dipin Arora, Head of Investment Menus & SMA, AMP North."
+      },
+      "profile": {
+        "modelname": "Aurora Defensive Managed Portfolio",
+        "series_name": "Aurora",
+        "inception_date": "2026-09-30",
+        "income_instruction": "Reinvested",
+        "srm_label": "3/Low to Medium",
+        "investment_objective": "Aims to achieve a return in excess of CPI + 0.5% p.a. and outperform the Benchmark over a rolling 2 year period, net of indirect fees."
+      },
+      "benchmark": {
+        "primary": "Morningstar AUS Conservative Target Allocation NR AUD",
+        "alignment_checked": false,
+        "alignment_note": "Growth 0% / Defensive 100% per SAA. Benchmark alignment to be verified against Morningstar AUS Con Tgt Alloc NR AUD growth/defensive split."
+      },
+      "asset_allocation": {
+        "growth_pct": 0,
+        "defensive_pct": 100,
+        "classes": [
+          { "name": "Australian Equities", "saa_weight": 0 },
+          { "name": "International Equities", "saa_weight": 0 },
+          { "name": "Domestic Property and Infrastructure", "saa_weight": 0 },
+          { "name": "International Property and Infrastructure", "saa_weight": 0 },
+          { "name": "Alternatives", "saa_weight": 0 },
+          { "name": "Australian Fixed Interest", "saa_weight": 59 },
+          { "name": "International Fixed Interest", "saa_weight": 39 },
+          { "name": "Cash", "saa_weight": 2 }
+        ]
+      },
+      "underlying_holdings": [
+        {
+          "unit_id": "CASHACCT",
+          "unit_name": "Cash Account",
+          "allocation_pct": 2,
+          "asset_class": "Cash",
+          "sub_category": "Cash",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": null,
+          "investment_objective": null,
+          "investment_style": null,
+          "risk_label": null,
+          "target_excess_return_pct": null,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "BTA8657",
+          "unit_name": "Pendal Dynamic Income Fund",
+          "allocation_pct": 11,
+          "asset_class": "Australian Fixed Interest",
+          "sub_category": "Unconstrained Bond",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "RBA Cash Rate",
+          "investment_objective": null,
+          "investment_style": "Unconstrained Bond",
+          "risk_label": null,
+          "target_excess_return_pct": 2.5,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "FRT0027",
+          "unit_name": "Franklin Australia Absolute Return Bond Fund - Class A",
+          "allocation_pct": 13,
+          "asset_class": "Australian Fixed Interest",
+          "sub_category": "Unconstrained Bond",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "Bloomberg AusBond Bank Bill Index AUD",
+          "investment_objective": null,
+          "investment_style": "Unconstrained Bond",
+          "risk_label": null,
+          "target_excess_return_pct": 2.5,
+          "target_tracking_error_pct": 3.0
+        },
+        {
+          "unit_id": "UBS0003AU",
+          "unit_name": "UBS Income Solutions Fund",
+          "allocation_pct": 11,
+          "asset_class": "Australian Fixed Interest",
+          "sub_category": "Specialised Income",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "RBA Cash Rate",
+          "investment_objective": null,
+          "investment_style": "Specialised Income",
+          "risk_label": null,
+          "target_excess_return_pct": 2.0,
+          "target_tracking_error_pct": 3.75
+        },
+        {
+          "unit_id": "SCH6618",
+          "unit_name": "Schroder Fixed Income - Client Class",
+          "allocation_pct": 13,
+          "asset_class": "Australian Fixed Interest",
+          "sub_category": "Diversified Bonds",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "Bloomberg AusBond Composite 0+ Year Index AUD",
+          "investment_objective": null,
+          "investment_style": "Diversified Bonds",
+          "risk_label": null,
+          "target_excess_return_pct": 1.25,
+          "target_tracking_error_pct": 1.5
+        },
+        {
+          "unit_id": "ETL0016",
+          "unit_name": "PIMCO Diversified Fixed Interest Fund - Wholesale Class",
+          "allocation_pct": 20,
+          "asset_class": "International Fixed Interest",
+          "sub_category": "Diversified Bonds",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "50% Bloomberg AusBond Composite 0+ Year Index AUD / 50% Bloomberg Global Aggregate TR Index (AUD Hedged)",
+          "investment_objective": null,
+          "investment_style": "Diversified Bonds",
+          "risk_label": null,
+          "target_excess_return_pct": 1.0,
+          "target_tracking_error_pct": 3.0
+        },
+        {
+          "unit_id": "MAQ0274",
+          "unit_name": "Macquarie Dynamic Bond Fund",
+          "allocation_pct": 7,
+          "asset_class": "Australian Fixed Interest",
+          "sub_category": "Global Bonds",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "Bloomberg Global Aggregate TR Index (AUD Hedged)",
+          "investment_objective": null,
+          "investment_style": "Global Bonds",
+          "risk_label": null,
+          "target_excess_return_pct": 1.5,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "CSA0038",
+          "unit_name": "Bentham Global Income Fund",
+          "allocation_pct": 11,
+          "asset_class": "International Fixed Interest",
+          "sub_category": "Specialised High Income",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "50% Bloomberg AusBond Bank Bill Index AUD / 50% Bloomberg AusBond Composite 0+ Year Index AUD",
+          "investment_objective": null,
+          "investment_style": "Specialised High Income",
+          "risk_label": null,
+          "target_excess_return_pct": 2.0,
+          "target_tracking_error_pct": null
+        },
+        {
+          "unit_id": "WPC1583",
+          "unit_name": "Daintree High Income Trust",
+          "allocation_pct": 12,
+          "asset_class": "International Fixed Interest",
+          "sub_category": "Specialised High Income",
+          "internal_scoring_number": null,
+          "internal_scoring_label": null,
+          "benchmark": "RBA Cash Rate",
+          "investment_objective": null,
+          "investment_style": "Specialised High Income",
+          "risk_label": null,
+          "target_excess_return_pct": 3.5,
+          "target_tracking_error_pct": null
+        }
+      ],
+      "investment_manager": {
+        "name": "Salita Portfolio Services Pty Ltd",
+        "afsl": "CAR 1241713 under Personal Financial Services Ltd",
+        "abn": "39 609 946 616",
+        "afs_verified": false
+      },
+      "documents": {
+        "pds": {
+          "received": false,
+          "filename": null
+        },
+        "fsc_policy": {
+          "received": false,
+          "filename": null
+        },
+        "liquidity_test": {
+          "received": true,
+          "filename": "Minerds Bell MyNorth IM Questionnaire 30112025__SHEET_Page Six - Liquidity Testing.csv"
+        },
+        "back_test": {
+          "received": false,
+          "filename": null
+        },
+        "performance_history": {
+          "received": false,
+          "filename": null
+        }
+      },
+      "fee_analysis": {
+        "status": "completed",
+        "generated_at": "2026-04-27",
+        "analysis_type": "growth",
+        "im_fee_bps": 0.075,
+        "re_fee_bps": 0.08,
+        "total_holdings": 16,
+        "fee_analysis_file": "output/Fee Analysis - Aurora - 20260427.xlsx",
+        "average_fund_mgmt_fee_pct": 0.789,
+        "summary": "Fee analysis completed for 16 underlying holdings. IM fee: 0.075%, RE fee: 0.08%. Average fund management fee: 0.789%."
+      },
+      "flags": [
+        {
+          "type": "BREACH",
+          "severity": "HIGH",
+          "dimension": "compliance",
+          "field": "investment_manager.fee",
+          "note": "Proposed fee paid by NMMT to the investment manager is 0.00075 (75bps), which exceeds the 50bps threshold. Applies to both Aurora Growth and Aurora Defensive portfolios."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "documentation",
+          "field": "documents.back_test",
+          "note": "No back-test provided. Both Aurora Growth and Aurora Defensive are brand new portfolios with no equivalent existing strategy or track record."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "documentation",
+          "field": "documents.performance_history",
+          "note": "No performance history provided. Both portfolios are brand new with no prior track record on any platform."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "documentation",
+          "field": "documents.pds",
+          "note": "PDS not received. No PDS document provided in submission checklist."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "documentation",
+          "field": "documents.fsc_policy",
+          "note": "FSC Document listed as 'Not available' in Part 3 attachment checklist."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "governance",
+          "field": "investment_manager.afsl",
+          "note": "Investment manager holds no direct AFSL. Operates as Corporate Authorised Representative (CAR 1241713) under Personal Financial Services Ltd. Copy of AFSL listed as 'Not available' in attachment checklist."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "profile",
+          "field": "profile.inception_date",
+          "note": "Portfolio inception date is null. Aurora Defensive is a brand new portfolio with no prior history."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "profile",
+          "field": "benchmark.alignment_checked",
+          "note": "Benchmark alignment against growth/defensive split has not been verified. Awaiting confirmation."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "profile",
+          "field": "underlying_holdings[*].risk_label",
+          "note": "risk_label is null for all 9 holdings in MP002. Neither the Portfolio Holdings CSV nor the Underlying Funds CSV contains SRM/risk label data per fund. Cannot derive without additional source."
+        },
+        {
+          "type": "MISSING",
+          "severity": "HIGH",
+          "dimension": "profile",
+          "field": "underlying_holdings[*].investment_objective",
+          "note": "investment_objective is null for all 9 holdings in MP002. The Underlying Funds CSV (Page Eight) does not contain an investment objective column. No source data available."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[CASHACCT].benchmark",
+          "note": "Cash Account holding has no benchmark, investment_style, target_excess_return_pct, or target_tracking_error_pct. Cash Account is not listed in the Underlying Funds CSV."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[BTA8657].target_tracking_error_pct",
+          "note": "Pendal Dynamic Income Fund has no tracking error recorded in the Underlying Funds CSV. Field left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[MAQ0274].target_tracking_error_pct",
+          "note": "Macquarie Dynamic Bond Fund has no tracking error recorded in the Underlying Funds CSV. Field left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[CSA0038].target_tracking_error_pct",
+          "note": "Bentham Global Income Fund has no tracking error recorded in the Underlying Funds CSV. Field left as null."
+        },
+        {
+          "type": "MISSING",
+          "severity": "MEDIUM",
+          "dimension": "profile",
+          "field": "underlying_holdings[WPC1583].target_tracking_error_pct",
+          "note": "Daintree High Income Trust has no tracking error recorded in the Underlying Funds CSV. Field left as null."
+        },
+        {
+          "type": "WARNING",
+          "severity": "amber",
+          "dimension": "onboarding",
+          "field": "dd_outcome.approved_at",
+          "note": "Business case approval document (Minerds Bell Business Case Approval.docx.pdf) does not contain an explicit approval date or timestamp. Approval date left as null; confirm date with Dipin Arora / AMP North records."
+        },
+        {
+          "type": "WARNING",
+          "severity": "amber",
+          "dimension": "compliance",
+          "field": "dd_outcome.notes",
+          "note": "BC-SCORE-CONFLICT: Business case summary page (page 1) states Scorecard Rating 65% Pass; Appendix scorecard tally (page 2) shows Final Score 60%. Both values appear in the same document. Using 65% as the stated overall rating per the approval summary page. Appendix tally discrepancy should be confirmed with AMP North.",
+          "status": "open",
+          "first_seen": "2026-04-28",
+          "last_checked": "2026-04-28"
+        },
+        {
+          "type": "INFO",
+          "severity": "green",
+          "dimension": "onboarding",
+          "field": "onboarding.stage",
+          "note": "Stage advanced from 'intake' to 'approval' based on signed business case approval document. Signed by Dipin Arora, Head of Investment Menus & SMA, AMP North.",
+          "status": "resolved",
+          "first_seen": "2026-04-28",
+          "resolved_at": "2026-04-28"
+        },
+        {
+          "type": "INFO",
+          "severity": "green",
+          "dimension": "compliance",
+          "field": "investment_manager.re_fee",
+          "note": "RE Fee stated in business case approval document as 0.10% (exclusive of GST). This applies to both Aurora Growth (NTH0620) and Aurora Defensive (NTH0619). portfoliofee.json does not currently carry a dedicated RE fee field; update portfoliofee.json when schema supports it.",
+          "status": "open",
+          "first_seen": "2026-04-28",
+          "last_checked": "2026-04-28"
+        }
+      ],
+      "dd_outcome": {
+        "rating": "pass",
+        "approved_by": "Dipin Arora, Head of Investment Menus & SMA, AMP North",
+        "approved_at": null,
+        "board_paper_ref": null,
+        "notes": "Business case approved via Managed Portfolio Business Case Approval document. Scorecard rating 65% (Pass). Appendix scorecard tally shows 60% — see FLAG BC-SCORE-CONFLICT. Board scoring: 75 (green). RE Fee 0.10% (exclusive of GST). Committed FUA: $100m existing + $30m new. Target: $300m SMA FUA over 2 years. Practice: Minerds Bell, SA. Manager: Salita."
+      }
+    }
+  ]
+}
