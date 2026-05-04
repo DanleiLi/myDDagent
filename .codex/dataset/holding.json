@@ -1,0 +1,410 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "description": "Data schema for unit holdings in portfolios including unit characteristics and fees. Nothing about IM, practice, and portfolio level information.",
+    "last_updated": "2026-05-04",
+    "maintained_by": "Data guardians"
+  },
+  "holdings": [
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "AAP0103",
+      "allocation_percent": 0.11,
+      "fees": {
+        "management_fees_and_costs": 0.55,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.2
+      },
+      "pds_link": "https://www.ausbil.com.au/our-products/australian-equities/ausbil-australian-active-equity-fund",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "VAN0002",
+      "allocation_percent": 0.1,
+      "fees": {
+        "management_fees_and_costs": 0.07,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.05,
+        "sell_spread": 0.05,
+        "rebate": 0.0
+      },
+      "pds_link": "https://fund-docs.vanguard.com/AU-PDS-Vanguard_Australian_Shares_Index_Fund.pdf",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "VAN0003",
+      "allocation_percent": 0.1,
+      "fees": {
+        "management_fees_and_costs": 0.18,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.05,
+        "sell_spread": 0.05,
+        "rebate": 0.0
+      },
+      "pds_link": "https://fund-docs.vanguard.com/AU-PDS-Vanguard_International_Shares_Index_Fund.pdf",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "TGP0034",
+      "allocation_percent": 0.09,
+      "fees": {
+        "management_fees_and_costs": 0.974,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.15
+      },
+      "pds_link": "https://www.clearbridgeinvestments.com.au/investment-products/clearbridge-rare-infrastructure-value-fund-unhedged-class-a-units/",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "MAQ0464",
+      "allocation_percent": 0.08,
+      "fees": {
+        "management_fees_and_costs": 1.28,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.53
+      },
+      "pds_link": "https://www.macquarie.com/assets/macq/mam/au/pds/arrowstreet-global-equity-fund-pds.pdf",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "ETL0060",
+      "allocation_percent": 0.07,
+      "fees": {
+        "management_fees_and_costs": 0.77,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 20.5,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.0
+      },
+      "pds_link": "https://www.allangray.com.au/au/investor/allan-gray-australia-equity-fund/",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "FID0010",
+      "allocation_percent": 0.07,
+      "fees": {
+        "management_fees_and_costs": 1.15,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.8,
+        "sell_spread": 0.8,
+        "rebate": 0.2
+      },
+      "pds_link": "https://www.fidelity.com.au/funds/fidelity-asia-fund/",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "WHT1465",
+      "allocation_percent": 0.06,
+      "fees": {
+        "management_fees_and_costs": 0.88,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 15.0,
+        "gross_transaction_costs": 0.03,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.1
+      },
+      "pds_link": "https://plato.com.au/global-strategies/plato-global-alpha-fund/",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "ETL0463",
+      "allocation_percent": 0.06,
+      "fees": {
+        "management_fees_and_costs": 1.07,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.2
+      },
+      "pds_link": "https://www.orbis.com/au/investor/funds/orbis-global-equity-fund",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "MGE0005",
+      "allocation_percent": 0.05,
+      "fees": {
+        "management_fees_and_costs": 0.75,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.1
+      },
+      "pds_link": "https://magellaninvestmentpartners.com/funds/magellan-global-opportunities-fund-no-2/",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "BFL0020",
+      "allocation_percent": 0.05,
+      "fees": {
+        "management_fees_and_costs": 0.87,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.05,
+        "buy_spread": 0.2,
+        "sell_spread": 0.2,
+        "rebate": 0.12
+      },
+      "pds_link": "https://www.bennelongfunds.com/download/qgref/product-disclosure-statement",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "BTA0313",
+      "allocation_percent": 0.04,
+      "fees": {
+        "management_fees_and_costs": 0.9,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.15
+      },
+      "pds_link": "https://pendalgroup.com/australian-equities/pendal-midcap-fund",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "WHT3093",
+      "allocation_percent": 0.04,
+      "fees": {
+        "management_fees_and_costs": 0.85,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 20.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.2
+      },
+      "pds_link": "https://firetrail.com/funds/firetrail-australian-small-companies-fund/",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "GSF0874",
+      "allocation_percent": 0.03,
+      "fees": {
+        "management_fees_and_costs": 1.1,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 15.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.0
+      },
+      "pds_link": "https://www.gsfm.com.au/unlisted-funds/munro-global-growth-smid/",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "VAN0004",
+      "allocation_percent": 0.03,
+      "fees": {
+        "management_fees_and_costs": 0.23,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.05,
+        "sell_spread": 0.05,
+        "rebate": 0.0
+      },
+      "pds_link": "https://www.vanguard.com.au/adviser/invest/fund?portId=8105",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "unit_id": "CASHACCT",
+      "allocation_percent": 0.02,
+      "fees": {
+        "management_fees_and_costs": 0.0,
+        "cash_investment_fee": 1.4,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.15
+      },
+      "pds_link": "—",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Defensive Managed Portfolio",
+      "unit_id": "BTA8657",
+      "allocation_percent": 0.11,
+      "fees": {
+        "management_fees_and_costs": 0.35,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.11,
+        "buy_spread": 0.3,
+        "sell_spread": 0.3,
+        "rebate": 0.15
+      },
+      "pds_link": "https://pendalgroup.com/products/pendal-dynamic-income-fund",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Defensive Managed Portfolio",
+      "unit_id": "FRT0027",
+      "allocation_percent": 0.13,
+      "fees": {
+        "management_fees_and_costs": 0.5,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.1
+      },
+      "pds_link": "https://www.franklintempleton.com.au/our-products/funds-prices-performance/managed-funds/products/19414/W/franklin-australian-absolute-return-bond-fund/",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Defensive Managed Portfolio",
+      "unit_id": "UBS0003",
+      "allocation_percent": 0.11,
+      "fees": {
+        "management_fees_and_costs": 0.6,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.15
+      },
+      "pds_link": "https://api.platformplus.com.au/pds/code/UBS0003AU",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Defensive Managed Portfolio",
+      "unit_id": "SCH0028",
+      "allocation_percent": 0.13,
+      "fees": {
+        "management_fees_and_costs": 0.45,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.17
+      },
+      "pds_link": "https://api.schroders.com/document-store/AUF-Schroder-Fixed-Income-Fund-WC-PDS-AUEN.pdf",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Defensive Managed Portfolio",
+      "unit_id": "ETL0016",
+      "allocation_percent": 0.2,
+      "fees": {
+        "management_fees_and_costs": 0.56,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.05
+      },
+      "pds_link": "https://www.pimco.com/au/en/investments/managed-fund/pimco-diversified-fixed-interest-fund/wholesale-aud",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Defensive Managed Portfolio",
+      "unit_id": "MAQ3897",
+      "allocation_percent": 0.07,
+      "fees": {
+        "management_fees_and_costs": 0.614,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.82,
+        "sell_spread": 0.82,
+        "rebate": 0.0
+      },
+      "pds_link": "https://www.macquarie.com/au/en/about/company/macquarie-asset-management/financial-advisor/investments/managed-funds-and-active-etfs/fixed-income/macquarie-dynamic-bond-fund.html",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Defensive Managed Portfolio",
+      "unit_id": "CSA0038",
+      "allocation_percent": 0.11,
+      "fees": {
+        "management_fees_and_costs": 0.77,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.05,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.25
+      },
+      "pds_link": "https://www.fidante.com/au/BENT-PDS-GIF.pdf",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Defensive Managed Portfolio",
+      "unit_id": "WPC1583",
+      "allocation_percent": 0.12,
+      "fees": {
+        "management_fees_and_costs": 0.75,
+        "cash_investment_fee": 0.0,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.15
+      },
+      "pds_link": "https://daintreecapital.com.au/daintree-high-income-trust/",
+      "flags": []
+    },
+    {
+      "portfolio_name": "Lumina Defensive Managed Portfolio",
+      "unit_id": "CASHACCT",
+      "allocation_percent": 0.02,
+      "fees": {
+        "management_fees_and_costs": 0.0,
+        "cash_investment_fee": 1.4,
+        "performance_fees": 0.0,
+        "gross_transaction_costs": 0.0,
+        "buy_spread": 0.0,
+        "sell_spread": 0.0,
+        "rebate": 0.15
+      },
+      "pds_link": "—",
+      "flags": []
+    }
+  ]
+}

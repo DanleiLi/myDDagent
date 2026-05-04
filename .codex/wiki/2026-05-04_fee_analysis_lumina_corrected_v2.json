@@ -1,0 +1,289 @@
+{
+  "source_file": "Minerds Bell Aurora Portfolios - SAA.xlsx",
+  "analysis_date": "2026-05-04",
+  "correction": "All fee values converted to decimal percentages before weighting.",
+  "portfolios": [
+    {
+      "modelid": "NTH0620",
+      "portfolio_name": "Lumina Growth Managed Portfolio",
+      "holdings": [
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "AAP0103",
+          "Percentage": 0.11,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 11,
+          "Rebate": 0.002,
+          "sourceRow": 3
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "VAN0002",
+          "Percentage": 0.1,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 10,
+          "Rebate": 0,
+          "sourceRow": 4
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "VAN0003",
+          "Percentage": 0.1,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 10,
+          "Rebate": 0,
+          "sourceRow": 5
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "TGP0034",
+          "Percentage": 0.09,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 9,
+          "Rebate": 0.0015,
+          "sourceRow": 6
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "MAQ0464",
+          "Percentage": 0.08,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 8,
+          "Rebate": 0.0053,
+          "sourceRow": 7
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "ETL0060",
+          "Percentage": 0.07,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 7.000000000000001,
+          "Rebate": 0,
+          "sourceRow": 8
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "FID0010",
+          "Percentage": 0.07,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 7.000000000000001,
+          "Rebate": 0.002,
+          "sourceRow": 9
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "WHT1465",
+          "Percentage": 0.06,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 6,
+          "Rebate": 0.001,
+          "sourceRow": 10
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "ETL0463",
+          "Percentage": 0.06,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 6,
+          "Rebate": 0.002,
+          "sourceRow": 11
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "MGE0005",
+          "Percentage": 0.05,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 5,
+          "Rebate": 0.001,
+          "sourceRow": 12
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "BFL0020",
+          "Percentage": 0.05,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 5,
+          "Rebate": 0.0012,
+          "sourceRow": 13
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "BTA0313",
+          "Percentage": 0.04,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 4,
+          "Rebate": 0.0015,
+          "sourceRow": 14
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "WHT3093",
+          "Percentage": 0.04,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 4,
+          "Rebate": 0.002,
+          "sourceRow": 15
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "GSF0874",
+          "Percentage": 0.03,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 3,
+          "Rebate": 0,
+          "sourceRow": 16
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "VAN0004",
+          "Percentage": 0.03,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 3,
+          "Rebate": 0,
+          "sourceRow": 17
+        },
+        {
+          "ModelID": "NTH0620",
+          "ModelDescription": "Lumina Growth Managed Portfolio",
+          "UnitID": "CASHACCT",
+          "Percentage": 0.02,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 2,
+          "Rebate": 0.0015,
+          "sourceRow": 18
+        }
+      ],
+      "fees": {
+        "investment_management_fee": 0.0016047500000000003,
+        "estimated_underlying_management_fees_and_costs": 0.0057996,
+        "estimated_managed_portfolio_cash_investment_fee": 0.00028,
+        "performance_fee": 0.0,
+        "estimated_underlying_performance_fee": 0.03585,
+        "estimated_gross_transaction_costs": 4.3e-05,
+        "estimated_underlying_buy_spread": 0.0007750000000000001,
+        "estimated_underlying_sell_spread": 0.0007750000000000001
+      }
+    },
+    {
+      "modelid": "NTH0621",
+      "portfolio_name": "Lumina Defensive Managed Portfolio",
+      "holdings": [
+        {
+          "ModelID": "NTH0621",
+          "ModelDescription": "Lumina Defensive Managed Portfolio",
+          "UnitID": "BTA8657",
+          "Percentage": 0.11,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 11,
+          "Rebate": 0.0015,
+          "sourceRow": 19
+        },
+        {
+          "ModelID": "NTH0621",
+          "ModelDescription": "Lumina Defensive Managed Portfolio",
+          "UnitID": "FRT0027",
+          "Percentage": 0.13,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 13,
+          "Rebate": 0.001,
+          "sourceRow": 20
+        },
+        {
+          "ModelID": "NTH0621",
+          "ModelDescription": "Lumina Defensive Managed Portfolio",
+          "UnitID": "UBS0003",
+          "Percentage": 0.11,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 11,
+          "Rebate": 0.0015,
+          "sourceRow": 21
+        },
+        {
+          "ModelID": "NTH0621",
+          "ModelDescription": "Lumina Defensive Managed Portfolio",
+          "UnitID": "SCH0028",
+          "Percentage": 0.13,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 13,
+          "Rebate": 0.0017,
+          "sourceRow": 22
+        },
+        {
+          "ModelID": "NTH0621",
+          "ModelDescription": "Lumina Defensive Managed Portfolio",
+          "UnitID": "ETL0016",
+          "Percentage": 0.2,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 20,
+          "Rebate": 0.0005,
+          "sourceRow": 23
+        },
+        {
+          "ModelID": "NTH0621",
+          "ModelDescription": "Lumina Defensive Managed Portfolio",
+          "UnitID": "MAQ3897",
+          "Percentage": 0.07,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 7.000000000000001,
+          "Rebate": 0,
+          "sourceRow": 24
+        },
+        {
+          "ModelID": "NTH0621",
+          "ModelDescription": "Lumina Defensive Managed Portfolio",
+          "UnitID": "CSA0038",
+          "Percentage": 0.11,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 11,
+          "Rebate": 0.0025,
+          "sourceRow": 25
+        },
+        {
+          "ModelID": "NTH0621",
+          "ModelDescription": "Lumina Defensive Managed Portfolio",
+          "UnitID": "WPC1583",
+          "Percentage": 0.12,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 12,
+          "Rebate": 0.0015,
+          "sourceRow": 26
+        },
+        {
+          "ModelID": "NTH0621",
+          "ModelDescription": "Lumina Defensive Managed Portfolio",
+          "UnitID": "CASHACCT",
+          "Percentage": 0.02,
+          "TradeType": "NONEXCHG",
+          "Percentage * 100": 2,
+          "Rebate": 0.0015,
+          "sourceRow": 27
+        }
+      ],
+      "fees": {
+        "investment_management_fee": 0.0016047500000000003,
+        "estimated_underlying_management_fees_and_costs": 0.004310800000000001,
+        "estimated_managed_portfolio_cash_investment_fee": 0.00028,
+        "performance_fee": 0.0,
+        "estimated_underlying_performance_fee": 0.0,
+        "estimated_gross_transaction_costs": 0.00017600000000000002,
+        "estimated_underlying_buy_spread": 0.000904,
+        "estimated_underlying_sell_spread": 0.000904
+      }
+    }
+  ]
+}

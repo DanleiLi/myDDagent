@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "description": "Strategic asset allocation of managed portfolios, by unit holding level.",
+    "last_updated": "YYYY-MM-DD",
+    "maintained_by": "Data guardians"
+  },
+  "portfolios": [
+    {
+      "modelid": {
+        "type": "string",
+        "description": "Unique portfolio identifier \u2014 must match modelid in modelportfolio.json",
+        "required": true
+      },
+      "portfolio_name": {
+        "type": "string",
+        "description": "Portfolio display name \u2014 must match modelname in modelportfolio.json",
+        "required": true
+      },
+
+    "holding": {
+      "type": "object",
+      "required": ["unit_id",  "allocation_pct"],
+      "additionalProperties": false,
+      "properties": {
+        "unit_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50,
+          "description": "Fund identifier (APIR code, ASX code, or ticker symbol)"
+            },
+        "allocation_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Allocation percentage in the portfolio"
+          }
+        }
+      }
+    }
+  ]
+}

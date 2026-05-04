@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "description": "Data schema for unit holdings in portfolios including unit characteristics and fees. Nothing about IM, practice, and portfolio level information.",
+    "last_updated": "YYYY-MM-DD",
+    "maintained_by": "Data guardians"
+  },
+
+  "holdings": [
+    {
+      "unit_id": {
+        "type": "string",
+        "description": "Unique identifier for the holding — ASX code, APIR code, or equivalent.",
+        "required": true
+      },
+      "unit_name": {
+        "type": "string",
+        "description": "Full name of the holding exactly as disclosed in the PDS.",
+        "required": true
+      },
+      "type": {
+        "type": "enum",
+        "values": ["ETF", "Managed Fund", "Stock", "LIT", "LIC", "Embedded Portfolio", "Other"],
+        "description": "Asset vehicle type.",
+        "required": true
+      },
+      "asset_class": {
+          "type": "string",
+          "description": "Primary asset class classification"
+        },
+      "sub_category": {
+          "type": "string",
+          "description": "Sub-category or strategy type within the asset class"
+        },
+      "internal_scoring_number": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Internal trustee board scoring number"
+        },
+      "internal_scoring_label": {
+          "type": "string",
+          "enum": ["red", "amber", "green"],
+          "description": "red when internal_scoring_number < 60, amber when >= 60 and < 75, green when >=75"
+        },
+      "benchmark": {
+          "type": "string",
+          "description": "Benchmark index or comparison benchmark"
+        },
+      "investment_objective": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500,
+          "description": "Investment objective of the fund"
+        },
+      "investment_style": {
+          "type": "string",
+          "description": "Investment style (e.g., Passive Index, Active Growth, Active Income)"
+        },
+      "risk_label": {
+          "type": "string",
+          "enum": ["1/Very Low", "2/Low", "3/Low to Medium", "4/Medium", "5/Medium to High", "6/High", "7/Very High"],
+          "description": "Standard Risk Measure label for the fund"
+        },
+      "target_excess_return_pct": {
+          "type": "number",
+          "description": "Target excess return over benchmark (%) - negative for index trackers"
+        },
+      "target_tracking_error_pct": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Target tracking error (%) relative to benchmark"
+        },        
+      "fees": {
+        "management_fees_and_costs": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Total management fees and costs as disclosed in the holding's PDS.",
+          "required": true
+        },
+        "performance_fee": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Performance fee as disclosed in the holding's PDS. Null if none applies.",
+          "required": false
+        },
+        "gross_transaction_costs": {
+          "type": "number | null",
+          "unit": "% p.a.",
+          "description": "Estimated gross transaction costs as disclosed in the holding's PDS.",
+          "required": false
+        },
+        "buy_spread": {
+          "type": "number | null",
+          "unit": "%",
+          "description": "Buy spread applied when purchasing units, as disclosed in the holding's PDS.",
+          "required": false
+        },
+        "sell_spread": {
+          "type": "number | null",
+          "unit": "%",
+          "description": "Sell spread applied when redeeming units, as disclosed in the holding's PDS.",
+          "required": false
+        },
+
+        "Rebate": {
+          "type": "number | null",
+          "unit": "%",
+          "description": "Discount of management fees and costs for funds",
+          "required": false
+        }
+      },
+      "pds_link": {
+        "type": "string | null",
+        "description": "Direct URL to the holding's current PDS document.",
+        "required": false
+      },
+      "flags": {
+        "type": "array",
+        "description": "Populated by doc-ingestion agent — do not edit manually.",
+        "items": {
+          "type": "string",
+          "severity": "string",
+          "field": "string",
+          "note": "string"
+        }
+      }
+    }
+  ]
+}
