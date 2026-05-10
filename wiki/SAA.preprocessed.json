@@ -1,0 +1,199 @@
+{
+  "source_file": "raw_document/SAA.xlsx",
+  "ingestion_timestamp": "2026-05-08T08:17:00.754599",
+  "document_label": "SAA",
+  "file_format": "XLSX",
+  "sheet_name": "Sheet1",
+  "headers": [
+    "Model ID",
+    "Asset class",
+    "Allocation (%)",
+    "Unit ID",
+    "Rebate"
+  ],
+  "row_count": 26,
+  "data": [
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "Australian Fixed Interest",
+      "Allocation (%)": 14,
+      "Unit ID": "PER1058AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "Australian Fixed Interest",
+      "Allocation (%)": 12,
+      "Unit ID": "JBW1553AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "International Fixed Interest",
+      "Allocation (%)": 11,
+      "Unit ID": "WPC1963AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "International Fixed Interest",
+      "Allocation (%)": 11,
+      "Unit ID": "ETL0112AU",
+      "Rebate": 0.001
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "International Equities",
+      "Allocation (%)": 10,
+      "Unit ID": "JBW0103AU",
+      "Rebate": 0.003
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "International Equities",
+      "Allocation (%)": 8,
+      "Unit ID": "MAQ1878AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "International Equities",
+      "Allocation (%)": 6,
+      "Unit ID": "WHT5525AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "Australian Fixed Interest",
+      "Allocation (%)": 6,
+      "Unit ID": "MXT",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "Australian Equities",
+      "Allocation (%)": 4,
+      "Unit ID": "AMP9555AU",
+      "Rebate": 0.0005
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "International Equities",
+      "Allocation (%)": 4,
+      "Unit ID": "BTA0419AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "International Equities",
+      "Allocation (%)": 4,
+      "Unit ID": "ETL1864AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "International Equities",
+      "Allocation (%)": 5,
+      "Unit ID": "MAQ0432AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "Australian Equities",
+      "Allocation (%)": 3,
+      "Unit ID": "GHLD",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0001",
+      "Asset class": "Cash",
+      "Allocation (%)": 2,
+      "Unit ID": "",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "Australian Fixed Interest",
+      "Allocation (%)": 10,
+      "Unit ID": "PER1058AU",
+      "Rebate": 0.003
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "International Fixed Interest",
+      "Allocation (%)": 15,
+      "Unit ID": "WPC1963AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "International Fixed Interest",
+      "Allocation (%)": 15,
+      "Unit ID": "ETL0112AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "International Equities",
+      "Allocation (%)": 9,
+      "Unit ID": "BTA0419AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "Australian Equities",
+      "Allocation (%)": 6,
+      "Unit ID": "PDL0422AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "International Equities",
+      "Allocation (%)": 15,
+      "Unit ID": "IPA3419AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "Australian Equities",
+      "Allocation (%)": 12,
+      "Unit ID": "UBS0004AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "Australian Equities",
+      "Allocation (%)": 3,
+      "Unit ID": "GHLD",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "International Equities",
+      "Allocation (%)": 3,
+      "Unit ID": "WHT6513AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "Australian Equities",
+      "Allocation (%)": 8,
+      "Unit ID": "WHT0066AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "Property",
+      "Allocation (%)": 2,
+      "Unit ID": "IOF0081AU",
+      "Rebate": 0
+    },
+    {
+      "Model ID": "NTH0002",
+      "Asset class": "Cash",
+      "Allocation (%)": 2,
+      "Unit ID": "CASH",
+      "Rebate": 0
+    }
+  ]
+}

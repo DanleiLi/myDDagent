@@ -1,4 +1,10 @@
 {
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  },
   "hooks": {
     "PreToolUse": [
       {
@@ -6,7 +12,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq 'if (.tool_input.file_path // \"\") | contains(\".claude/schema\") or contains(\".claude\\\\schema\") then {continue: false, stopReason: \"Cannot write to .claude/schema folder - this folder is protected per CLAUDE.md\"} else {continue: true} end'"
+            "command": "jq 'if (.tool_input.file_path // \"\") | test(\"(^|/)schema/\") then {continue: false, stopReason: \"Cannot write to schema/ folder - this folder is protected per CLAUDE.md\"} else {continue: true} end'"
           }
         ]
       }

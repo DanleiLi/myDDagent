@@ -1,0 +1,239 @@
+{
+  "source_file": "raw_document/SAA.xlsx",
+  "ingestion_timestamp": "2026-05-08T08:17:00.754599",
+  "cleanup_timestamp": "2026-05-08T08:17:11.125761",
+  "document_label": "SAA",
+  "file_format": "XLSX",
+  "document_type": "Strategic Asset Allocation",
+  "description": "Portfolio models with strategic asset class allocations and underlying fund holdings with rebate rates",
+  "models_summary": {
+    "NTH0001": {
+      "model_id": "NTH0001",
+      "asset_class_totals": {
+        "Australian Fixed Interest": 32,
+        "International Fixed Interest": 22,
+        "International Equities": 37,
+        "Australian Equities": 7,
+        "Cash": 2
+      },
+      "total_allocation_pct": 100,
+      "holdings_count": 13
+    },
+    "NTH0002": {
+      "model_id": "NTH0002",
+      "asset_class_totals": {
+        "Australian Fixed Interest": 10,
+        "International Fixed Interest": 30,
+        "International Equities": 27,
+        "Australian Equities": 29,
+        "Property": 2,
+        "Cash": 2
+      },
+      "total_allocation_pct": 100,
+      "holdings_count": 12
+    }
+  },
+  "models_detailed": {
+    "NTH0001": {
+      "model_id": "NTH0001",
+      "asset_class_breakdown": {
+        "Australian Equities": {
+          "total_allocation_pct": 7,
+          "units": [
+            {
+              "unit_id": "AMP9555AU",
+              "allocation_pct": 4,
+              "rebate": 0.0005
+            },
+            {
+              "unit_id": "GHLD",
+              "allocation_pct": 3,
+              "rebate": null
+            }
+          ]
+        },
+        "Australian Fixed Interest": {
+          "total_allocation_pct": 32,
+          "units": [
+            {
+              "unit_id": "PER1058AU",
+              "allocation_pct": 14,
+              "rebate": null
+            },
+            {
+              "unit_id": "JBW1553AU",
+              "allocation_pct": 12,
+              "rebate": null
+            },
+            {
+              "unit_id": "MXT",
+              "allocation_pct": 6,
+              "rebate": null
+            }
+          ]
+        },
+        "Cash": {
+          "total_allocation_pct": 2,
+          "units": []
+        },
+        "International Equities": {
+          "total_allocation_pct": 37,
+          "units": [
+            {
+              "unit_id": "JBW0103AU",
+              "allocation_pct": 10,
+              "rebate": 0.003
+            },
+            {
+              "unit_id": "MAQ1878AU",
+              "allocation_pct": 8,
+              "rebate": null
+            },
+            {
+              "unit_id": "WHT5525AU",
+              "allocation_pct": 6,
+              "rebate": null
+            },
+            {
+              "unit_id": "BTA0419AU",
+              "allocation_pct": 4,
+              "rebate": null
+            },
+            {
+              "unit_id": "ETL1864AU",
+              "allocation_pct": 4,
+              "rebate": null
+            },
+            {
+              "unit_id": "MAQ0432AU",
+              "allocation_pct": 5,
+              "rebate": null
+            }
+          ]
+        },
+        "International Fixed Interest": {
+          "total_allocation_pct": 22,
+          "units": [
+            {
+              "unit_id": "WPC1963AU",
+              "allocation_pct": 11,
+              "rebate": null
+            },
+            {
+              "unit_id": "ETL0112AU",
+              "allocation_pct": 11,
+              "rebate": 0.001
+            }
+          ]
+        }
+      }
+    },
+    "NTH0002": {
+      "model_id": "NTH0002",
+      "asset_class_breakdown": {
+        "Australian Equities": {
+          "total_allocation_pct": 29,
+          "units": [
+            {
+              "unit_id": "PDL0422AU",
+              "allocation_pct": 6,
+              "rebate": null
+            },
+            {
+              "unit_id": "UBS0004AU",
+              "allocation_pct": 12,
+              "rebate": null
+            },
+            {
+              "unit_id": "GHLD",
+              "allocation_pct": 3,
+              "rebate": null
+            },
+            {
+              "unit_id": "WHT0066AU",
+              "allocation_pct": 8,
+              "rebate": null
+            }
+          ]
+        },
+        "Australian Fixed Interest": {
+          "total_allocation_pct": 10,
+          "units": [
+            {
+              "unit_id": "PER1058AU",
+              "allocation_pct": 10,
+              "rebate": 0.003
+            }
+          ]
+        },
+        "Cash": {
+          "total_allocation_pct": 2,
+          "units": [
+            {
+              "unit_id": "CASH",
+              "allocation_pct": 2,
+              "rebate": null
+            }
+          ]
+        },
+        "International Equities": {
+          "total_allocation_pct": 27,
+          "units": [
+            {
+              "unit_id": "BTA0419AU",
+              "allocation_pct": 9,
+              "rebate": null
+            },
+            {
+              "unit_id": "IPA3419AU",
+              "allocation_pct": 15,
+              "rebate": null
+            },
+            {
+              "unit_id": "WHT6513AU",
+              "allocation_pct": 3,
+              "rebate": null
+            }
+          ]
+        },
+        "International Fixed Interest": {
+          "total_allocation_pct": 30,
+          "units": [
+            {
+              "unit_id": "WPC1963AU",
+              "allocation_pct": 15,
+              "rebate": null
+            },
+            {
+              "unit_id": "ETL0112AU",
+              "allocation_pct": 15,
+              "rebate": null
+            }
+          ]
+        },
+        "Property": {
+          "total_allocation_pct": 2,
+          "units": [
+            {
+              "unit_id": "IOF0081AU",
+              "allocation_pct": 2,
+              "rebate": null
+            }
+          ]
+        }
+      }
+    }
+  },
+  "data_quality_notes": {
+    "issues": [
+      "WPC1963AU appears in both NTH0001 and NTH0002 (verify if intentional)",
+      "Some holdings lack Unit ID (e.g., Cash allocation in NTH0001 row 15)",
+      "Rebate field has empty values for some units - clarify if null or actually zero"
+    ],
+    "missing_information": [
+      "Fund names/descriptions for Unit IDs not provided",
+      "No manager information for underlying funds",
+      "No effective date or version control metadata"
+    ]
+  }
+}

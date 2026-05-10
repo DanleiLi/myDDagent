@@ -1,6 +1,0 @@
-- route work to the right subagent as early as possible.
-- NEVER synthesize, assume, fabricate, or make up information
-- All converted documents are stored in `.Codex/wiki/` (JSON + markdown) for audit trail and LLM readability
-- Original PDFs and Excel files remain in `.Codex/raw_document/` (never deleted)
-- Output documents are versioned by date in `.Codex/output/`
-- The database is the source of truth for portfolio status and metadata

@@ -1,0 +1,44 @@
+[    5481ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=metrics+master+income+trust+ordinary+units+fully+paid&rlz=1C1ONGR_en-GBAU964AU964&oq=Metrics+Master+Income+Trust+Ordinary+Units+Fully+Paid&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyDQgBEAAYhgMYgAQYigUyCggCEAAYogQYiQUyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBwgFEAAY7wXSAQgyNTMxajBqN6gCB7ACAfEFzPVrSSoK5nvxBcz1a0kqCuZ7&sourceid=chrome&ie=UTF-8:21
+[    5481ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=metrics+master+income+trust+ordinary+units+fully+paid&rlz=1C1ONGR_en-GBAU964AU964&oq=Metrics+Master+Income+Trust+Ordinary+Units+Fully+Paid&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyDQgBEAAYhgMYgAQYigUyCggCEAAYogQYiQUyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBwgFEAAY7wXSAQgyNTMxajBqN6gCB7ACAfEFzPVrSSoK5nvxBcz1a0kqCuZ7&sourceid=chrome&ie=UTF-8:21
+[    6441ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=metrics+master+income+trust+ordinary+units+fully+paid&rlz=1C1ONGR_en-GBAU964AU964&oq=Metrics+Master+Income+Trust+Ordinary+Units+Fully+Paid&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyDQgBEAAYhgMYgAQYigUyCggCEAAYogQYiQUyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBwgFEAAY7wXSAQgyNTMxajBqN6gCB7ACAfEFzPVrSSoK5nvxBcz1a0kqCuZ7&sourceid=chrome&ie=UTF-8:21
+[    6442ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=metrics+master+income+trust+ordinary+units+fully+paid&rlz=1C1ONGR_en-GBAU964AU964&oq=Metrics+Master+Income+Trust+Ordinary+Units+Fully+Paid&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyDQgBEAAYhgMYgAQYigUyCggCEAAYogQYiQUyCggDEAAYgAQYogQyCggEEAAYgAQYogQyBwgFEAAY7wXSAQgyNTMxajBqN6gCB7ACAfEFzPVrSSoK5nvxBcz1a0kqCuZ7&sourceid=chrome&ie=UTF-8:21
+[    7854ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://encrypted-tbn0.gstatic.com/faviconV2?url=https://announcements.asx.com.au&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL:0
+[   11377ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=metrics+master+income+trust+ordinary+units+fully+paid+pds&sca_esv=8639ec9b40ab010a&rlz=1C1ONGR_en-GBAU964AU964&ei=qIT8abyDJP7k2roPt7PRsAI&biw=1037&bih=751&ved=0ahUKEwi899X5laeUAxV-slYBHbdZFCYQ4dUDCBE&uact=5&oq=metrics+master+income+trust+ordinary+units+fully+paid+pds&gs_lp=Egxnd3Mtd2l6LXNlcnAiOW1ldHJpY3MgbWFzdGVyIGluY29tZSB0cnVzdCBvcmRpbmFyeSB1bml0cyBmdWxseSBwYWlkIHBkczIFECEYoAEyBRAhGKABMgUQIRifBUjbBVAAWOoEcAB4AZABAJgBugGgAfADqgEDMC4zuAEDyAEA-AEBmAIDoAKJBMICBhAAGBYYHsICCxAAGIAEGIoFGIYDwgIIEAAYiQUYogTCAggQABiABBiiBJgDAJIHAzAuM6AHuRKyBwMwLjO4B4kEwgcHMC4xLjEuMcgHEIAIAQ&sclient=gws-wiz-serp:21
+[   11378ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=metrics+master+income+trust+ordinary+units+fully+paid+pds&sca_esv=8639ec9b40ab010a&rlz=1C1ONGR_en-GBAU964AU964&ei=qIT8abyDJP7k2roPt7PRsAI&biw=1037&bih=751&ved=0ahUKEwi899X5laeUAxV-slYBHbdZFCYQ4dUDCBE&uact=5&oq=metrics+master+income+trust+ordinary+units+fully+paid+pds&gs_lp=Egxnd3Mtd2l6LXNlcnAiOW1ldHJpY3MgbWFzdGVyIGluY29tZSB0cnVzdCBvcmRpbmFyeSB1bml0cyBmdWxseSBwYWlkIHBkczIFECEYoAEyBRAhGKABMgUQIRifBUjbBVAAWOoEcAB4AZABAJgBugGgAfADqgEDMC4zuAEDyAEA-AEBmAIDoAKJBMICBhAAGBYYHsICCxAAGIAEGIoFGIYDwgIIEAAYiQUYogTCAggQABiABBiiBJgDAJIHAzAuM6AHuRKyBwMwLjO4B4kEwgcHMC4xLjEuMcgHEIAIAQ&sclient=gws-wiz-serp:21
+[   12273ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=metrics+master+income+trust+ordinary+units+fully+paid+pds&sca_esv=8639ec9b40ab010a&rlz=1C1ONGR_en-GBAU964AU964&ei=qIT8abyDJP7k2roPt7PRsAI&biw=1037&bih=751&ved=0ahUKEwi899X5laeUAxV-slYBHbdZFCYQ4dUDCBE&uact=5&oq=metrics+master+income+trust+ordinary+units+fully+paid+pds&gs_lp=Egxnd3Mtd2l6LXNlcnAiOW1ldHJpY3MgbWFzdGVyIGluY29tZSB0cnVzdCBvcmRpbmFyeSB1bml0cyBmdWxseSBwYWlkIHBkczIFECEYoAEyBRAhGKABMgUQIRifBUjbBVAAWOoEcAB4AZABAJgBugGgAfADqgEDMC4zuAEDyAEA-AEBmAIDoAKJBMICBhAAGBYYHsICCxAAGIAEGIoFGIYDwgIIEAAYiQUYogTCAggQABiABBiiBJgDAJIHAzAuM6AHuRKyBwMwLjO4B4kEwgcHMC4xLjEuMcgHEIAIAQ&sclient=gws-wiz-serp:21
+[   12273ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=metrics+master+income+trust+ordinary+units+fully+paid+pds&sca_esv=8639ec9b40ab010a&rlz=1C1ONGR_en-GBAU964AU964&ei=qIT8abyDJP7k2roPt7PRsAI&biw=1037&bih=751&ved=0ahUKEwi899X5laeUAxV-slYBHbdZFCYQ4dUDCBE&uact=5&oq=metrics+master+income+trust+ordinary+units+fully+paid+pds&gs_lp=Egxnd3Mtd2l6LXNlcnAiOW1ldHJpY3MgbWFzdGVyIGluY29tZSB0cnVzdCBvcmRpbmFyeSB1bml0cyBmdWxseSBwYWlkIHBkczIFECEYoAEyBRAhGKABMgUQIRifBUjbBVAAWOoEcAB4AZABAJgBugGgAfADqgEDMC4zuAEDyAEA-AEBmAIDoAKJBMICBhAAGBYYHsICCxAAGIAEGIoFGIYDwgIIEAAYiQUYogTCAggQABiABBiiBJgDAJIHAzAuM6AHuRKyBwMwLjO4B4kEwgcHMC4xLjEuMcgHEIAIAQ&sclient=gws-wiz-serp:21
+[   20273ms] missing ) after argument list
+[   20715ms] [LOG] ✅ Finsweet CMS Filter loaded @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   20814ms] [LOG] Items filtered: 1 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   20993ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21099ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21101ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21103ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21167ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21227ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21722ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21725ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21727ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21730ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21804ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21811ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21812ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21813ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21816ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21819ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21822ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21824ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21825ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21827ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21829ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21831ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21832ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21834ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21835ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21837ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21920ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   21996ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   22069ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   22137ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   22198ms] [LOG] Items filtered: 5 @ https://www.metrics.com.au/listed-funds/metrics-master-income-trust:954
+[   32968ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.prod.website-files.com/favicon.ico:0
