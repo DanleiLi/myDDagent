@@ -11,6 +11,12 @@ import os
 from pathlib import Path
 from typing import Union, Dict, List, Any
 
+# Resolve output directory: walk up from scripts/ to project root, then to .claude/wiki/
+_script_dir = Path(__file__).resolve().parent
+_skills_dir = _script_dir.parent.parent
+_claude_dir = _skills_dir.parent
+OUTPUT_DIR = _claude_dir / "wiki"
+
 def convert_file(input_path: str, output_format: str = None) -> str:
     """
     Convert a file from one format to another.
@@ -51,8 +57,8 @@ def convert_file(input_path: str, output_format: str = None) -> str:
 def convert_to_markdown(input_path: Path) -> str:
     """Convert document to markdown."""
     from converters.document_converter import DocumentConverter
-    
-    converter = DocumentConverter()
+
+    converter = DocumentConverter(output_dir=OUTPUT_DIR)
     output_path = converter.convert(input_path)
     return str(output_path)
 
@@ -60,8 +66,8 @@ def convert_to_markdown(input_path: Path) -> str:
 def convert_to_json(input_path: Path) -> str:
     """Convert spreadsheet to JSON."""
     from converters.spreadsheet_converter import SpreadsheetConverter
-    
-    converter = SpreadsheetConverter()
+
+    converter = SpreadsheetConverter(output_dir=OUTPUT_DIR)
     output_path = converter.convert(input_path)
     return str(output_path)
 

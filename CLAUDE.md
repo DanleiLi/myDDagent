@@ -18,3 +18,8 @@ You must update CLAUDE.md when `.claude\wiki` is edited. Your update contains:
 - log work to log.md. append-only record of what happened and when — ingests, queries, lint passes.
 
 # Knowledge Index
+
+## IMQuestionnaire (Converted JSON)
+**Files**: `.claude/wiki/IMQuestionnaire_*.json` (7 sheets)
+**Keywords**: portfolio onboarding, questionnaire, investment manager, fund details, scenario testing
+**Summary**: Portfolio Onboarding Questionnaire from BlackRock Australia (ABN 13 006 165 975) containing 7 sheets covering investment manager details, direct equity investments, investment team information, liquidity testing scenarios, complete portfolio holdings summary, scenario testing conditions, and underlying funds information. Total 273 cleaned records across all sheets with quality score 1.0 or higher.

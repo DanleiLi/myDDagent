@@ -29,9 +29,9 @@ except ImportError:
 
 class DocumentConverter:
     """Converts various document formats to Markdown."""
-    
-    def __init__(self):
-        self.output_dir = Path('/mnt/user-data/outputs')
+
+    def __init__(self, output_dir: Path = None):
+        self.output_dir = Path(output_dir) if output_dir else Path('/mnt/user-data/outputs')
         self.output_dir.mkdir(parents=True, exist_ok=True)
     
     def convert(self, input_path: Path) -> Path:

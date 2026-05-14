@@ -8,7 +8,7 @@ import csv
 from pathlib import Path
 from typing import List, Dict, Any
 from io import StringIO
-from data_cleaner import DataCleaner
+from converters.data_cleaner import DataCleaner
 
 try:
     import pandas as pd
@@ -24,8 +24,8 @@ except ImportError:
 class SpreadsheetConverter:
     """Converts spreadsheets to JSON format."""
 
-    def __init__(self):
-        self.output_dir = Path('/mnt/user-data/outputs')
+    def __init__(self, output_dir: Path = None):
+        self.output_dir = Path(output_dir) if output_dir else Path('/mnt/user-data/outputs')
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.cleaner = DataCleaner()
     
