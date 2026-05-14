@@ -1,13 +1,21 @@
-# Dossier - Activity Log
+# Activity Log
 
-| Date Time | Action | Details |
-|-----------|--------|---------|
-| 2026-05-10 | Update | Rewrote `README.md`: fixed broken image reference (now embeds `image/agentworflow.png` via markdown), added problem framing, agent design rationale, real-world challenges table, and outcomes for AI Strategist interview context. |
-| 2026-05-10 | Update | Edited `README.md` to remove em-dashes per voice preference. |
-| 2026-05-10 | Update | Renamed project to "Dossier" in `README.md` title and lead. |
-| 2026-05-10 | Update | Added "Dossier" project name to `CLAUDE.md` and `log.md` headers. |
-| 2026-05-14 | Ingestion | Extracted and processed `IMQuestionnaire.xlsx`: created `IMQuestionnaire.preprocessed.json` (100KB, 8 sheets, 132 total records), `IMQuestionnaire.clean.json` (cleaned metadata), and `IMQuestionnaire.preprocessed.md` (readable reference). Updated `CLAUDE.md` knowledge index. |
-| 2026-05-14 | Ingestion | Extracted and processed `IM info.csv`: created `IMInfo.preprocessed.json`, `IMInfo.clean.json`, and `IMInfo.clean.md`. Portfolio Onboarding Questionnaire with BlackRock Australia investment manager details (ABN 13 006 165 975, AFSL 230523), portfolio manager Emily Hartley bio, 5 attached documents, zero corporate actions interest. Updated `CLAUDE.md` knowledge index. |
-| 2026-05-14 | Cleanup | Completed cleanup of `IMQuestionnaire.xlsx`: created `IMQuestionnaire.clean.md` with consolidated sheet summaries, 8 sheets, 104 data rows. Updated Knowledge Index entry in `CLAUDE.md` with clean file location and refined summary. |
-| 2026-05-14 | Ingestion | Extracted and processed `raw_document/profiles.csv`: created `Profiles.preprocessed.json`, `Profiles.preprocessed.md` (readable reference), and `Profiles.clean.json`. Document contains 6 managed portfolio variants (Conservative, Moderate, Balanced, Growth, Aggressive, All Growth) with variant-specific risk bands, investment horizons, and strategic asset allocation ranges. Updated `CLAUDE.md` Knowledge Index with Profiles entry. |
-| 2026-05-14 | Ingestion | Extracted and processed `raw_document/holdings.csv`: created `PortfolioHoldings.md` (12KB, 5 portfolio models with 84 total holdings), `holdings_structured.csv` (11KB, programmatic access format). Five portfolios (Conservative 18 holdings, Moderate 19, Balanced 19, Growth 16, All Growth 12) with SAA allocations across 7 asset classes. Equity allocation ranges 30.9%-91.9%, fixed interest 0%-62.1%. Updated `CLAUDE.md` Knowledge Index with both file entries. |
+## 2026-05-14: Fixed file-converter skill for multi-sheet Excel handling
+
+**Activity:** Edited file-converter skill to generate individual JSON files per sheet instead of combining all sheets into one file.
+
+**Changes:**
+- Modified `spreadsheet_converter.py`: Updated `_convert_excel()`, `_convert_excel_pandas()`, and `_convert_excel_openpyxl()` methods to create separate JSON file for each sheet
+- File naming format: `filename_SheetName.json`
+- Updated SKILL.md documentation to reflect new behavior
+
+**Files Updated:**
+- Location: `.claude/skills/file-converter/scripts/converters/spreadsheet_converter.py`
+- Location: `.claude/skills/file-converter/SKILL.md`
+
+**Test Result:**
+- Successfully converted IMQuestionnaire.xlsx to 7 individual JSON files
+- All 155 total records preserved across sheets
+- Data integrity verified: complete rows and columns preserved in each output file
+
+**Keywords:** skill-editing, Excel conversion, multi-sheet handling, JSON output, data integrity
