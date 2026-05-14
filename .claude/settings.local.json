@@ -1,6 +1,8 @@
 {
   "permissions": {
     "allow": [
+      "Bash(find /c/Users/Sara/Downloads/AIagentproject -type f -exec file {} \\\\;)",
+      "ls -la /c/Users/Sara/Downloads/AIagentproject/raw_document/       ",
       "WebFetch(domain:www.abs.gov.au)",
       "Bash(python generate_cpi_report.py)",
       "WebSearch",
