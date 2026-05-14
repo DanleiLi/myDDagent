@@ -1,0 +1,210 @@
+{
+  "title": "Portfolio Specifications",
+  "portfolios": [
+    {
+      "name": "iShares Enhanced Strategic Conservative",
+      "portfolio_number": 1,
+      "specifications": {
+        "minimum_options": 12,
+        "maximum_options": 28,
+        "min_single_asset_position": 0.0075,
+        "max_single_asset_position": 0.18,
+        "min_new_asset_position": 0.01,
+        "target_volatility": "8.5% to 10.5% annualised",
+        "income_treatment": "Reinvested",
+        "minimum_cash_buffer": 0.015,
+        "trading_preference": "Active",
+        "expected_turnover_pa": "25% to 40%",
+        "active_stock_limits": "+/- 8%",
+        "active_sector_limits": "+/- 12%",
+        "tracking_error_target": "2.0% to 3.5%",
+        "benchmark_outperformance": "CPI + 3.0% p.a. over rolling 7 years"
+      },
+      "benchmark": "Morningstar Australia Conservative Target Allocation NR AUD",
+      "asset_class": "Diversified",
+      "minimum_investment_horizon": "3 years",
+      "portfolio_income": "Default - Reinvest",
+      "risk_band": "3/Low to medium",
+      "investment_objective": "To match or outperform the benchmark over a rolling five-year period",
+      "investment_manager_fee": 0.0045,
+      "strategic_asset_allocation": {
+        "growth": {
+          "australian_equities": {"min": 0, "max": 0.4},
+          "international_equities": {"min": 0, "max": 0.45},
+          "domestic_property_infrastructure": {"min": 0, "max": 0.12},
+          "international_property_infrastructure": {"min": 0, "max": 0.1},
+          "alternatives": {"min": 0, "max": 0.1}
+        },
+        "defensive": {
+          "australian_fixed_interest": {"min": 0.1, "max": 0.6},
+          "international_fixed_interest": {"min": 0.08, "max": 0.6},
+          "cash": {"min": 0.01, "max": 0.4}
+        }
+      }
+    },
+    {
+      "name": "iShares Enhanced Balanced",
+      "portfolio_number": 2,
+      "specifications": {
+        "minimum_options": 12,
+        "maximum_options": 28,
+        "min_single_asset_position": 0.0075,
+        "max_single_asset_position": 0.18,
+        "min_new_asset_position": 0.01,
+        "target_volatility": "8.5% to 10.5% annualised",
+        "income_treatment": "Reinvested",
+        "minimum_cash_buffer": 0.015,
+        "trading_preference": "Active",
+        "expected_turnover_pa": "25% to 40%",
+        "active_stock_limits": "+/- 8%",
+        "active_sector_limits": "+/- 12%",
+        "tracking_error_target": "2.0% to 3.5%",
+        "benchmark_outperformance": "CPI + 3.0% p.a. over rolling 7 years"
+      },
+      "benchmark": "Morningstar Australia Balanced Target Allocation NR AUD",
+      "asset_class": "Diversified",
+      "minimum_investment_horizon": "5 years",
+      "portfolio_income": "Default - Reinvest",
+      "risk_band": "4/Medium",
+      "investment_objective": "To match or outperform the benchmark over a rolling five-year period",
+      "investment_manager_fee": 0.0045,
+      "strategic_asset_allocation": {
+        "growth": {
+          "australian_equities": {"min": 0.3, "max": 0.45},
+          "international_equities": {"min": 0.35, "max": 0.55},
+          "domestic_property_infrastructure": {"min": 0, "max": 0.1},
+          "international_property_infrastructure": {"min": 0, "max": 0.08},
+          "alternatives": {"min": 0, "max": 0.1}
+        },
+        "defensive": {
+          "australian_fixed_interest": {"min": 0, "max": 0.4},
+          "international_fixed_interest": {"min": 0, "max": 0.3},
+          "cash": {"min": 0.01, "max": 0.2}
+        }
+      }
+    },
+    {
+      "name": "iShares Enhanced Moderate",
+      "portfolio_number": 3,
+      "specifications": {
+        "minimum_options": 12,
+        "maximum_options": 28,
+        "min_single_asset_position": 0.0075,
+        "max_single_asset_position": 0.18,
+        "min_new_asset_position": 0.01,
+        "target_volatility": "8.5% to 10.5% annualised",
+        "income_treatment": "Reinvested",
+        "minimum_cash_buffer": 0.015,
+        "trading_preference": "Active",
+        "expected_turnover_pa": "25% to 40%",
+        "active_stock_limits": "+/- 8%",
+        "active_sector_limits": "+/- 12%",
+        "tracking_error_target": "2.0% to 3.5%",
+        "benchmark_outperformance": "CPI + 3.0% p.a. over rolling 7 years"
+      },
+      "benchmark": "Morningstar Australia Moderate Target Allocation NR AUD",
+      "asset_class": "Diversified",
+      "minimum_investment_horizon": "5 years",
+      "portfolio_income": "Default - Reinvest",
+      "risk_band": "4/Medium",
+      "investment_objective": "To match or outperform the benchmark over a rolling five-year period",
+      "investment_manager_fee": 0.0045,
+      "strategic_asset_allocation": {
+        "growth": {
+          "australian_equities": {"min": 0.3, "max": 0.7},
+          "international_equities": {"min": 0.35, "max": 0.7},
+          "domestic_property_infrastructure": {"min": 0, "max": 0.3},
+          "international_property_infrastructure": {"min": 0, "max": 0.1},
+          "alternatives": {"min": 0, "max": 0.1}
+        },
+        "defensive": {
+          "australian_fixed_interest": {"min": 0, "max": 0.12},
+          "international_fixed_interest": {"min": 0, "max": 0.1},
+          "cash": {"min": 0.01, "max": 0.1}
+        }
+      }
+    },
+    {
+      "name": "iShares Enhanced Growth",
+      "portfolio_number": 4,
+      "specifications": {
+        "minimum_options": 12,
+        "maximum_options": 28,
+        "min_single_asset_position": 0.0075,
+        "max_single_asset_position": 0.18,
+        "min_new_asset_position": 0.01,
+        "target_volatility": "8.5% to 10.5% annualised",
+        "income_treatment": "Reinvested",
+        "minimum_cash_buffer": 0.015,
+        "trading_preference": "Active",
+        "expected_turnover_pa": "25% to 40%",
+        "active_stock_limits": "+/- 8%",
+        "active_sector_limits": "+/- 12%",
+        "tracking_error_target": "2.0% to 3.5%",
+        "benchmark_outperformance": "CPI + 3.0% p.a. over rolling 7 years"
+      },
+      "benchmark": "Morningstar Australia Growth Target Allocation NR AUD",
+      "asset_class": "Diversified",
+      "minimum_investment_horizon": "5 years",
+      "portfolio_income": "Default - Reinvest",
+      "risk_band": "5/Medium to high",
+      "investment_objective": "To match or outperform the benchmark over a rolling five-year period",
+      "investment_manager_fee": 0.0045,
+      "strategic_asset_allocation": {
+        "growth": {
+          "australian_equities": {"min": 0.3, "max": 0.7},
+          "international_equities": {"min": 0.35, "max": 0.7},
+          "domestic_property_infrastructure": {"min": 0, "max": 0.3},
+          "international_property_infrastructure": {"min": 0, "max": 0.1},
+          "alternatives": {"min": 0, "max": 0.1}
+        },
+        "defensive": {
+          "australian_fixed_interest": {"min": 0, "max": 0.12},
+          "international_fixed_interest": {"min": 0, "max": 0.1},
+          "cash": {"min": 0.01, "max": 0.1}
+        }
+      }
+    },
+    {
+      "name": "iShares Enhanced Aggressive",
+      "portfolio_number": 5,
+      "specifications": {
+        "minimum_options": 12,
+        "maximum_options": 28,
+        "min_single_asset_position": 0.0075,
+        "max_single_asset_position": 0.18,
+        "min_new_asset_position": 0.01,
+        "target_volatility": "8.5% to 10.5% annualised",
+        "income_treatment": "Reinvested",
+        "minimum_cash_buffer": 0.015,
+        "trading_preference": "Active",
+        "expected_turnover_pa": "25% to 40%",
+        "active_stock_limits": "+/- 8%",
+        "active_sector_limits": "+/- 12%",
+        "tracking_error_target": "2.0% to 3.5%",
+        "benchmark_outperformance": "CPI + 3.0% p.a. over rolling 7 years"
+      },
+      "benchmark": "Morningstar Australia Aggressive Target Allocation NR AUD",
+      "asset_class": "Diversified",
+      "minimum_investment_horizon": "5 years",
+      "portfolio_income": "Default - Reinvest",
+      "risk_band": "6/High",
+      "investment_objective": "To match or outperform the benchmark over a rolling five-year period",
+      "investment_manager_fee": 0.0045,
+      "strategic_asset_allocation": {
+        "growth": {
+          "australian_equities": {"min": 0.3, "max": 0.85},
+          "international_equities": {"min": 0.35, "max": 0.99},
+          "domestic_property_infrastructure": {"min": 0, "max": 0.3},
+          "international_property_infrastructure": {"min": 0, "max": 0.3},
+          "alternatives": {"min": 0, "max": 0.3}
+        },
+        "defensive": {
+          "australian_fixed_interest": {"min": 0, "max": 0.12},
+          "international_fixed_interest": {"min": 0, "max": 0.1},
+          "cash": {"min": 0.01, "max": 0.1}
+        }
+      }
+    }
+  ]
+}

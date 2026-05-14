@@ -1,0 +1,162 @@
+{
+  "title": "Underlying Funds - Investment Universe",
+  "description": "Portfolio of 20 iShares ETFs used across managed portfolios",
+  "summary": {
+    "total_funds": 20,
+    "fund_manager": "BlackRock (iShares)",
+    "asset_classes": [
+      "Equities",
+      "Fixed Income",
+      "Property",
+      "Infrastructure",
+      "Commodities",
+      "Cash"
+    ]
+  },
+  "funds": [
+    {
+      "ticker": "IOZ",
+      "name": "iShares Core S&P/ASX 200 ETF",
+      "asset_class": "Equities – Australian Large Cap",
+      "region": "Australia",
+      "benchmark": "S&P/ASX 200 Accumulation Index"
+    },
+    {
+      "ticker": "IVV",
+      "name": "iShares S&P 500 ETF",
+      "asset_class": "Equities – U.S. Large Cap",
+      "region": "United States",
+      "benchmark": "S&P 500 Net TR Index (AUD)"
+    },
+    {
+      "ticker": "IHVV",
+      "name": "iShares S&P 500 AUD Hedged ETF",
+      "asset_class": "Equities – U.S. Large Cap (AUD Hedged)",
+      "region": "United States",
+      "hedge": "AUD Hedged",
+      "benchmark": "S&P 500 Hedged AUD Index"
+    },
+    {
+      "ticker": "IACT",
+      "name": "iShares U.S. Factor Rotation Active ETF",
+      "asset_class": "Equities – U.S. (Active, Factor)",
+      "region": "United States",
+      "strategy": "Factor-based",
+      "benchmark": "MSCI US Index Net AUD"
+    },
+    {
+      "ticker": "IEU",
+      "name": "iShares Europe ETF",
+      "asset_class": "Equities – Europe",
+      "region": "Europe",
+      "benchmark": "S&P Global Europe 350 WMR"
+    },
+    {
+      "ticker": "IJP",
+      "name": "iShares MSCI Japan ETF",
+      "asset_class": "Equities – Japan",
+      "region": "Japan",
+      "benchmark": "MSCI Developed - Japan Net Index (AUD)"
+    },
+    {
+      "ticker": "IEM",
+      "name": "iShares MSCI Emerging Markets ETF",
+      "asset_class": "Equities – Emerging Markets",
+      "region": "Emerging Markets",
+      "benchmark": "MSCI Emerging Markets Net Index (AUD)"
+    },
+    {
+      "ticker": "EMXC",
+      "name": "iShares MSCI Emerging Markets ex China ETF",
+      "asset_class": "Equities – Emerging Markets (ex China)",
+      "region": "Emerging Markets",
+      "exclusion": "Excludes China",
+      "benchmark": "MSCI Emerging Markets ex China Index Net"
+    },
+    {
+      "ticker": "IZZ",
+      "name": "iShares China Large-Cap ETF",
+      "asset_class": "Equities – China Large Cap",
+      "region": "China",
+      "benchmark": "FTSE China 50 OPEN Net Index in AUD"
+    },
+    {
+      "ticker": "IGB",
+      "name": "iShares Treasury ETF",
+      "asset_class": "Fixed Income – Australian Government",
+      "region": "Australia",
+      "benchmark": "Bloomberg AusBond Treasury 0+ Yr Index"
+    },
+    {
+      "ticker": "IAF",
+      "name": "iShares Core Composite Bond ETF",
+      "asset_class": "Fixed Income – Australian Composite",
+      "region": "Australia",
+      "benchmark": "Bloomberg AusBond Composite 0+ Yr Index"
+    },
+    {
+      "ticker": "ICOR",
+      "name": "iShares Core Corporate Bond ETF",
+      "asset_class": "Fixed Income – Australian Corporate",
+      "region": "Australia",
+      "benchmark": "Bloomberg AusBond Credit 0+ Yr Index"
+    },
+    {
+      "ticker": "ILB",
+      "name": "iShares Government Inflation ETF",
+      "asset_class": "Fixed Income – Australian Inflation-Linked",
+      "region": "Australia",
+      "benchmark": "Bloomberg AusBond Inflation Government Index"
+    },
+    {
+      "ticker": "AESG",
+      "name": "iShares Global Aggregate Bond ESG (AUD Hedged) ETF",
+      "asset_class": "Fixed Income – Global Aggregate (ESG, AUD Hedged)",
+      "region": "Global",
+      "hedge": "AUD Hedged",
+      "strategy": "ESG / SRI",
+      "benchmark": "Bloomberg MSCI Global Aggregate and Green Bond ESG SRI AUD Hedged Index (AUD)"
+    },
+    {
+      "ticker": "IHHY",
+      "name": "iShares Global High Yield Bond (AUD Hedged) ETF",
+      "asset_class": "Fixed Income – Global High Yield (AUD Hedged)",
+      "region": "Global",
+      "hedge": "AUD Hedged",
+      "credit_quality": "High Yield",
+      "benchmark": "Markit iBoxx Global DM Liquid High Yield Capped AUD Hedged Index"
+    },
+    {
+      "ticker": "GLIN",
+      "name": "iShares Core FTSE Global Infrastructure (AUD Hedged) ETF",
+      "asset_class": "Infrastructure – Global Listed (AUD Hedged)",
+      "region": "Global",
+      "hedge": "AUD Hedged",
+      "benchmark": "FTSE Developed Core Infrastructure 50/50 100% Hedged to AUD Net Tax Index"
+    },
+    {
+      "ticker": "GLPR",
+      "name": "iShares FTSE Global Property ex Aus (AUD Hedged) ETF",
+      "asset_class": "Property – Global Listed ex Australia (AUD Hedged)",
+      "region": "Global",
+      "exclusion": "Excludes Australia",
+      "hedge": "AUD Hedged",
+      "benchmark": "FTSE EPRA Nareit Developed ex-Australia Rental AUD Hedged Net Tax Index"
+    },
+    {
+      "ticker": "GLDN",
+      "name": "iShares Physical Gold ETF",
+      "asset_class": "Commodities – Gold",
+      "region": "Global",
+      "asset_type": "Physical Commodity",
+      "benchmark": "LBMA Gold Price PM AUD Index"
+    },
+    {
+      "ticker": "ISEC",
+      "name": "iShares Enhanced Cash ETF",
+      "asset_class": "Cash / Short-Duration Fixed Income",
+      "region": "Australia",
+      "benchmark": "S&P/ASX Bank Bill Index (AUD)"
+    }
+  ]
+}

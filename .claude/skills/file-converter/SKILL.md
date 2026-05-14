@@ -71,19 +71,26 @@ The skill handles file conversion automatically. Simply:
 4. **Validate** output for correctness
 
 ### Spreadsheet Conversion Process
-1. **Load** spreadsheet with header detection
-2. **Convert** each row to object using headers as keys
-3. **Type-cast** values when appropriate
-4. **Clean** the data:
-   - Remove empty rows (all values are None)
-   - Trim whitespace from string values
-   - Remove columns that are entirely empty
-   - Normalize data types consistently per column
-5. **Validate** output and calculate quality metrics
-6. **Serialize** to JSON with metadata (row counts, quality score, column info)
+
+**Phase 1 — Python extraction** (run the script):
+1. Load spreadsheet with header detection
+2. Convert each row to object using headers as keys
+3. Type-cast values when appropriate
+4. Clean: remove empty rows, trim whitespace, drop entirely-empty columns
+5. Serialize raw JSON to `.claude/wiki/<filename>_<SheetName>.json`
+
+**Phase 2 — LLM semantic restructuring** (YOU must do this after the script):
+After the Python script runs, read each output JSON file, think about what this data describes, and rewrite it with meaningful structure. Rules:
+- Do NOT create new files — edit the existing `.claude/wiki/` files in place
+- Do NOT alter any data values — restructure only
+- Remove all `Unnamed: X` keys, NaN, and null noise
+- Identify the real structure from context:
+  - **Questionnaire/Q&A sheets**: produce a nested object grouped by section, with the question text as key and answer as value
+  - **Multi-entity tables** (e.g. multiple portfolios per row): produce an array of objects, one per entity, with each entity's fields cleanly named
+  - **Simple data tables**: produce an array of records with proper column names inferred from context
+- Output format is free-form clean JSON — remove the `data`/`metadata` wrapper if it adds no value after restructuring
 
 ## Error Handling
-Review the extracted artifact. Your goal is to reduce noise in the extraction, turn it into a semantic structure instead of a workbook dump. Do not change data format, do not creat new file, work on the existing files.
 
 The skill handles:
 - Missing or corrupted files → clear error messages
@@ -109,11 +116,7 @@ For spreadsheet conversions, JSON files include two top-level keys:
     ...
   ],
   "metadata": {
-    "original_count": 1500,
-    "cleaned_count": 1480,
-    "rows_removed": 20,
-    "columns": ["column1", "column2", ...],
-    "column_count": 5,
+    "aboutthisfile": ['investment manager profiles', 'portfolio details', 'holding table'...],
     "flags": ["Missing ABN", "Missing benchmark", ...],
   }
 }

@@ -1,0 +1,42 @@
+{
+  "title": "Portfolio Onboarding Questionnaire",
+  "investment_manager": {
+    "legal_entity_name": "BlackRock Investment Management (Australia) Limited",
+    "abn": "13 006 165 975",
+    "afsl": "AFSL 230523",
+    "street_address": "33 Alfred Street, Sydney NSW 2000, Australia",
+    "postal_address": "PO Box N43, Grosvenor Place, Sydney NSW 1220, Australia",
+    "telephone": "1300 366 100",
+    "email_general": "clientservices.aus@blackrock.com",
+    "email_invoices": "au.invoices@blackrock-test.com.au (fictional test email)",
+    "business_overview": "BlackRock Investment Management (Australia) Limited is the Australian investment management entity of BlackRock. The firm operates in Australia and provides investment management services across managed funds, ETFs, model portfolios, institutional mandates and multi-asset investment solutions. For these fictional test portfolios, BlackRock Investment Management (Australia) Limited is treated as the AFSL holder and investment manager responsible for portfolio construction, implementation oversight, investment governance and ongoing model management. No separate corporate authorised representative is assumed for this test case. Operational services such as administration, custody, platform implementation and reporting may be performed by external service providers under contractual arrangements, but investment management responsibility remains with BlackRock Investment Management (Australia) Limited.",
+    "about_investment_manager": "BlackRock is a global investment manager with an established Australian presence. In Australia, the firm services institutional investors, financial advisers, platforms, SMSFs and individual investors through a range of investment capabilities including managed funds, iShares ETFs, model portfolios, active strategies and multi-asset solutions. BlackRock combines local Australian client service and investment capability with global research, portfolio construction resources, risk management systems and market insights. For disclosure purposes, the investment manager's role is to design and manage investment solutions that are aligned to stated objectives, risk profiles and client needs. Its activities may include asset allocation, fund selection, portfolio monitoring, risk oversight, rebalancing and communication of investment views. The fictional portfolios in this test pack assume the manager uses BlackRock's Australian operating infrastructure and global investment resources to support diversified managed portfolio solutions for Australian investors.",
+    "investment_philosophy": "The manager uses a diversified, risk-controlled approach to portfolio construction. Each portfolio starts with a strategic asset allocation suited to its investor profile, then uses researched investment exposures to implement that allocation efficiently. The process considers expected return, volatility, liquidity, diversification, cost and downside risk. Balanced portfolios place greater emphasis on spreading risk across growth and defensive assets, while high-risk portfolios allocate more heavily to equities and other growth-oriented investments. Portfolios are reviewed regularly, with rebalancing used to keep risk exposures aligned with objectives.",
+    "portfolio_manager_description": "Emily Hartley is a fictional senior portfolio manager used for agent testing purposes. In this test scenario, she is responsible for the day-to-day oversight of the Balanced and High Growth managed portfolios, including asset allocation implementation, portfolio monitoring, rebalancing recommendations and investment reporting. Emily has fictional experience across Australian equities, global equities, fixed income and multi-asset portfolio construction. Her role includes working with investment strategists, risk specialists, product teams and platform partners to ensure each portfolio remains aligned with its stated objective and risk profile. For the Balanced portfolio, her focus is maintaining a stable mix of growth and defensive exposures. For the High Growth portfolio, her focus is maximising long-term capital growth while monitoring concentration, liquidity and drawdown risk.",
+    "strategy_capacity_fum": "Fictional test assumption: Strategy capacity AUD 2.5 billion. Current FUM AUD 185 million for the Balanced portfolio and AUD 92 million for the High Growth portfolio.",
+    "website": "https://www.blackrock.com/au"
+  },
+  "portfolio_manager": {
+    "name": "Emily Hartley",
+    "position": "Senior Portfolio Manager, Multi-Asset Model Portfolios, BlackRock Investment Management (Australia) Limited. CFA charterholder; Bachelor of Commerce, majoring in Finance. (fictional test role/person)",
+    "biography": "Emily Hartley is a fictional senior portfolio manager used for agent testing purposes. In this test scenario, she is responsible for the day-to-day oversight of the Balanced and High Growth managed portfolios, including asset allocation implementation, portfolio monitoring, rebalancing recommendations and investment reporting. Emily has fictional experience across Australian equities, global equities, fixed income and multi-asset portfolio construction. Her role includes working with investment strategists, risk specialists, product teams and platform partners to ensure each portfolio remains aligned with its stated objective and risk profile. For the Balanced portfolio, her focus is maintaining a stable mix of growth and defensive exposures. For the High Growth portfolio, her focus is maximising long-term capital growth while monitoring concentration, liquidity and drawdown risk."
+  },
+  "portfolio_attachments": {
+    "fsc_document_or_standard_rfp": "Attached",
+    "monthly_return_series_of_flagship_smas": "Attached",
+    "pitch_pack_fact_sheet": "Attached",
+    "certificates_of_insurance": "Not available",
+    "copy_of_afsl": "Not available",
+    "conflicts_of_interest_policy": "Attached",
+    "relevant_biographies_or_org_charts": "Attached"
+  },
+  "corporate_actions": {
+    "ipos": "No",
+    "placements": "No",
+    "entitlements": "No",
+    "rights_issues": "No",
+    "spps": "No",
+    "bonus_option_issues": "No",
+    "voting_at_agms": "No"
+  }
+}
