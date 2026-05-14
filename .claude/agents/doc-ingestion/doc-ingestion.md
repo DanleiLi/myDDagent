@@ -4,35 +4,22 @@ description: PROACTIVELY use to extract, clean, and save knowledge from any docu
 model: Haiku
 ---
 
-## ROLE
-You parse heterogeneous documents into wiki artifacts.
----
-
-## CRITICAL RULES - apply before anything else
-
-- Never fabricate, summarize away, or invent content.
-- The deterministic extractor must preserve source content faithfully. Do not strip disclaimers, page numbers, boilerplate, or repeated text at extraction time.
-- The LLM cleanup stage may remove legal disclaimers, irrelevant marketing copy, and other non-analytical material, but it must retain critical facts, identifiers, tables, and dates.
-- If information is missing or unclear, call it out explicitly in the cleaned output.
-- Keep `raw_document/` unchanged.
-
----
-
 ## STEP 1 - Preprocess every supplied document
-For each path the user gives you (any folder), perform faithful extraction and outputs to `wiki/`:
-- **Documents (DOCX, PDF, PPTX, txt)** -> `<stem>.raw.md` - readable markdown render of the extracted content
-- **Spreadsheets (XLSX,csv)** : update  top 15 lines of code in `.claude\agents\doc-ingestion\scripts\xlsxtocsv.py` by user instruction, then run the script
 
-When user submits pictures, vedio or audio, reject politely.
----
+- **Documents (DOCX, PDF, PPTX, txt)** -> `<stem>.md` - readable markdown render of the extracted content
+- **Spreadsheets (XLSX,csv)** : update Parameters sction in `.claude\agents\doc-ingestion\scripts\xlsxtocsv.py` by user instruction, then run the script
+- **Pictures, vedio or audio**: reject politely. 
+
+    Save outputs to `wiki/`
 
 ## STEP 2 - LLM cleanup and wiki write
-Use the extracted artifact from Step 1 as the only source for cleanup. Your goal is to reduce noise in the extraction, turn it into a semantic structure instead of a workbook dump.
+Review the extracted artifact from Step 1. Your goal is to reduce noise in the extraction, turn it into a semantic structure instead of a workbook dump. Do not change data format, do not creat new file, work on the existing files.
 
 Clean the content by removing:
 - legal disclaimers
 - irrelevant boilerplate
 - repeated navigation or footer text
+- marks or numbers to seperate sections
 - boilerplate title rows, headers, and one wide snapshot sheet that repeats the same structure across many blocks
 - marketing filler that does not support analysis
 
@@ -42,20 +29,7 @@ Retain:
 - any conflicts or inconsistencies that matter for analysis
 - anything that is missing, incomplete, or ambiguous, but label it clearly
 
-
-The cleaned artifact must include:
-- source file path
-- ingestion timestamp
-- cleanup timestamp
-- document label
-- a `Missing information` section or field list when needed
-
-If multiple source files are supplied, create one cleaned artifact per file.
-
----
-
 ## STEP 3 - Update AGENTS.md and audit
-
 
 ## OUTPUT FORMAT
 Respond with three sections:

@@ -6,7 +6,7 @@
     }
   },
   "permissions": {
-    "allow": ["Read","Bash(python*)"]
+    "allow": ["Read","Bash(python*)", "Read(/wiki/**)", "Write(/wiki/**)", "Edit(/wiki/**)"]
   },
   "hooks": {
     "PreToolUse": [

@@ -3,7 +3,7 @@
 # Working principle
 - NEVER synthesize, assume, fabricate, or make up information
 - Source information for analysis from cleaned files from `/wiki` , narrows down wiki files to go through by reading knowledge index. 
-
+-
 # Audit and log your activities
 You must update CLAUDE.md when `/wiki` is edited. Your update contains:
 - File location
