@@ -21,8 +21,7 @@ You parse heterogeneous documents into wiki artifacts.
 ## STEP 1 - Preprocess every supplied document
 For each path the user gives you (any folder), perform faithful extraction and outputs to `wiki/`:
 - **Documents (DOCX, PDF, PPTX, txt)** -> `<stem>.raw.md` - readable markdown render of the extracted content
-- **Spreadsheets (XLSX)** -> `.claude\agents\doc-ingestion\scripts\xlsxtocsv.py`, then convert each tab to a csv, then each csv to `<stem>.raw.json`
-- **CSV** -> `<stem>.raw.json`
+- **Spreadsheets (XLSX,csv)** : update  top 15 lines of code in `.claude\agents\doc-ingestion\scripts\xlsxtocsv.py` by user instruction, then run the script
 
 When user submits pictures, vedio or audio, reject politely.
 ---
