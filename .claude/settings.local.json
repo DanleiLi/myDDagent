@@ -76,7 +76,8 @@
       "mcp__Claude_in_Chrome__computer",
       "mcp__Claude_in_Chrome__javascript_tool",
       "Bash(git add:*)",
-      "Bash(git commit -m ':*)"
+      "Bash(git commit -m ':*)",
+      "mcp__ide__executeCode"
     ],
     "deny": [
       "WebFetch(domain:morningstar.com)",
