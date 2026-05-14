@@ -79,7 +79,8 @@
       "Bash(git commit -m ':*)",
       "mcp__ide__executeCode",
       "Bash(mkdir -p .claude/wiki)",
-      "Bash(cp output/IMQuestionnaire.json .claude/wiki/IMQuestionnaire.json)"
+      "Bash(cp output/IMQuestionnaire.json .claude/wiki/IMQuestionnaire.json)",
+      "Bash(git commit:*)"
     ],
     "deny": [
       "WebFetch(domain:morningstar.com)",
