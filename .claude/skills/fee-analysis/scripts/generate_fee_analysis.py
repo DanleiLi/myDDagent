@@ -15,7 +15,7 @@ from openpyxl.utils import get_column_letter
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-OUTPUT_DIR = r'C:\Users\Sara\Downloads\AIagentproject\.claude\output'
+OUTPUT_DIR = r'C:\Users\Sara\Downloads\AIagentproject\output'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ─────────────────────────────────────────────
@@ -34,23 +34,69 @@ TAX_DATA = {
 
 PORTFOLIOS = [
     {
-        'portfolio_name': 'BlackRock Balanced AU Managed Portfolio',
-        'series': 'BlackRock',
+        'portfolio_name': 'Balanced Portfolio',
+        'series': 'NTH0001',
         'im_fee_bps': 0.45,
         're_fee_bps': 0.08,
         'holdings': [
-            {'apir': 'AMP9555AU', 'portfolio_id': 'NTH0001', 'portfolio_name': 'BlackRock Balanced AU Managed Portfolio', 'fund_name': 'AMP Australian Equity Index Fund', 'allocation': 0.04},
-            {'apir': 'GHLD', 'portfolio_id': 'NTH0001', 'portfolio_name': 'BlackRock Balanced AU Managed Portfolio', 'fund_name': 'Global X Gold Bullion (Currency Hedged) ETF', 'allocation': 0.03},
-            {'apir': 'PER1058AU', 'portfolio_id': 'NTH0001', 'portfolio_name': 'BlackRock Balanced AU Managed Portfolio', 'fund_name': 'Perpetual Diversified Income Fund - Class S', 'allocation': 0.14},
+            {'apir': 'VAS', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Australian Shares Index ETF', 'allocation': 0.16},
+            {'apir': 'VGS', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Global Shares Index ETF', 'allocation': 0.16},
+            {'apir': 'VGAD', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Hedged Global Shares Index ETF', 'allocation': 0.06},
+            {'apir': 'VGE', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Emerging Markets Shares Index ETF', 'allocation': 0.03},
+            {'apir': 'VISM', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Global Small Caps Index ETF', 'allocation': 0.02},
+            {'apir': 'VAP', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Australian Property Securities Index ETF', 'allocation': 0.03},
+            {'apir': 'NDQ', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Invesco QQQ Trust - Nasdaq 100 ETF', 'allocation': 0.02},
+            {'apir': 'ETHI', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Betashares Global Sustainability Leaders ETF', 'allocation': 0.03},
+            {'apir': 'HACK', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Betashares Global Cybersecurity ETF', 'allocation': 0.01},
+            {'apir': 'NUGG', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'VanEck Gold Bullion ETF', 'allocation': 0.03},
+            {'apir': 'VAF', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Australian Fixed Interest Index ETF', 'allocation': 0.18},
+            {'apir': 'VACF', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Australian Corporate Bond Index ETF', 'allocation': 0.10},
+            {'apir': 'VBND', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Global Aggregate Bond Index ETF (Hedged)', 'allocation': 0.08},
+            {'apir': 'PIMCO', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'PIMCO Global Bond Active ETF', 'allocation': 0.07},
+            {'apir': 'CASH', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Cash', 'allocation': 0.02},
+        ]
+    },
+    {
+        'portfolio_name': 'Growth Portfolio',
+        'series': 'NTH0002',
+        'im_fee_bps': 0.45,
+        're_fee_bps': 0.08,
+        'holdings': [
+            {'apir': 'VAS', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Australian Shares Index ETF', 'allocation': 0.20},
+            {'apir': 'VGS', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Global Shares Index ETF', 'allocation': 0.26},
+            {'apir': 'VGAD', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Hedged Global Shares Index ETF', 'allocation': 0.10},
+            {'apir': 'VGE', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Emerging Markets Shares Index ETF', 'allocation': 0.07},
+            {'apir': 'VISM', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Global Small Caps Index ETF', 'allocation': 0.05},
+            {'apir': 'VAP', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Australian Property Securities Index ETF', 'allocation': 0.05},
+            {'apir': 'NDQ', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Invesco QQQ Trust - Nasdaq 100 ETF', 'allocation': 0.08},
+            {'apir': 'ETHI', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Betashares Global Sustainability Leaders ETF', 'allocation': 0.05},
+            {'apir': 'HACK', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Betashares Global Cybersecurity ETF', 'allocation': 0.03},
+            {'apir': 'NUGG', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'VanEck Gold Bullion ETF', 'allocation': 0.02},
+            {'apir': 'VAF', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Australian Fixed Interest Index ETF', 'allocation': 0.02},
+            {'apir': 'VACF', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Australian Corporate Bond Index ETF', 'allocation': 0.02},
+            {'apir': 'VBND', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Global Aggregate Bond Index ETF (Hedged)', 'allocation': 0.02},
+            {'apir': 'PIMCO', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'PIMCO Global Bond Active ETF', 'allocation': 0.01},
+            {'apir': 'CASH', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Cash', 'allocation': 0.02},
         ]
     },
 ]
 
 FUND_FEES = {
-    'AMP9555AU': {
-        'mgmt': 0.15, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.15,
-        'buy_spread': 0.10, 'sell_spread': 0.10, 'rebate': 0.05, 'pds_url': 'DEMO_PLACEHOLDER'
-    }
+    'VAS': {'mgmt': 0.07, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
+    'VGS': {'mgmt': 0.18, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
+    'VGAD': {'mgmt': 0.21, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
+    'VGE': {'mgmt': 0.48, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
+    'VISM': {'mgmt': 0.32, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
+    'VAP': {'mgmt': 0.23, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
+    'VAF': {'mgmt': 0.10, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
+    'VACF': {'mgmt': 0.20, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
+    'VBND': {'mgmt': 0.20, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
+    'NDQ': {'mgmt': 0.18, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.invesco.com/'},
+    'ETHI': {'mgmt': 0.59, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.betashares.com.au/'},
+    'HACK': {'mgmt': 0.67, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.betashares.com.au/'},
+    'NUGG': {'mgmt': 0.25, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vaneck.com.au/'},
+    'PIMCO': {'mgmt': 0.49, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.pimco.com/au/'},
+    'CASH': {'mgmt': 0.0, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': ''},
 }
 
 
@@ -286,7 +332,7 @@ for i in range(len(PORTFOLIOS)):
 # Save Workbook
 # ─────────────────────────────────────────────
 
-all_series = PORTFOLIOS[0]['series'] if PORTFOLIOS else 'UnknownSeries'
+all_series = 'AMP North Managed Portfolios'
 
 output_filename = f"Fee Analysis - {all_series} - {datetime.now().strftime('%Y%m%d')}.xlsx"
 output_path = os.path.join(OUTPUT_DIR, output_filename)

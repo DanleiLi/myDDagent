@@ -2,11 +2,10 @@ Reset the project folder for new project $ARGUMENTS
 
 Provide a warning summarising the following actions to user before you proceed.
 
-1. Wipe out the values in each database .codex\dataset
+ Empty project folders and files:
+- `\raw_documents`
+- `\wiki`
+- `\log.md`
 
-2. Empty project folders:
- -  .codex\output 
- -  .codex\wiki
-
-3. start a new session
-
+Update CLAUDE.md
+- Delete text after # Knowledge Index

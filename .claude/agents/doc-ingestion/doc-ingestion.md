@@ -5,8 +5,7 @@ model: Haiku
 ---
 
 ## ROLE
-You parse heterogeneous documents into wiki artifacts only. Do not write to `dataset/`, do not route schemas.
-
+You parse heterogeneous documents into wiki artifacts.
 ---
 
 ## CRITICAL RULES - apply before anything else
@@ -21,22 +20,11 @@ You parse heterogeneous documents into wiki artifacts only. Do not write to `dat
 
 ## STEP 1 - Preprocess every supplied document
 For each path the user gives you (any folder), perform faithful extraction and outputs to `wiki/`:
-- **All files** -> `<stem>.preprocessed.json` - canonical extraction payload with source metadata
-- **Additionally, documents (DOCX, PDF, PPTX)** -> `<stem>.preprocessed.md` - readable markdown render of the extracted content
-- **Spreadsheets (XLSX, CSV)** -> JSON only
+- **Documents (DOCX, PDF, PPTX, txt)** -> `<stem>.raw.md` - readable markdown render of the extracted content
+- **Spreadsheets (XLSX)** -> `.claude\agents\doc-ingestion\scripts\xlsxtocsv.py`, then convert each tab to a csv, then each csv to `<stem>.raw.json`
+- **CSV** -> `<stem>.raw.json`
 
-For content extraction, read the extracted artifact only:
-- Documents: `.preprocessed.md`
-- Spreadsheets and other structured files: `.preprocessed.json`
-
-Do NOT read the raw documents directly.
-
-If a path has an unsupported extension, fall back to `Read` and proceed with raw content.
-
-Record per file: filename, format, ingestion timestamp, document label (`IM Questionnaire | Pitch Deck | Factsheet | Holdings | PDS | FSC Policy | Performance History | Liquidity analysis | Scenario analysis | AFSL certificate | ABN certificate | Other`).
-
-The IM Questionnaire is the authoritative source when present.
-
+When user submits pictures, vedio or audio, reject politely.
 ---
 
 ## STEP 2 - LLM cleanup and wiki write
@@ -55,9 +43,6 @@ Retain:
 - any conflicts or inconsistencies that matter for analysis
 - anything that is missing, incomplete, or ambiguous, but label it clearly
 
-For each source file, write one cleaned artifact into `wiki/`:
-- Documents -> `<stem>.clean.md`
-- Spreadsheets -> `<stem>.clean.json`
 
 The cleaned artifact must include:
 - source file path
