@@ -88,7 +88,9 @@
       "Bash(du -h ./.claude/wiki/*.md)",
       "Bash(ls -la .claude/wiki/fees*.md)",
       "Bash(cd \"c:\\\\Users\\\\Sara\\\\Downloads\\\\AIagentproject\" && echo \"# test comment\" >> .claude/raw_document/holdings.csv && python .claude/skills/file-convert/scripts/alltomd.py .claude/raw_document/holdings.csv && head -5 .claude/wiki/holdings.md)",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "Bash(ls -la .claude/output/*.md .claude/output/*.xlsx .claude/wiki/*.md)",
+      "Bash(git restore:*)"
     ],
     "deny": [
       "WebFetch(domain:morningstar.com)",
