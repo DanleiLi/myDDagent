@@ -39,5 +39,3 @@ log work to log.md. append-only record of what happened and when.
 
 # Knowledge Index
 This is a list of wiki files that you can use to source information for your analysis. You should read through these files to understand what each files contains and how to narrow down which files to use for your work.
-
-## Wiki Files
