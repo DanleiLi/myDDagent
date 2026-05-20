@@ -73,3 +73,7 @@ This is a list of wiki files that you can use to source information for your ana
 ### `.claude/wiki/holdings ver2.md`
 - **Categories:** holdings
 - **Summary:** Holding-level data (unit ID, holding name, allocation %, asset class, rebate) for five iShares Enhanced Strategic portfolios: Conservative (18 holdings), Moderate (19), Balanced (19), Growth (16), Aggressive (12). All allocations total 100%. Clean unit names, correct asset class labels, and rebate column populated. Report-ready.
+
+### `.claude/wiki/Fee Analysis Summary - iShares Enhanced Strategic Portfolios - 20260520.md`
+- **Categories:** fees
+- **Summary:** Fee analysis summary for five iShares Enhanced Strategic portfolios (IM fee 0.45%, RE fee 0.08% per portfolio). Calculated across 12-19 holdings per portfolio. References Excel workbook with detailed fee components and formulas.

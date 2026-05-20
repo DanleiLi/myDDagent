@@ -19,9 +19,9 @@ This is a disclaimer placeholder. User can configure the content this paragraph 
 ## Recommendation & Rating
 | Item | Content |
 | :--- | :--- |
-|Managed Portfolio series name|{{series_name}} {{investment_manager_full_name}}|
+|Managed Portfolio series name|{{series_name}} , {{investment_manager_full_name}}|
 |Managed Portfolios list |  {{List all: portfolios id - portfolio full name}} |
-| Recommendation | Add a new manager - {{investment_manager_full_name}} to the Scheme. Add the {{series_name}} to Platform, IDPS and Super/Pension menu.|
+| Recommendation | **Add a new manager** - {{investment_manager_full_name}} to the Scheme. **Add the {{series_name}}** to Platform, IDPS and Super/Pension menu.|
 |Investment Option Type | Managed Portfolio|
 |Responsible Entity| NMMT Limited|
 | Is the Manager a related party to AMP? | No |

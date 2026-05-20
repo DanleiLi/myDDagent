@@ -36,3 +36,4 @@
 |  |  | Cash (1% minimum required) | 0.01 | 0.4 |  |  |  |  | Cash (1% minimum required) | 0.01 | 0.4 |  |  |  |  | Cash (1% minimum required) | 0.01 | 0.2 |  |  |  |  | Cash (1% minimum required) | 0.01 | 0.15 |  |  | Cash (1% minimum required) | 0.01 | 0.15 |  |
 |  |  | Total |  |  |  |  |  |  | Total |  |  |  |  |  |  | Total |  |  |  |  |  |  | Total |  |  |  |  | Total |  |  |  |
 |  | 1 | Investment manager fee | 0.0045 |  |  |  |  | 1 | Investment manager fee | 0.0045 |  |  |  |  | 1 | Investment manager fee | 0.0045 |  |  |  |  | 1 | Investment manager fee | 0.0045 |  |  | 1 | Investment manager fee | 0.0045 |  |  |
+|  | 2 | Responsible Entity fee | 0.0008 |  |  |  |  | 2 | Responsible Entity fee | 0.0008 |  |  |  |  | 2 | Responsible Entity fee | 0.0008 |  |  |  |  | 2 | Responsible Entity fee | 0.0008 |  |  | 2 | Responsible Entity fee | 0.0008 |  |  |
