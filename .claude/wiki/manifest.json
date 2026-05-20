@@ -1,0 +1,65 @@
+{
+  "IMQuestionnaire_IM Info.md": {
+    "wiki_file": "IMQuestionnaire_IM Info.md",
+    "source_file": "IMQuestionnaire.xlsx",
+    "source_tab": "IM Info",
+    "converted_at": "2026-05-18T13:16:30.076635+00:00",
+    "source_hash": "3b3f0f413cf06d5fe56efde8d1daddf06fa5b997a7400dba48a094778996a347"
+  },
+  "IMQuestionnaire_Invst. team.md": {
+    "wiki_file": "IMQuestionnaire_Invst. team.md",
+    "source_file": "IMQuestionnaire.xlsx",
+    "source_tab": "Invst. team",
+    "converted_at": "2026-05-18T13:16:30.085828+00:00",
+    "source_hash": "3b3f0f413cf06d5fe56efde8d1daddf06fa5b997a7400dba48a094778996a347"
+  },
+  "IMQuestionnaire_Portfolio Details.md": {
+    "wiki_file": "IMQuestionnaire_Portfolio Details.md",
+    "source_file": "IMQuestionnaire.xlsx",
+    "source_tab": "Portfolio Details",
+    "converted_at": "2026-05-18T13:16:30.096516+00:00",
+    "source_hash": "3b3f0f413cf06d5fe56efde8d1daddf06fa5b997a7400dba48a094778996a347"
+  },
+  "IMQuestionnaire_Liquidity Testing.md": {
+    "wiki_file": "IMQuestionnaire_Liquidity Testing.md",
+    "source_file": "IMQuestionnaire.xlsx",
+    "source_tab": "Liquidity Testing",
+    "converted_at": "2026-05-18T13:16:30.106006+00:00",
+    "source_hash": "3b3f0f413cf06d5fe56efde8d1daddf06fa5b997a7400dba48a094778996a347"
+  },
+  "IMQuestionnaire_Scenario Testing.md": {
+    "wiki_file": "IMQuestionnaire_Scenario Testing.md",
+    "source_file": "IMQuestionnaire.xlsx",
+    "source_tab": "Scenario Testing",
+    "converted_at": "2026-05-18T13:16:30.109962+00:00",
+    "source_hash": "3b3f0f413cf06d5fe56efde8d1daddf06fa5b997a7400dba48a094778996a347"
+  },
+  "IMQuestionnaire_Underlying Funds.md": {
+    "wiki_file": "IMQuestionnaire_Underlying Funds.md",
+    "source_file": "IMQuestionnaire.xlsx",
+    "source_tab": "Underlying Funds",
+    "converted_at": "2026-05-18T13:16:30.124128+00:00",
+    "source_hash": "3b3f0f413cf06d5fe56efde8d1daddf06fa5b997a7400dba48a094778996a347"
+  },
+  "IMQuestionnaire_Directy Equity .md": {
+    "wiki_file": "IMQuestionnaire_Directy Equity .md",
+    "source_file": "IMQuestionnaire.xlsx",
+    "source_tab": "Directy Equity ",
+    "converted_at": "2026-05-18T13:16:30.127443+00:00",
+    "source_hash": "3b3f0f413cf06d5fe56efde8d1daddf06fa5b997a7400dba48a094778996a347"
+  },
+  "holdings.md": {
+    "wiki_file": "holdings.md",
+    "source_file": "holdings.csv",
+    "source_tab": null,
+    "converted_at": "2026-05-20T04:06:13.995171+00:00",
+    "source_hash": "d0dbf461ad37faa6abcb6c013a44de86d695680b24b396ae49ef5e9f9dd87ff3"
+  },
+  "holdings ver2.md": {
+    "wiki_file": "holdings ver2.md",
+    "source_file": "holdings ver2.csv",
+    "source_tab": null,
+    "converted_at": "2026-05-20T04:29:59.679812+00:00",
+    "source_hash": "fc20da84624838a09f2680a6227d392295eb7fc86fbe152dbdaeef6e5d7f99e9"
+  }
+}

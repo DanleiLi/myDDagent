@@ -1,0 +1,336 @@
+{
+  "series_name": "iShares Enhanced Strategic Portfolios",
+  "tax_data": {
+    "GST_RATE": 0.10,
+    "IM_RITC": 0.75,
+    "RE_RITC": 0.55
+  },
+  "portfolios": [
+    {
+      "portfolio_name": "iShares Enhanced Strategic Conservative",
+      "series": "NTH0001",
+      "im_fee_bps": 0.0045,
+      "re_fee_bps": 0.0,
+      "holdings": [
+        {"apir": "AESG", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Global Aggregate Bond ESG (AUD Hedged) ETF", "allocation": 0.111},
+        {"apir": "CASHACCT", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "Cash Account", "allocation": 0.025},
+        {"apir": "EMXC", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares MSCI Emerging Markets ex China ETF", "allocation": 0.015},
+        {"apir": "GLDN", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Physical Gold ETF", "allocation": 0.03},
+        {"apir": "GLIN", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Core FTSE Global Infrastructure (AUD Hedged) ETF", "allocation": 0.045},
+        {"apir": "IACT", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares U.S. Factor Rotation Active ETF", "allocation": 0.02},
+        {"apir": "IAF", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Core Composite Bond ETF", "allocation": 0.186},
+        {"apir": "ICOR", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Core Corporate Bond ETF", "allocation": 0.051},
+        {"apir": "IEM", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares MSCI Emerging Markets ETF", "allocation": 0.04},
+        {"apir": "IEU", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Europe ETF", "allocation": 0.012},
+        {"apir": "IGB", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Treasury ETF", "allocation": 0.045},
+        {"apir": "IHHY", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Global High Yield Bond (AUD Hedged) ETF", "allocation": 0.015},
+        {"apir": "IHVV", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares S&P 500 AUD Hedged ETF", "allocation": 0.047},
+        {"apir": "IJP", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares MSCI Japan ETF", "allocation": 0.023},
+        {"apir": "ILB", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Government Inflation ETF", "allocation": 0.095},
+        {"apir": "IOZ", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Core S&P/ASX 200 ETF", "allocation": 0.06},
+        {"apir": "ISEC", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares Enhanced Cash ETF", "allocation": 0.118},
+        {"apir": "IVV", "portfolio_id": "NTH0001", "portfolio_name": "iShares Enhanced Strategic Conservative", "fund_name": "iShares S&P 500 ETF", "allocation": 0.062}
+      ]
+    },
+    {
+      "portfolio_name": "iShares Enhanced Strategic Moderate",
+      "series": "NTH0002",
+      "im_fee_bps": 0.0045,
+      "re_fee_bps": 0.0,
+      "holdings": [
+        {"apir": "AESG", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Global Aggregate Bond ESG (AUD Hedged) ETF", "allocation": 0.081},
+        {"apir": "CASHACCT", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "Cash Account", "allocation": 0.025},
+        {"apir": "EMXC", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares MSCI Emerging Markets ex China ETF", "allocation": 0.04},
+        {"apir": "GLDN", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Physical Gold ETF", "allocation": 0.031},
+        {"apir": "GLIN", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Core FTSE Global Infrastructure (AUD Hedged) ETF", "allocation": 0.05},
+        {"apir": "IACT", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares U.S. Factor Rotation Active ETF", "allocation": 0.03},
+        {"apir": "IAF", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Core Composite Bond ETF", "allocation": 0.111},
+        {"apir": "ICOR", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Core Corporate Bond ETF", "allocation": 0.031},
+        {"apir": "IEM", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares MSCI Emerging Markets ETF", "allocation": 0.02},
+        {"apir": "IEU", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Europe ETF", "allocation": 0.028},
+        {"apir": "IGB", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Treasury ETF", "allocation": 0.04},
+        {"apir": "IHHY", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Global High Yield Bond (AUD Hedged) ETF", "allocation": 0.01},
+        {"apir": "IHVV", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares S&P 500 AUD Hedged ETF", "allocation": 0.086},
+        {"apir": "IJP", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares MSCI Japan ETF", "allocation": 0.03},
+        {"apir": "ILB", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Government Inflation ETF", "allocation": 0.081},
+        {"apir": "IOZ", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Core S&P/ASX 200 ETF", "allocation": 0.129},
+        {"apir": "ISEC", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares Enhanced Cash ETF", "allocation": 0.067},
+        {"apir": "IVV", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares S&P 500 ETF", "allocation": 0.091},
+        {"apir": "IZZ", "portfolio_id": "NTH0002", "portfolio_name": "iShares Enhanced Strategic Moderate", "fund_name": "iShares China Large-Cap ETF", "allocation": 0.019}
+      ]
+    },
+    {
+      "portfolio_name": "iShares Enhanced Strategic Balanced",
+      "series": "NTH0003",
+      "im_fee_bps": 0.0045,
+      "re_fee_bps": 0.0,
+      "holdings": [
+        {"apir": "AESG", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares Global Aggregate Bond ESG (AUD Hedged) ETF", "allocation": 0.048},
+        {"apir": "CASHACCT", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "Cash Account", "allocation": 0.02},
+        {"apir": "EMXC", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares MSCI Emerging Markets ex China ETF", "allocation": 0.047},
+        {"apir": "GLDN", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares Physical Gold ETF", "allocation": 0.035},
+        {"apir": "GLIN", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares Core FTSE Global Infrastructure (AUD Hedged) ETF", "allocation": 0.05},
+        {"apir": "GLPR", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares FTSE Global Property ex Australia (AUD Hedged) ETF", "allocation": 0.01},
+        {"apir": "IACT", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares U.S. Factor Rotation Active ETF", "allocation": 0.04},
+        {"apir": "IAF", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares Core Composite Bond ETF", "allocation": 0.066},
+        {"apir": "IEM", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares MSCI Emerging Markets ETF", "allocation": 0.03},
+        {"apir": "IEU", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares Europe ETF", "allocation": 0.044},
+        {"apir": "IGB", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares Treasury ETF", "allocation": 0.034},
+        {"apir": "IHHY", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares Global High Yield Bond (AUD Hedged) ETF", "allocation": 0.01},
+        {"apir": "IHVV", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares S&P 500 AUD Hedged ETF", "allocation": 0.116},
+        {"apir": "IJP", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares MSCI Japan ETF", "allocation": 0.037},
+        {"apir": "ILB", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares Government Inflation ETF", "allocation": 0.051},
+        {"apir": "IOZ", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares Core S&P/ASX 200 ETF", "allocation": 0.209},
+        {"apir": "ISEC", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares Enhanced Cash ETF", "allocation": 0.011},
+        {"apir": "IVV", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares S&P 500 ETF", "allocation": 0.12},
+        {"apir": "IZZ", "portfolio_id": "NTH0003", "portfolio_name": "iShares Enhanced Strategic Balanced", "fund_name": "iShares China Large-Cap ETF", "allocation": 0.022}
+      ]
+    },
+    {
+      "portfolio_name": "iShares Enhanced Strategic Growth",
+      "series": "NTH0004",
+      "im_fee_bps": 0.0045,
+      "re_fee_bps": 0.0,
+      "holdings": [
+        {"apir": "EMXC", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares MSCI Emerging Markets ex China ETF", "allocation": 0.051},
+        {"apir": "GLDN", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares Physical Gold ETF", "allocation": 0.032},
+        {"apir": "GLIN", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares Core FTSE Global Infrastructure (AUD Hedged) ETF", "allocation": 0.061},
+        {"apir": "GLPR", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares FTSE Global Property ex Australia (AUD Hedged) ETF", "allocation": 0.01},
+        {"apir": "IACT", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares U.S. Factor Rotation Active ETF", "allocation": 0.05},
+        {"apir": "IAF", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares Core Composite Bond ETF", "allocation": 0.01},
+        {"apir": "IEM", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares MSCI Emerging Markets ETF", "allocation": 0.041},
+        {"apir": "IEU", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares Europe ETF", "allocation": 0.059},
+        {"apir": "IGB", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares Treasury ETF", "allocation": 0.019},
+        {"apir": "IHVV", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares S&P 500 AUD Hedged ETF", "allocation": 0.146},
+        {"apir": "IJP", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares MSCI Japan ETF", "allocation": 0.043},
+        {"apir": "ILB", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares Government Inflation ETF", "allocation": 0.031},
+        {"apir": "IOZ", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares Core S&P/ASX 200 ETF", "allocation": 0.259},
+        {"apir": "IVV", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares S&P 500 ETF", "allocation": 0.145},
+        {"apir": "CASHACCT", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "Cash Account", "allocation": 0.02},
+        {"apir": "IZZ", "portfolio_id": "NTH0004", "portfolio_name": "iShares Enhanced Strategic Growth", "fund_name": "iShares China Large-Cap ETF", "allocation": 0.023}
+      ]
+    },
+    {
+      "portfolio_name": "iShares Enhanced Strategic All Growth",
+      "series": "NTH0005",
+      "im_fee_bps": 0.0045,
+      "re_fee_bps": 0.0,
+      "holdings": [
+        {"apir": "EMXC", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares MSCI Emerging Markets ex China ETF", "allocation": 0.058},
+        {"apir": "GLIN", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares Core FTSE Global Infrastructure (AUD Hedged) ETF", "allocation": 0.051},
+        {"apir": "GLPR", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares FTSE Global Property ex Australia (AUD Hedged) ETF", "allocation": 0.01},
+        {"apir": "IACT", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares U.S. Factor Rotation Active ETF", "allocation": 0.06},
+        {"apir": "IEM", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares MSCI Emerging Markets ETF", "allocation": 0.041},
+        {"apir": "IEU", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares Europe ETF", "allocation": 0.069},
+        {"apir": "IHVV", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares S&P 500 AUD Hedged ETF", "allocation": 0.171},
+        {"apir": "IJP", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares MSCI Japan ETF", "allocation": 0.046},
+        {"apir": "IOZ", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares Core S&P/ASX 200 ETF", "allocation": 0.292},
+        {"apir": "IVV", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares S&P 500 ETF", "allocation": 0.157},
+        {"apir": "IZZ", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "iShares China Large-Cap ETF", "allocation": 0.025},
+        {"apir": "CASHACCT", "portfolio_id": "NTH0005", "portfolio_name": "iShares Enhanced Strategic All Growth", "fund_name": "Cash Account", "allocation": 0.02}
+      ]
+    }
+  ],
+  "fund_fees": {
+    "AESG": {
+      "mgmt": 0.0082,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Global-Aggregate-Bond-ESG-AUD-Hedged-ETF"
+    },
+    "CASHACCT": {
+      "mgmt": 0.0,
+      "cash_inv": 0.014,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": ""
+    },
+    "EMXC": {
+      "mgmt": 0.0017,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-MSCI-Emerging-Markets-ex-China-ETF"
+    },
+    "GLDN": {
+      "mgmt": 0.0029,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Physical-Gold-ETF"
+    },
+    "GLIN": {
+      "mgmt": 0.0077,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Core-FTSE-Global-Infrastructure-AUD-Hedged-ETF"
+    },
+    "GLPR": {
+      "mgmt": 0.0071,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-FTSE-Global-Property-ex-Australia-AUD-Hedged-ETF"
+    },
+    "IACT": {
+      "mgmt": 0.0031,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-US-Factor-Rotation-Active-ETF"
+    },
+    "IAF": {
+      "mgmt": 0.008,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Core-Composite-Bond-ETF"
+    },
+    "ICOR": {
+      "mgmt": 0.0006,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Core-Corporate-Bond-ETF"
+    },
+    "IEM": {
+      "mgmt": 0.0022,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-MSCI-Emerging-Markets-ETF"
+    },
+    "IEU": {
+      "mgmt": 0.0054,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Europe-ETF"
+    },
+    "IGB": {
+      "mgmt": 0.0078,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Treasury-ETF"
+    },
+    "IHHY": {
+      "mgmt": 0.0037,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Global-High-Yield-Bond-AUD-Hedged-ETF"
+    },
+    "IHVV": {
+      "mgmt": 0.0046,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-S&P-500-AUD-Hedged-ETF"
+    },
+    "IJP": {
+      "mgmt": 0.0052,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-MSCI-Japan-ETF"
+    },
+    "ILB": {
+      "mgmt": 0.0011,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Government-Inflation-ETF"
+    },
+    "IOZ": {
+      "mgmt": 0.0075,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Core-S&P-ASX-200-ETF"
+    },
+    "ISEC": {
+      "mgmt": 0.0073,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-Enhanced-Cash-ETF"
+    },
+    "IVV": {
+      "mgmt": 0.004,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-S&P-500-ETF"
+    },
+    "IZZ": {
+      "mgmt": 0.0067,
+      "cash_inv": 0.0,
+      "perf": 0.0,
+      "transaction": 0.0,
+      "buy_spread": 0.0,
+      "sell_spread": 0.0,
+      "rebate": 0.0,
+      "pds_url": "https://www.blackrock.com/au/products/iShares-China-Large-Cap-ETF"
+    }
+  }
+}

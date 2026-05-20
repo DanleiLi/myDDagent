@@ -1,0 +1,86 @@
+| Portfolio name | Unit ID | Hodling name | SAA | Aset class |
+| --- | --- | --- | --- | --- |
+| iShares Enhanced Strategic Conservative | AESG | Ishares Global Aggregate Bond Esg (Aud Hedged) Etf Ishares Global Aggr | 11.1 | International Fixed Interest |
+| iShares Enhanced Strategic Conservative | CASHACCT | Cash Account | 2.5 | Cash |
+| iShares Enhanced Strategic Conservative | EMXC | Ishares Msci Emerging Markets EX China Etf Ishares Msci Emerging Markets EX China Etf | 1.5 | Australian Equities |
+| iShares Enhanced Strategic Conservative | GLDN | Ishares Physical Gold Etf Ishares Physical Gold Etf | 3 | Australian Equities |
+| iShares Enhanced Strategic Conservative | GLIN | iShares Core FTSE Global Infrastructure (AUD Hedged) ETF | 4.5 | Other |
+| iShares Enhanced Strategic Conservative | IACT | Ishares U.S. Factor Rotation Active Etf Ishares U.S. Factor Rotation Active Etf | 2 | Australian Equities |
+| iShares Enhanced Strategic Conservative | IAF | Ishares Core Composite Bond Etf Ishares Core Composite Bond Etf | 18.6 | Australian Fixed Interest |
+| iShares Enhanced Strategic Conservative | ICOR | Ishares Core Corporate Bond Etf Ishares Core Corporate Bond Etf | 5.1 | Australian Fixed Interest |
+| iShares Enhanced Strategic Conservative | IEM | Ishares Msci Emerging Markets Etf Ishares Msci Emerging Markets Etf | 4 | International Equities |
+| iShares Enhanced Strategic Conservative | IEU | Ishares Europe Etf Ishares Europe Etf | 1.2 | International Equities |
+| iShares Enhanced Strategic Conservative | IGB | Ishares Treasury Etf Ishares Treasury Etf | 4.5 | Australian Fixed Interest |
+| iShares Enhanced Strategic Conservative | IHHY | Ishares Global High Yield Bond (Aud Hedged) Etf Ishares Global High Yi | 1.5 | International Fixed Interest |
+| iShares Enhanced Strategic Conservative | IHVV | Ishares S&P 500 Aud Hedged Etf Ishares S&P 500 Aud Hedged Etf | 4.7 | International Equities |
+| iShares Enhanced Strategic Conservative | IJP | Ishares Msci Japan Etf Ishares Msci Japan Etf | 2.3 | International Equities |
+| iShares Enhanced Strategic Conservative | ILB | Ishares Government Inflation Etf Ishares Government Inflation Etf | 9.5 | Australian Fixed Interest |
+| iShares Enhanced Strategic Conservative | IOZ | Ishares Core S&P/ASX 200 Etf Ishares Core S&P/ASX 200 Etf | 6 | Australian Equities |
+| iShares Enhanced Strategic Conservative | ISEC | Ishares Enhanced Cash Etf Ishares Enhanced Cash Etf | 11.8 | Cash |
+| iShares Enhanced Strategic Conservative | IVV | Ishares S&P 500 Etf | 6.2 | International Equities |
+| iShares Enhanced Strategic Moderate | AESG | Ishares Global Aggregate Bond Esg (Aud Hedged) Etf Ishares Global Aggr | 8.1 | International Fixed Interest |
+| iShares Enhanced Strategic Moderate | CASHACCT | Cash Account | 2.5 | Cash |
+| iShares Enhanced Strategic Moderate | EMXC | Ishares Msci Emerging Markets EX China Etf Ishares Msci Emerging Markets EX China Etf | 4 | Australian Equities |
+| iShares Enhanced Strategic Moderate | GLDN | Ishares Physical Gold Etf Ishares Physical Gold Etf | 3.1 | Australian Equities |
+| iShares Enhanced Strategic Moderate | GLIN | iShares Core FTSE Global Infrastructure (AUD Hedged) ETF | 5 | Other |
+| iShares Enhanced Strategic Moderate | IACT | Ishares U.S. Factor Rotation Active Etf Ishares U.S. Factor Rotation Active Etf | 3 | Australian Equities |
+| iShares Enhanced Strategic Moderate | IAF | Ishares Core Composite Bond Etf Ishares Core Composite Bond Etf | 11.1 | Australian Fixed Interest |
+| iShares Enhanced Strategic Moderate | ICOR | Ishares Core Corporate Bond Etf Ishares Core Corporate Bond Etf | 3.1 | Australian Fixed Interest |
+| iShares Enhanced Strategic Moderate | IEM | Ishares Msci Emerging Markets Etf Ishares Msci Emerging Markets Etf | 2 | International Equities |
+| iShares Enhanced Strategic Moderate | IEU | Ishares Europe Etf Ishares Europe Etf | 2.8 | International Equities |
+| iShares Enhanced Strategic Moderate | IGB | Ishares Treasury Etf Ishares Treasury Etf | 4 | Australian Fixed Interest |
+| iShares Enhanced Strategic Moderate | IHHY | Ishares Global High Yield Bond (Aud Hedged) Etf Ishares Global High Yi | 1 | International Fixed Interest |
+| iShares Enhanced Strategic Moderate | IHVV | Ishares S&P 500 Aud Hedged Etf Ishares S&P 500 Aud Hedged Etf | 8.6 | International Equities |
+| iShares Enhanced Strategic Moderate | IJP | Ishares Msci Japan Etf Ishares Msci Japan Etf | 3 | International Equities |
+| iShares Enhanced Strategic Moderate | ILB | Ishares Government Inflation Etf Ishares Government Inflation Etf | 8.1 | Australian Fixed Interest |
+| iShares Enhanced Strategic Moderate | IOZ | Ishares Core S&P/ASX 200 Etf Ishares Core S&P/ASX 200 Etf | 12.9 | Australian Equities |
+| iShares Enhanced Strategic Moderate | ISEC | Ishares Enhanced Cash Etf Ishares Enhanced Cash Etf | 6.7 | Cash |
+| iShares Enhanced Strategic Moderate | IVV | Ishares S&P 500 Etf | 9.1 | International Equities |
+| iShares Enhanced Strategic Moderate | IZZ | Ishares China Large-Cap Etf Ishares China Large-Cap Etf | 1.9 | International Equities |
+| iShares Enhanced Strategic Balanced | AESG | Ishares Global Aggregate Bond Esg (Aud Hedged) Etf Ishares Global Aggr | 4.8 | International Fixed Interest |
+| iShares Enhanced Strategic Balanced | CASHACCT | Cash Account | 2 | Cash |
+| iShares Enhanced Strategic Balanced | EMXC | Ishares Msci Emerging Markets EX China Etf Ishares Msci Emerging Markets EX China Etf | 4.7 | Australian Equities |
+| iShares Enhanced Strategic Balanced | GLDN | Ishares Physical Gold Etf Ishares Physical Gold Etf | 3.5 | Australian Equities |
+| iShares Enhanced Strategic Balanced | GLIN | iShares Core FTSE Global Infrastructure (AUD Hedged) ETF | 5 | Other |
+| iShares Enhanced Strategic Balanced | GLPR | Ishares Ftse Gbl Property EX Aus (Aud Hedged) Etf Ishares Ftse Gbl Pro | 1 | Property |
+| iShares Enhanced Strategic Balanced | IACT | Ishares U.S. Factor Rotation Active Etf Ishares U.S. Factor Rotation Active Etf | 4 | Australian Equities |
+| iShares Enhanced Strategic Balanced | IAF | Ishares Core Composite Bond Etf Ishares Core Composite Bond Etf | 6.6 | Australian Fixed Interest |
+| iShares Enhanced Strategic Balanced | IEM | Ishares Msci Emerging Markets Etf Ishares Msci Emerging Markets Etf | 3 | International Equities |
+| iShares Enhanced Strategic Balanced | IEU | Ishares Europe Etf Ishares Europe Etf | 4.4 | International Equities |
+| iShares Enhanced Strategic Balanced | IGB | Ishares Treasury Etf Ishares Treasury Etf | 3.4 | Australian Fixed Interest |
+| iShares Enhanced Strategic Balanced | IHHY | Ishares Global High Yield Bond (Aud Hedged) Etf Ishares Global High Yi | 1 | International Fixed Interest |
+| iShares Enhanced Strategic Balanced | IHVV | Ishares S&P 500 Aud Hedged Etf Ishares S&P 500 Aud Hedged Etf | 11.6 | International Equities |
+| iShares Enhanced Strategic Balanced | IJP | Ishares Msci Japan Etf Ishares Msci Japan Etf | 3.7 | International Equities |
+| iShares Enhanced Strategic Balanced | ILB | Ishares Government Inflation Etf Ishares Government Inflation Etf | 5.1 | Australian Fixed Interest |
+| iShares Enhanced Strategic Balanced | IOZ | Ishares Core S&P/ASX 200 Etf Ishares Core S&P/ASX 200 Etf | 20.9 | Australian Equities |
+| iShares Enhanced Strategic Balanced | ISEC | Ishares Enhanced Cash Etf Ishares Enhanced Cash Etf | 1.1 | Cash |
+| iShares Enhanced Strategic Balanced | IVV | Ishares S&P 500 Etf | 12 | International Equities |
+| iShares Enhanced Strategic Balanced | IZZ | Ishares China Large-Cap Etf Ishares China Large-Cap Etf | 2.2 | International Equities |
+| iShares Enhanced Strategic Growth | EMXC | Ishares Msci Emerging Markets EX China Etf Ishares Msci Emerging Markets EX China Etf | 5.1 | Australian Equities |
+| iShares Enhanced Strategic Growth | GLDN | Ishares Physical Gold Etf Ishares Physical Gold Etf | 3.2 | Australian Equities |
+| iShares Enhanced Strategic Growth | GLIN | iShares Core FTSE Global Infrastructure (AUD Hedged) ETF | 6.1 | Other |
+| iShares Enhanced Strategic Growth | GLPR | Ishares Ftse Gbl Property EX Aus (Aud Hedged) Etf Ishares Ftse Gbl Pro | 1 | Property |
+| iShares Enhanced Strategic Growth | IACT | Ishares U.S. Factor Rotation Active Etf Ishares U.S. Factor Rotation Active Etf | 5 | Australian Equities |
+| iShares Enhanced Strategic Growth | IAF | Ishares Core Composite Bond Etf Ishares Core Composite Bond Etf | 1 | Australian Fixed Interest |
+| iShares Enhanced Strategic Growth | IEM | Ishares Msci Emerging Markets Etf Ishares Msci Emerging Markets Etf | 4.1 | International Equities |
+| iShares Enhanced Strategic Growth | IEU | Ishares Europe Etf Ishares Europe Etf | 5.9 | International Equities |
+| iShares Enhanced Strategic Growth | IGB | Ishares Treasury Etf Ishares Treasury Etf | 1.9 | Australian Fixed Interest |
+| iShares Enhanced Strategic Growth | IHVV | Ishares S&P 500 Aud Hedged Etf Ishares S&P 500 Aud Hedged Etf | 14.6 | International Equities |
+| iShares Enhanced Strategic Growth | IJP | Ishares Msci Japan Etf Ishares Msci Japan Etf | 4.3 | International Equities |
+| iShares Enhanced Strategic Growth | ILB | Ishares Government Inflation Etf Ishares Government Inflation Etf | 3.1 | Australian Fixed Interest |
+| iShares Enhanced Strategic Growth | IOZ | Ishares Core S&P/ASX 200 Etf Ishares Core S&P/ASX 200 Etf | 25.9 | Australian Equities |
+| iShares Enhanced Strategic Growth | IVV | Ishares S&P 500 Etf | 14.5 | International Equities |
+| iShares Enhanced Strategic Growth | CASHACCT | Cash Account | 2 | Cash |
+| iShares Enhanced Strategic Growth | IZZ | Ishares China Large-Cap Etf Ishares China Large-Cap Etf | 2.3 | International Equities |
+| iShares Enhanced Strategic All Growth | EMXC | Ishares Msci Emerging Markets EX China Etf Ishares Msci Emerging Markets EX China Etf | 5.8 | Australian Equities |
+| iShares Enhanced Strategic All Growth | GLIN | iShares Core FTSE Global Infrastructure (AUD Hedged) ETF | 5.1 | Other |
+| iShares Enhanced Strategic All Growth | GLPR | Ishares Ftse Gbl Property EX Aus (Aud Hedged) Etf Ishares Ftse Gbl Pro | 1 | Property |
+| iShares Enhanced Strategic All Growth | IACT | Ishares U.S. Factor Rotation Active Etf Ishares U.S. Factor Rotation Active Etf | 6 | Australian Equities |
+| iShares Enhanced Strategic All Growth | IEM | Ishares Msci Emerging Markets Etf Ishares Msci Emerging Markets Etf | 4.1 | International Equities |
+| iShares Enhanced Strategic All Growth | IEU | Ishares Europe Etf Ishares Europe Etf | 6.9 | International Equities |
+| iShares Enhanced Strategic All Growth | IHVV | Ishares S&P 500 Aud Hedged Etf Ishares S&P 500 Aud Hedged Etf | 17.1 | International Equities |
+| iShares Enhanced Strategic All Growth | IJP | Ishares Msci Japan Etf Ishares Msci Japan Etf | 4.6 | International Equities |
+| iShares Enhanced Strategic All Growth | IOZ | Ishares Core S&P/ASX 200 Etf Ishares Core S&P/ASX 200 Etf | 29.2 | Australian Equities |
+| iShares Enhanced Strategic All Growth | IVV | Ishares S&P 500 Etf | 15.7 | International Equities |
+| iShares Enhanced Strategic All Growth | IZZ | Ishares China Large-Cap Etf Ishares China Large-Cap Etf | 2.5 | International Equities |
+| iShares Enhanced Strategic All Growth | CASHACCT | Cash Account | 2 | Cash |

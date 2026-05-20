@@ -80,7 +80,15 @@
       "mcp__ide__executeCode",
       "Bash(mkdir -p .claude/wiki)",
       "Bash(cp output/IMQuestionnaire.json .claude/wiki/IMQuestionnaire.json)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(cat /c/Users/Sara/Downloads/AIagentproject/.claude/rules/*.md)",
+      "Bash(pip list:*)",
+      "WebFetch(domain:www.ishares.com)",
+      "Bash(wc -l ./.claude/wiki/*.md)",
+      "Bash(du -h ./.claude/wiki/*.md)",
+      "Bash(ls -la .claude/wiki/fees*.md)",
+      "Bash(cd \"c:\\\\Users\\\\Sara\\\\Downloads\\\\AIagentproject\" && echo \"# test comment\" >> .claude/raw_document/holdings.csv && python .claude/skills/file-convert/scripts/alltomd.py .claude/raw_document/holdings.csv && head -5 .claude/wiki/holdings.md)",
+      "Bash(git checkout *)"
     ],
     "deny": [
       "WebFetch(domain:morningstar.com)",
@@ -90,6 +98,9 @@
       "WebFetch(domain:canstar.com.au)",
       "WebFetch(domain:finder.com.au)",
       "WebFetch(domain:selfwealth.com.au)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Sara\\Downloads\\AIagentproject\\.claude\\raw_document"
     ]
   }
 }

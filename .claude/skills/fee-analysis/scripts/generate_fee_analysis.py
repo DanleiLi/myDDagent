@@ -4,100 +4,65 @@ Output: Fee Analysis - [Portfolio Series] - [Date].xlsx with 3 sheets:
   1. Fee Summary — fee components with Excel formulas
   2. Component Table — per-fund fee breakdown
   3. Portfolio Holdings — portfolio holdings and allocation
+
+Usage:
+  python generate_fee_analysis.py <config_json_path> [output_xlsx_dir]
+
+  config_json_path: Path to JSON file with portfolios, fund_fees, tax_data, series_name
+  output_xlsx_dir: Directory for Excel output (default: .claude/output relative to project root)
 """
 
 import sys
 import os
+import json
 from datetime import datetime
+from pathlib import Path
 from openpyxl import Workbook
 from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-OUTPUT_DIR = r'C:\Users\Sara\Downloads\AIagentproject\output'
+# ─────────────────────────────────────────────
+# Load Configuration from JSON
+# ─────────────────────────────────────────────
+
+def load_config(config_path):
+    """Load portfolio and fee configuration from JSON file."""
+    if not os.path.exists(config_path):
+        raise FileNotFoundError(f"Config file not found: {config_path}")
+    with open(config_path, 'r', encoding='utf-8') as f:
+        config = json.load(f)
+
+    portfolios = config.get('portfolios', [])
+    fund_fees = config.get('fund_fees', {})
+    tax_data = config.get('tax_data') or {
+        'GST_RATE': 0.10,
+        'IM_RITC': 0.75,
+        'RE_RITC': 0.55,
+    }
+    series_name = config.get('series_name', 'Portfolio Series')
+
+    return portfolios, fund_fees, tax_data, series_name
+
+# Get config path from command-line argument
+if len(sys.argv) < 2:
+    print("Error: Usage: python generate_fee_analysis.py <config_json_path> [output_xlsx_dir]")
+    sys.exit(1)
+
+CONFIG_PATH = sys.argv[1]
+PORTFOLIOS, FUND_FEES, TAX_DATA, SERIES_NAME = load_config(CONFIG_PATH)
+
+# Determine output directory
+if len(sys.argv) > 2:
+    OUTPUT_DIR = sys.argv[2]
+else:
+    # Default to .claude/output relative to project root (parent of .claude dir)
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent.parent.parent.parent  # go up 4 levels to project root
+    OUTPUT_DIR = str(project_root / '.claude' / 'output')
+
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-# ─────────────────────────────────────────────
-# Assumptions and Fee Data
-# ─────────────────────────────────────────────
-# NOTE:
-#   - All fee values in TAX_DATA, PORTFOLIO_DATA and FUND_FEES are specified in percent (e.g., 0.10 = 10%).
-#   - Be careful not to confuse basis points (1 bps = 0.01%) with percent values.
-#   - im_fee_bps and re_fee_bps are in percent.
-
-TAX_DATA = {
-    'GST_RATE': 0.10,  # 10% GST
-    'IM_RITC': 0.75,   # 75% RITC for Investment Management fees
-    'RE_RITC': 0.55,   # 55% RITC for Rebate fees
-}
-
-PORTFOLIOS = [
-    {
-        'portfolio_name': 'Balanced Portfolio',
-        'series': 'NTH0001',
-        'im_fee_bps': 0.45,
-        're_fee_bps': 0.08,
-        'holdings': [
-            {'apir': 'VAS', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Australian Shares Index ETF', 'allocation': 0.16},
-            {'apir': 'VGS', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Global Shares Index ETF', 'allocation': 0.16},
-            {'apir': 'VGAD', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Hedged Global Shares Index ETF', 'allocation': 0.06},
-            {'apir': 'VGE', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Emerging Markets Shares Index ETF', 'allocation': 0.03},
-            {'apir': 'VISM', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Global Small Caps Index ETF', 'allocation': 0.02},
-            {'apir': 'VAP', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Australian Property Securities Index ETF', 'allocation': 0.03},
-            {'apir': 'NDQ', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Invesco QQQ Trust - Nasdaq 100 ETF', 'allocation': 0.02},
-            {'apir': 'ETHI', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Betashares Global Sustainability Leaders ETF', 'allocation': 0.03},
-            {'apir': 'HACK', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Betashares Global Cybersecurity ETF', 'allocation': 0.01},
-            {'apir': 'NUGG', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'VanEck Gold Bullion ETF', 'allocation': 0.03},
-            {'apir': 'VAF', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Australian Fixed Interest Index ETF', 'allocation': 0.18},
-            {'apir': 'VACF', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Australian Corporate Bond Index ETF', 'allocation': 0.10},
-            {'apir': 'VBND', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Vanguard Global Aggregate Bond Index ETF (Hedged)', 'allocation': 0.08},
-            {'apir': 'PIMCO', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'PIMCO Global Bond Active ETF', 'allocation': 0.07},
-            {'apir': 'CASH', 'portfolio_id': 'NTH0001', 'portfolio_name': 'Balanced Portfolio', 'fund_name': 'Cash', 'allocation': 0.02},
-        ]
-    },
-    {
-        'portfolio_name': 'Growth Portfolio',
-        'series': 'NTH0002',
-        'im_fee_bps': 0.45,
-        're_fee_bps': 0.08,
-        'holdings': [
-            {'apir': 'VAS', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Australian Shares Index ETF', 'allocation': 0.20},
-            {'apir': 'VGS', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Global Shares Index ETF', 'allocation': 0.26},
-            {'apir': 'VGAD', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Hedged Global Shares Index ETF', 'allocation': 0.10},
-            {'apir': 'VGE', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Emerging Markets Shares Index ETF', 'allocation': 0.07},
-            {'apir': 'VISM', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Global Small Caps Index ETF', 'allocation': 0.05},
-            {'apir': 'VAP', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Australian Property Securities Index ETF', 'allocation': 0.05},
-            {'apir': 'NDQ', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Invesco QQQ Trust - Nasdaq 100 ETF', 'allocation': 0.08},
-            {'apir': 'ETHI', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Betashares Global Sustainability Leaders ETF', 'allocation': 0.05},
-            {'apir': 'HACK', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Betashares Global Cybersecurity ETF', 'allocation': 0.03},
-            {'apir': 'NUGG', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'VanEck Gold Bullion ETF', 'allocation': 0.02},
-            {'apir': 'VAF', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Australian Fixed Interest Index ETF', 'allocation': 0.02},
-            {'apir': 'VACF', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Australian Corporate Bond Index ETF', 'allocation': 0.02},
-            {'apir': 'VBND', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Vanguard Global Aggregate Bond Index ETF (Hedged)', 'allocation': 0.02},
-            {'apir': 'PIMCO', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'PIMCO Global Bond Active ETF', 'allocation': 0.01},
-            {'apir': 'CASH', 'portfolio_id': 'NTH0002', 'portfolio_name': 'Growth Portfolio', 'fund_name': 'Cash', 'allocation': 0.02},
-        ]
-    },
-]
-
-FUND_FEES = {
-    'VAS': {'mgmt': 0.07, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
-    'VGS': {'mgmt': 0.18, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
-    'VGAD': {'mgmt': 0.21, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
-    'VGE': {'mgmt': 0.48, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
-    'VISM': {'mgmt': 0.32, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
-    'VAP': {'mgmt': 0.23, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
-    'VAF': {'mgmt': 0.10, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
-    'VACF': {'mgmt': 0.20, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
-    'VBND': {'mgmt': 0.20, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vanguard.com.au/'},
-    'NDQ': {'mgmt': 0.18, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.invesco.com/'},
-    'ETHI': {'mgmt': 0.59, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.betashares.com.au/'},
-    'HACK': {'mgmt': 0.67, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.betashares.com.au/'},
-    'NUGG': {'mgmt': 0.25, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.vaneck.com.au/'},
-    'PIMCO': {'mgmt': 0.49, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': 'https://www.pimco.com/au/'},
-    'CASH': {'mgmt': 0.0, 'cash_inv': 0.0, 'perf': 0.0, 'transaction': 0.0, 'buy_spread': 0.0, 'sell_spread': 0.0, 'rebate': 0.0, 'pds_url': ''},
-}
 
 
 # ─────────────────────────────────────────────
@@ -332,14 +297,48 @@ for i in range(len(PORTFOLIOS)):
 # Save Workbook
 # ─────────────────────────────────────────────
 
-all_series = 'AMP North Managed Portfolios'
-
-output_filename = f"Fee Analysis - {all_series} - {datetime.now().strftime('%Y%m%d')}.xlsx"
+output_filename = f"Fee Analysis - {SERIES_NAME} - {datetime.now().strftime('%Y%m%d')}.xlsx"
 output_path = os.path.join(OUTPUT_DIR, output_filename)
 
 wb.save(output_path)
 
+# ─────────────────────────────────────────────
+# Generate Markdown Summary (for wiki)
+# ─────────────────────────────────────────────
+
+markdown_filename = f"Fee Analysis Summary - {SERIES_NAME} - {datetime.now().strftime('%Y%m%d')}.md"
+wiki_dir = Path(OUTPUT_DIR).parent / 'wiki'
+wiki_dir.mkdir(parents=True, exist_ok=True)
+markdown_path = wiki_dir / markdown_filename
+
+# Build markdown table of portfolio fee summaries
+md_lines = [
+    f"# Fee Analysis Summary — {SERIES_NAME}",
+    f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+    "",
+    "## Fee Summary by Portfolio",
+    "",
+    "| Portfolio | IM Fee % p.a. | RE Fee % p.a. | Holdings | Status |",
+    "|---|---|---|---|---|",
+]
+
+for p in PORTFOLIOS:
+    im_fee = p.get('im_fee_bps', 0)
+    re_fee = p.get('re_fee_bps', 0)
+    n_holdings = len(p.get('holdings', []))
+    md_lines.append(f"| {p['portfolio_name']} | {im_fee:.2f}% | {re_fee:.2f}% | {n_holdings} | Calculated |")
+
+md_lines.extend([
+    "",
+    f"**Workbook:** `{output_filename}`",
+    "",
+    "See the Excel workbook for detailed fee component breakdown and formulas.",
+])
+
+with open(markdown_path, 'w', encoding='utf-8') as f:
+    f.write('\n'.join(md_lines))
+
 # Console output
 print(f"✓ Fee analysis workbook generated successfully")
-print(f"  Location: {output_path}")
-
+print(f"  Excel: {output_path}")
+print(f"  Markdown: {markdown_path}")
