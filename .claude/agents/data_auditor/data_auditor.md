@@ -102,7 +102,7 @@ For each current team member: name, title/position, years with the firm, total y
 
 ### Portfolio-Level Fees (per portfolio)
 - Investment Manager (IM) fee rate
-- Responsible Entity (RE) fee rate
+- Responsible Entity (RE) fee rate - usually non zero
 - Composite investment management fee (net) — verify present (calculated by fee-analysis skill if source fee rates available)
 
 ### Quantitative Analysis
@@ -143,7 +143,6 @@ Write `.claude/agents/data_auditor/data_audit.json` with this structure:
     "registered_in_claude_md": [],
     "found_in_wiki": [],
     "missing_from_wiki": [],
-    "unregistered_in_wiki": [],
     "duplicates": []
   },
   "completeness_matrix": [
@@ -175,9 +174,7 @@ Write `.claude/agents/data_auditor/data_audit.json` with this structure:
       "required_field": "",
       "related_portfolio": "",
       "current_status": "",
-      "issue": "",
-      "suggested_source_type": "",
-      "target_wiki_file": ""
+      "issue": ""
     }
   ]
 }
