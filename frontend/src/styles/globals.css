@@ -1,0 +1,13 @@
+/* Dossier — OpenAI dark theme design tokens
+   These CSS custom properties are used directly in layout components
+   and mapped to Tailwind utilities via the @theme block in index.css.  */
+
+:root {
+  --bg-primary: #FFFCF5;
+  --bg-sidebar: #171717;
+  --bg-user-bubble: #DFAEA1;
+  --accent: #895159;
+  --text-primary: #161e3f;
+  --text-secondary: #374375;
+  --font-sans: 'Inter', 'DM Sans Variable', system-ui, sans-serif;
+}

@@ -1,0 +1,633 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "minimum_completeness_requirements.schema.json",
+  "title": "Minimum Completeness Requirements",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["topics"],
+  "properties": {
+    "topics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "business_case_and_project",
+        "investment_manager",
+        "investment_team",
+        "portfolios"
+      ],
+      "properties": {
+        "business_case_and_project": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "number_of_portfolios_in_series",
+            "menu_type"
+          ],
+          "properties": {
+            "number_of_portfolios_in_series": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Number of portfolios in the series."
+            },
+            "menu_type": {
+              "type": "string",
+              "enum": [
+                "Buy",
+                "Built",
+                "Badge",
+                "Hidden Buy",
+                "Private Market Offer (PMO)",
+                "Federated",
+                "Grow"
+              ],
+              "description": "Menu type."
+            }
+          }
+        },
+        "investment_manager": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "full_legal_entity_name",
+            "abn",
+            "afsl",
+            "telephone_number",
+            "general_email",
+            "invoice_email",
+            "company_website",
+            "business_overview",
+            "about_investment_manager_paragraph",
+            "investment_philosophy_and_process_paragraph",
+            "strategy_capacity_and_fum",
+            "portfolio_manager_name",
+            "portfolio_manager_company_position_and_qualifications",
+            "portfolio_manager_brief_bio"
+          ],
+          "properties": {
+            "full_legal_entity_name": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full legal entity name as per ABN."
+            },
+            "abn": {
+              "type": "string",
+              "minLength": 1,
+              "description": "ABN."
+            },
+            "afsl": {
+              "type": "string",
+              "minLength": 1,
+              "description": "AFSL."
+            },
+            "telephone_number": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Telephone number."
+            },
+            "general_email": {
+              "type": "string",
+              "format": "email",
+              "description": "General email."
+            },
+            "invoice_email": {
+              "type": "string",
+              "format": "email",
+              "description": "Invoice email."
+            },
+            "company_website": {
+              "type": "string",
+              "format": "uri",
+              "description": "Company website."
+            },
+            "business_overview": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Overview of the investment manager's business, including corporate authorised representatives or other entities involved in management."
+            },
+            "about_investment_manager_paragraph": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Disclosure paragraph about the investment manager. Human check required if the paragraph is lengthy.",
+              "x-word-limit": 250,
+              "x-manual-verification": "flag_if_lengthy"
+            },
+            "investment_philosophy_and_process_paragraph": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Disclosure paragraph on investment philosophy and process. Human check required if the paragraph is lengthy.",
+              "x-word-limit": 180,
+              "x-manual-verification": "flag_if_lengthy"
+            },
+            "strategy_capacity_and_fum": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Strategy capacity and FUM."
+            },
+            "portfolio_manager_name": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Portfolio manager name."
+            },
+            "portfolio_manager_company_position_and_qualifications": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Portfolio manager company position and qualifications."
+            },
+            "portfolio_manager_brief_bio": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Portfolio manager brief bio."
+            }
+          }
+        },
+        "investment_team": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["current_team_members"],
+          "properties": {
+            "current_team_members": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "name",
+                  "title_position",
+                  "years_with_the_firm",
+                  "total_years_of_investment_experience",
+                  "role_and_contribution_to_strategy"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Current team member name."
+                  },
+                  "title_position": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Current team member title or position."
+                  },
+                  "years_with_the_firm": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Years with the firm."
+                  },
+                  "total_years_of_investment_experience": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Total years of investment experience."
+                  },
+                  "role_and_contribution_to_strategy": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Role and contribution to the strategy."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "portfolios": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "managed_portfolio_name",
+              "portfolio_details",
+              "saa_table",
+              "holding_table",
+              "portfolio_fees",
+              "quantitative_analysis",
+              "underlying_unit_profiles",
+              "direct_equity"
+            ],
+            "properties": {
+              "managed_portfolio_name": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Managed portfolio name."
+              },
+              "portfolio_details": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "minimum_number_of_investment_options_held",
+                  "maximum_number_of_investment_options_held",
+                  "minimum_absolute_single_asset_position",
+                  "maximum_absolute_single_asset_position",
+                  "minimum_single_asset_position_for_new_asset",
+                  "target_volatility_or_risk_target",
+                  "income_treatment",
+                  "minimum_cash_buffer",
+                  "target_benchmark_outperformance",
+                  "benchmark",
+                  "asset_class",
+                  "minimum_investment_horizon",
+                  "portfolio_income",
+                  "risk_band_or_label",
+                  "investment_objective"
+                ],
+                "properties": {
+                  "minimum_number_of_investment_options_held": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "maximum_number_of_investment_options_held": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "minimum_absolute_single_asset_position": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "maximum_absolute_single_asset_position": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "minimum_single_asset_position_for_new_asset": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "target_volatility_or_risk_target": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Target volatility or other risk target such as TE, VaR, or CVaR."
+                  },
+                  "income_treatment": {
+                    "type": "string",
+                    "enum": [
+                      "reinvested",
+                      "paid_to_platform_cash_account"
+                    ]
+                  },
+                  "minimum_cash_buffer": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Minimum cash buffer. Business rule: must be at least 1%."
+                  },
+                  "target_benchmark_outperformance": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "benchmark": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "asset_class": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minimum_investment_horizon": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "portfolio_income": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "risk_band_or_label": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "investment_objective": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              "saa_table": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["asset_class_allocations"],
+                "properties": {
+                  "asset_class_allocations": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "asset_class",
+                        "minimum_range",
+                        "target_allocation",
+                        "maximum_range"
+                      ],
+                      "properties": {
+                        "asset_class": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "minimum_range": {
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 100
+                        },
+                        "target_allocation": {
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 100
+                        },
+                        "maximum_range": {
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 100
+                        }
+                      }
+                    }
+                  }
+                },
+                "x-business-rules": [
+                  "Cash minimum must be at least 1%.",
+                  "Target allocations must total 100%.",
+                  "Minimum must not exceed target; target must not exceed maximum."
+                ]
+              },
+              "holding_table": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "unit_id",
+                    "full_unit_name",
+                    "allocation",
+                    "rebate"
+                  ],
+                  "properties": {
+                    "unit_id": {
+                      "type": "string",
+                      "minLength": 1,
+                      "description": "ASX ticker or APIR code."
+                    },
+                    "full_unit_name": {
+                      "type": "string",
+                      "minLength": 1,
+                      "description": "Full unit name."
+                    },
+                    "allocation": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 100
+                    },
+                    "rebate": {
+                      "type": "number",
+                      "minimum": 0,
+                      "description": "Rebate including zero rebate."
+                    }
+                  }
+                },
+                "x-business-rules": [
+                  "Allocation must total 100%.",
+                  "Full unit name must be consistent with unit ID."
+                ]
+              },
+              "portfolio_fees": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "investment_manager_fee_rate",
+                  "responsible_entity_fee_rate",
+                  "composite_investment_management_fee_net"
+                ],
+                "properties": {
+                  "investment_manager_fee_rate": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "responsible_entity_fee_rate": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Usually non-zero."
+                  },
+                  "composite_investment_management_fee_net": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Composite investment management fee net."
+                  }
+                }
+              },
+              "quantitative_analysis": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "liquidity_testing_result",
+                  "scenario_testing_result"
+                ],
+                "properties": {
+                  "liquidity_testing_result": {
+                    "$ref": "#/$defs/analysis_result"
+                  },
+                  "scenario_testing_result": {
+                    "$ref": "#/$defs/analysis_result"
+                  }
+                }
+              },
+              "underlying_unit_profiles": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "unit_id",
+                    "full_unit_name",
+                    "asset_class",
+                    "fund_manager",
+                    "role_in_portfolio",
+                    "benchmark_for_strategy",
+                    "target_excess_return",
+                    "strategy_highlights_and_style",
+                    "factor_biases"
+                  ],
+                  "properties": {
+                    "unit_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "full_unit_name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "asset_class": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "fund_manager": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "role_in_portfolio": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "benchmark_for_strategy": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "target_excess_return": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "strategy_highlights_and_style": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "factor_biases": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                },
+                "x-business-rules": [
+                  "Must cover every holding in the holding table.",
+                  "Full unit name must match the holding table."
+                ]
+              },
+              "direct_equity": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["applicable"],
+                "properties": {
+                  "applicable": {
+                    "type": "boolean"
+                  },
+                  "market_cap_exposure": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Required when direct equity is applicable."
+                  },
+                  "sector_allocation": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": ["sector", "allocation"],
+                      "properties": {
+                        "sector": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "allocation": {
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 100
+                        }
+                      }
+                    }
+                  },
+                  "style_bias": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Required when direct equity is applicable."
+                  },
+                  "reason_not_applicable": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Required when direct equity is not applicable."
+                  }
+                },
+                "allOf": [
+                  {
+                    "if": {
+                      "properties": {
+                        "applicable": {
+                          "const": true
+                        }
+                      },
+                      "required": ["applicable"]
+                    },
+                    "then": {
+                      "required": [
+                        "market_cap_exposure",
+                        "sector_allocation",
+                        "style_bias"
+                      ]
+                    }
+                  },
+                  {
+                    "if": {
+                      "properties": {
+                        "applicable": {
+                          "const": false
+                        }
+                      },
+                      "required": ["applicable"]
+                    },
+                    "then": {
+                      "required": ["reason_not_applicable"]
+                    }
+                  }
+                ],
+                "x-business-rules": [
+                  "Mark as not applicable for managed fund or ETF-only portfolios.",
+                  "Sector allocation must total 100% when applicable."
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "analysis_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "test_type",
+        "portfolio_name",
+        "test_date",
+        "result",
+        "key_assumptions",
+        "limitations",
+        "source_file"
+      ],
+      "properties": {
+        "test_type": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Test type."
+        },
+        "portfolio_name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Portfolio name."
+        },
+        "test_date": {
+          "type": "string",
+          "format": "date",
+          "description": "Test date."
+        },
+        "result": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Test result."
+        },
+        "key_assumptions": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Key assumptions."
+        },
+        "limitations": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Limitations."
+        },
+        "source_file": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Source file."
+        }
+      }
+    }
+  }
+}

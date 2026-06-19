@@ -1,0 +1,32 @@
+[
+  {
+    "name": "portfolio_name",
+    "description": "Portfolio name",
+    "required": true,
+    "expected_type": "string"
+  },
+  {
+    "name": "holding_name",
+    "description": "Holding name",
+    "required": true,
+    "expected_type": "string"
+  },
+  {
+    "name": "asset_class",
+    "description": "Asset class",
+    "required": true,
+    "expected_type": "string"
+  },
+  {
+    "name": "inception_date",
+    "description": "Inception date",
+    "required": true,
+    "expected_type": "date"
+  },
+  {
+    "name": "investment_manager_name",
+    "description": "Investment manager name",
+    "required": true,
+    "expected_type": "string"
+  }
+]
